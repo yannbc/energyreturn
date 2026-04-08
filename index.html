@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yann Burden — Technology Leadership</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --fg: #1a1a1a;
+    --fg-secondary: #555;
+    --fg-tertiary: #888;
+    --bg: #faf9f7;
+    --bg-card: #f2f0ec;
+    --accent: #2c5f2d;
+    --accent-light: #e8efe8;
+    --border: #e0ddd8;
+    --serif: 'Source Serif 4', Georgia, serif;
+    --mono: 'JetBrains Mono', 'SF Mono', monospace;
+    --max-w: 680px;
+    --space-unit: 8px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html {
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    font-family: var(--serif);
+    color: var(--fg);
+    background: var(--bg);
+    line-height: 1.7;
+  }
+
+  /* --- NAV --- */
+  nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(250, 249, 247, 0.92);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    z-index: 100;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav .name {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg);
+  }
+
+  nav .nav-links {
+    display: flex;
+    gap: 28px;
+  }
+
+  nav a {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: var(--fg-tertiary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  nav a:hover { color: var(--fg); }
+
+  /* --- SECTIONS --- */
+  section {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 0 32px;
+  }
+
+  /* --- HERO --- */
+  .hero {
+    padding-top: 160px;
+    padding-bottom: 96px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .hero h1 {
+    font-size: 2.8rem;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+    color: var(--fg);
+  }
+
+  .hero p {
+    font-size: 1.15rem;
+    line-height: 1.75;
+    color: var(--fg-secondary);
+    max-width: 560px;
+    font-weight: 300;
+  }
+
+  .hero .meta {
+    margin-top: 40px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+  }
+
+  .hero .meta-item {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    color: var(--fg-tertiary);
+  }
+
+  .hero .meta-item span {
+    display: block;
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    color: var(--fg);
+    margin-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  /* --- OFFERINGS --- */
+  .offerings {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--fg-tertiary);
+    margin-bottom: 48px;
+  }
+
+  .offering {
+    margin-bottom: 56px;
+  }
+
+  .offering:last-child { margin-bottom: 0; }
+
+  .offering-number {
+    font-family: var(--mono);
+    font-size: 0.72rem;
+    color: var(--accent);
+    margin-bottom: 8px;
+  }
+
+  .offering h3 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+    line-height: 1.35;
+  }
+
+  .offering p {
+    font-size: 0.95rem;
+    color: var(--fg-secondary);
+    line-height: 1.7;
+    font-weight: 300;
+  }
+
+  /* --- TRACK RECORD --- */
+  .track-record {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .record {
+    margin-bottom: 48px;
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 24px;
+    align-items: baseline;
+  }
+
+  .record:last-child { margin-bottom: 0; }
+
+  .record-company {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    color: var(--fg);
+  }
+
+  .record-return {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-top: 6px;
+    letter-spacing: 0.02em;
+  }
+
+  .record-detail h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+    line-height: 1.4;
+  }
+
+  .record-detail p {
+    font-size: 0.88rem;
+    color: var(--fg-secondary);
+    line-height: 1.65;
+    font-weight: 300;
+  }
+
+  /* --- THESIS --- */
+  .thesis {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .thesis blockquote {
+    font-size: 1.35rem;
+    font-weight: 300;
+    line-height: 1.55;
+    color: var(--fg);
+    margin-bottom: 32px;
+    font-style: italic;
+    letter-spacing: -0.01em;
+  }
+
+  .thesis p {
+    font-size: 0.95rem;
+    color: var(--fg-secondary);
+    line-height: 1.75;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .thesis p:last-child { margin-bottom: 0; }
+
+  /* --- CONTACT --- */
+  .contact {
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+
+  .contact p {
+    font-size: 0.95rem;
+    color: var(--fg-secondary);
+    line-height: 1.7;
+    font-weight: 300;
+    margin-bottom: 32px;
+  }
+
+  .contact-links {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+  }
+
+  .contact-links a {
+    font-family: var(--mono);
+    font-size: 0.76rem;
+    letter-spacing: 0.03em;
+    color: var(--fg);
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: all 0.2s;
+  }
+
+  .contact-links a:hover {
+    border-color: var(--fg);
+    background: var(--fg);
+    color: var(--bg);
+  }
+
+  /* --- FOOTER --- */
+  footer {
+    max-width: var(--max-w);
+    margin: 0 auto;
+    padding: 24px 32px 48px;
+    border-top: 1px solid var(--border);
+  }
+
+  footer p {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--fg-tertiary);
+    letter-spacing: 0.03em;
+  }
+
+  /* --- RESPONSIVE --- */
+  @media (max-width: 640px) {
+    .hero { padding-top: 120px; padding-bottom: 64px; }
+    .hero h1 { font-size: 2rem; }
+    .hero p { font-size: 1.05rem; }
+    .record { grid-template-columns: 1fr; gap: 8px; }
+    .hero .meta { gap: 24px; }
+    nav { padding: 14px 20px; }
+    section { padding-left: 20px; padding-right: 20px; }
+    .thesis blockquote { font-size: 1.15rem; }
+  }
+
+  /* --- ENTRANCE ANIMATIONS --- */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(16px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  .delay-1 { animation-delay: 0.1s; }
+  .delay-2 { animation-delay: 0.2s; }
+  .delay-3 { animation-delay: 0.35s; }
+  .delay-4 { animation-delay: 0.5s; }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="name">Yann Burden</div>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#record">Record</a>
+    <a href="#advisory">Advisory</a>
+    <a href="#thesis">Thesis</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <h1 class="fade-in">Technology leadership<br>for what comes next</h1>
+  <p class="fade-in delay-1">Helping organisations navigate technology shifts: not just the software, but the culture, structure, and decision-making that need to change around it. Two exits as founder/CPTO. Twenty-five years across SaaS, energy, education, and telco.</p>
+  <div class="meta fade-in delay-2">
+    <div class="meta-item">Exits<span>2</span></div>
+    <div class="meta-item">Years<span>25+</span></div>
+    <div class="meta-item">Platforms<span>SaaS, High Growth</span></div>
+    <div class="meta-item">Domains<span>Energy, Education, Telco</span></div>
+    <div class="meta-item">Based<span>Sydney — works globally</span></div>
+  </div>
+</section>
+
+<section class="offerings" id="work">
+  <div class="section-label">What I do</div>
+
+  <div class="offering fade-in">
+    <div class="offering-number">01</div>
+    <h3>AI Strategy and Product Advisory</h3>
+    <p>Helping organisations figure out where AI creates defensible value, and what needs to change beyond the software: team structure, decision-making, assessment of build-vs-buy, and the discipline to not build things just because you can. Deep experience in customer engagement, conversational AI, and energy technology.</p>
+  </div>
+
+  <div class="offering fade-in">
+    <div class="offering-number">02</div>
+    <h3>Founder and Portfolio Coaching</h3>
+    <p>Helping growth-stage founders compress learning cycles rather than feature cycles. Architecture decisions, GTM discipline, and avoiding the trap of shipping more just because building got cheaper. Grounded in having actually built and exited twice, not in frameworks borrowed from other people's companies.</p>
+  </div>
+
+  <div class="offering fade-in">
+    <div class="offering-number">03</div>
+    <h3>Fractional Product and Technology Leadership</h3>
+    <p>Time-boxed engagements where I embed with your team, scope the real problem, and either hand off a clear roadmap or convert to a permanent role. A low-risk way to get senior product and technology leadership without committing to a full-time hire before either side is ready.</p>
+  </div>
+
+  <div class="offering fade-in">
+    <div class="offering-number">04</div>
+    <h3>Education and Institutional Advisory</h3>
+    <p>Helping universities and institutions adapt to technology shifts at a structural level: curriculum relevance, industry partnership models, and bridging the gap between what academia teaches and what employers actually need. Nine years on the University of Melbourne CS advisory group.</p>
+  </div>
+</section>
+
+<section class="track-record" id="record">
+  <div class="section-label">Track record</div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">Billcap</div>
+      <div class="record-return">8x return</div>
+    </div>
+    <div class="record-detail">
+      <h4>Co-founder and CTO</h4>
+      <p>Australia's first smart meter customer engagement platform. Five energy retailers, 250,000+ users. Multi-tenant platform operating across distinct regulatory contexts. Sold to industry acquirer.</p>
+    </div>
+  </div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">Pendula</div>
+      <div class="record-return">4x return</div>
+    </div>
+    <div class="record-detail">
+      <h4>Chief Product and Technology Officer</h4>
+      <p>Customer engagement platform. Led 20-person product and engineering team. Unlocked $5M ARR through enterprise product strategy. Established London office and signed first UK client. Acquired by Smart Communications.</p>
+    </div>
+  </div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">DC Power Co</div>
+    </div>
+    <div class="record-detail">
+      <h4>Chief Commercial and Technology Officer</h4>
+      <p>Australia's first crowd-funded renewable energy retailer. +51 NPS. Built the customer engagement product that reduced churn by 25%.</p>
+    </div>
+  </div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">Earlier</div>
+    </div>
+    <div class="record-detail">
+      <h4>Energy, consulting, and programme delivery</h4>
+      <p>Energy efficiency programme delivery across Australia and France (Energy Return, Cool Nrg). A decade of CIO advisory, IT strategy, and outsourcing governance at Accenture, PwC, and Unilog, working across energy and telco in the UK, France, and Australia.</p>
+    </div>
+  </div>
+</section>
+
+<section class="track-record" id="advisory">
+  <div class="section-label">Advisory and boards</div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">University of Melbourne</div>
+      <div class="record-return">2015 - 2024</div>
+    </div>
+    <div class="record-detail">
+      <h4>Industry Advisory Group — School of Computing and Information Systems</h4>
+      <p>Long-standing member of the industry advisory group, providing practitioner perspective on curriculum relevance, graduate readiness, and the evolving relationship between academic computer science and industry practice.</p>
+    </div>
+  </div>
+
+  <div class="record fade-in">
+    <div>
+      <div class="record-company">Black Nova VC</div>
+      <div class="record-return">Current</div>
+    </div>
+    <div class="record-detail">
+      <h4>Venture Partner — AI Advisory</h4>
+      <p>Coaching growth-stage portfolio company founders on AI strategy, architecture decisions, and the discipline required to build well when building gets cheaper. Advisory carry in the fund.</p>
+    </div>
+  </div>
+</section>
+
+<section class="thesis" id="thesis">
+  <div class="section-label">How I think</div>
+
+  <blockquote class="fade-in">"The hard part of a technology shift is never the technology. It's getting the organisation to change around it."</blockquote>
+
+  <p class="fade-in">As AI reduces the cost of building, the binding constraint shifts from engineering capacity to judgment. The discipline premium rises. This applies equally to startups shipping product, universities rethinking curriculum, and enterprises reorganising teams.</p>
+
+  <p class="fade-in">Most organisations treat technology shifts as software problems. They buy tools, run pilots, and wonder why adoption stalls. The real work is cultural: changing how people make decisions, what they measure, and which assumptions they're willing to let go of. That's what I help with.</p>
+
+  <p class="fade-in">The common thread across my career is building products and teams that sit between complex regulated systems and end users. Energy retailers, telcos, universities, customer platforms. The pattern is always the same: the technology is the easy part, the organisational change is the hard part, and the companies that get both right are the ones that win.</p>
+</section>
+
+<section class="contact" id="contact">
+  <div class="section-label">Get in touch</div>
+
+  <p>Based in Sydney. Works remotely with international clients across APAC, UK, and Europe. Open to both advisory engagements and permanent leadership roles in energy-tech, AI, and adjacent sectors. Working rights in Australia, UK, EU, and Canada.</p>
+
+  <p style="font-size: 0.85rem; color: var(--fg-tertiary); margin-bottom: 32px; font-weight: 300;">Research collaborations with the University of Melbourne: behavioural science field experiments in energy consumption and monthly electricity demand elasticity.</p>
+
+  <div class="contact-links">
+    <a href="/cdn-cgi/l/email-protection#5920383737193c373c2b3e202b3c2d2c2b37773a36">Email</a>
+    <a href="https://www.linkedin.com/in/yannburden" target="_blank">LinkedIn</a>
+    <a href="https://energyreturn.co/me" target="_blank">Full CV</a>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 Yann Burden</p>
+</footer>
+
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+  // Intersection Observer for scroll-triggered fade-ins
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationPlayState = 'running';
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+
+  document.querySelectorAll('.offerings .fade-in, .track-reco
