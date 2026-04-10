@@ -184,8 +184,9 @@ const CV = {
 
   // --- RESEARCH ---
   research: [
-    { title: "Tell Me Something I Don't Already Know: Informedness and the Impact of Information Programs", year: "2017", flavours: ["default","ai","advisory"] },
-    { title: "An Experimental Study of Monthly Electricity Demand (In)Elasticity", year: "2019", flavours: ["default","ai","advisory"] },
+    { title: "Tell Me Something I Don't Already Know: Informedness and the Impact of Information Programs", journal: "Review of Economics and Statistics", year: "2018", url: "https://direct.mit.edu/rest/article/100/3/510/58467/Tell-Me-Something-I-Don-t-Already-Know", authors: "Byrne, La Nauze, Martin", flavours: ["default","ai","advisory"] },
+    { title: "An Experimental Study of Monthly Electricity Demand (In)elasticity", journal: "The Energy Journal", year: "2021", url: "https://journals.sagepub.com/doi/10.5547/01956574.42.2.dbyr", authors: "Byrne, La Nauze, Martin", flavours: ["default","ai","advisory"] },
+    { title: "Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity", journal: "Journal of Political Economy", year: "2019", url: "https://doi.org/10.1086/705535", authors: "La Nauze (acknowledges Yann Burden and Billcap for proprietary data)", flavours: ["default","ai","advisory"] },
   ],
 };
 
@@ -302,8 +303,13 @@ function render() {
   if (visResearch.length) {
     html += `<div class="section"><div class="section-title">Research Collaborations</div>`;
     visResearch.forEach(r => {
+      const titleHtml = r.url
+        ? `<a href="${r.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${r.title}</a>`
+        : r.title;
+      const journalHtml = r.journal ? `<div class="item-dates">${r.journal} (${r.year})${r.authors ? ' — ' + r.authors : ''}</div>` : '';
       html += `<div class="compact-item">
-        <div class="item-detail">${r.title} (${r.year})</div>
+        <div class="item-detail">${titleHtml}</div>
+        ${journalHtml}
       </div>`;
     });
     html += `</div>`;
