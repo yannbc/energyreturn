@@ -188,6 +188,11 @@ const CV = {
     { title: "An Experimental Study of Monthly Electricity Demand (In)elasticity", journal: "The Energy Journal", year: "2021", url: "https://journals.sagepub.com/doi/10.5547/01956574.42.2.dbyr", authors: "Byrne, La Nauze, Martin", flavours: ["default","ai","advisory"] },
     { title: "Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity", journal: "Journal of Political Economy", year: "2019", url: "https://doi.org/10.1086/705535", authors: "La Nauze (acknowledges Yann Burden and Billcap for proprietary data)", flavours: ["default","ai","advisory"] },
   ],
+  press: [
+    { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5M raise from MA Growth Ventures and Octopus Ventures.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
+    { outlet: "Tech Trajectory Podcast (DiUS)", year: "2025", title: "Leading with Customer Clarity in a Changing World", description: "In conversation with Kavita Karwar on AI adoption, product strategy, and how customer clarity separates sustainable growth from hype.", url: "https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world", flavours: ["default","ai","advisory"] },
+    { outlet: "Domain.com.au", year: "2017", title: "Turning the neighbours green", description: "Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work.", url: "https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/", flavours: ["default","advisory"] },
+  ],
 };
 
 // ============================================================
@@ -315,6 +320,23 @@ function render() {
     html += `</div>`;
   }
   html += `</div></div>`;
+
+  // Press and media
+  const visPress = CV.press.filter(show);
+  if (visPress.length) {
+    html += `<div class="section"><div class="section-title">Press and Media</div>`;
+    visPress.forEach(p => {
+      const titleHtml = p.url
+        ? `<a href="${p.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${p.title}</a>`
+        : p.title;
+      html += `<div class="compact-item">
+        <div class="item-org">${p.outlet}</div>
+        <div class="item-detail">${titleHtml}</div>
+        <div class="item-dates">${p.year}${p.description ? ' — ' + p.description : ''}</div>
+      </div>`;
+    });
+    html += `</div>`;
+  }
 
   document.getElementById('cv').innerHTML = html;
 }

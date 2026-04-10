@@ -81,6 +81,12 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 
 ---
 
+## Press and Media
+
+- **SmartCompany** (Aug 2023): Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures. [smartcompany.com.au](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)
+- **Tech Trajectory Podcast, DiUS** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity. [Buzzsprout](https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world)
+- **Domain.com.au** (2017): Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work. [domain.com.au](https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/)
+
 ## Research Collaborations
 
 Billcap's smart meter data underpinned a multi-year research programme with the University of Melbourne. I was the individual contributor on the Billcap side, working directly with the university research team on data quality, experimental design, and analytical rigour.
