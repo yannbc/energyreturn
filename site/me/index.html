@@ -28,6 +28,7 @@
     .page { margin: 0; padding: 32px 40px; max-width: none; }
     .no-print { display: none !important; }
     a { color: var(--fg); text-decoration: none; }
+    .dim { opacity: 1 !important; }
   }
 
   /* --- HEADER --- */
@@ -44,10 +45,10 @@
 
   /* --- HIGHLIGHTS --- */
   .highlights { font-size: 13px; color: var(--fg2); line-height: 1.7; }
-  .highlights li { margin-bottom: 4px; margin-left: 16px; }
+  .highlights li { margin-bottom: 4px; margin-left: 16px; transition: opacity 0.2s ease; }
 
   /* --- ROLES --- */
-  .role { margin-bottom: 16px; }
+  .role { margin-bottom: 16px; transition: opacity 0.2s ease; }
   .role-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
   .role-company { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--accent); }
   .role-dates { font-family: var(--mono); font-size: 11px; color: var(--fg3); }
@@ -56,7 +57,7 @@
   .role-bullets li { margin-bottom: 3px; margin-left: 16px; }
 
   /* --- SIDEBAR ITEMS (education, advisory, etc) --- */
-  .compact-item { margin-bottom: 10px; }
+  .compact-item { margin-bottom: 10px; transition: opacity 0.2s ease; }
   .compact-item .item-org { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--fg); }
   .compact-item .item-detail { font-size: 13px; color: var(--fg2); }
   .compact-item .item-dates { font-family: var(--mono); font-size: 10px; color: var(--fg3); }
@@ -69,16 +70,19 @@
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
   .tag { font-family: var(--mono); font-size: 10px; padding: 2px 8px; border: 1px solid var(--border); border-radius: 3px; color: var(--fg2); }
 
-  /* --- FLAVOUR PICKER (screen only) --- */
+  /* --- DIM: items not relevant to current highlight --- */
+  .dim { opacity: 0.22; }
+
+  /* --- HIGHLIGHT BAR (screen only) --- */
   .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; font-family: var(--mono); font-size: 11px; color: var(--fg3); }
-  .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--border); border-radius: 3px; background: var(--bg); color: var(--fg2); cursor: pointer; }
+  .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--border); border-radius: 3px; background: var(--bg); color: var(--fg2); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
   .flavour-bar button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
 </style>
 </head>
 <body>
 
 <div class="flavour-bar no-print">
-  <span>Flavour: </span>
+  <span>Highlight: </span>
   <button class="active" onclick="setFlavour('default')">Full</button>
   <button onclick="setFlavour('operations')">Operations / CTO</button>
   <button onclick="setFlavour('ai')">AI Leadership</button>
@@ -107,7 +111,7 @@ const CV = {
   },
   citizenship: "🇦🇺 🇬🇧 🇪🇺 🇨🇦  Working rights: Australia, UK, EU, Canada",
 
-  // --- HIGHLIGHTS: each has text + which flavours it appears in ---
+  // --- HIGHLIGHTS: each has text + which flavours it is relevant to ---
   highlights: [
     { text: "Founded and scaled Billcap (multi-tenant SaaS for energy utilities) as CEO through to exit at 8x investor return.", flavours: ["default","operations","ai","advisory"] },
     { text: "Hired as CPTO at Pendula, led engineering, product and AI organisation through international expansion and acquisition by Smart Communications at 4x invested capital.", flavours: ["default","operations","ai"] },
@@ -133,41 +137,61 @@ const CV = {
       company: "Pendula", dates: "2021 - 2024", title: "Chief Product and Technology Officer",
       flavours: ["default","operations","ai"],
       bullets: [
-        { text: "Hired as CPTO. Led engineering and product teams.", flavours: ["default","operations","ai"] },
-        { text: "Unlocked additional $5M ARR by leading enterprise product focus.", flavours: ["default","operations"] },
-        { text: "Set up London offices as part of international growth strategy post Series A, signed first UK deal.", flavours: ["default","operations"] },
-        { text: "Led strategy and AI initiatives through to sale to Smart Communications at 4x invested capital.", flavours: ["default","operations","ai"] },
+        "Hired as CPTO. Led engineering and product teams through Series A and international expansion.",
+        "Unlocked additional $5M ARR by leading enterprise product focus.",
+        "Set up London offices as part of international growth strategy post Series A, signed first UK deal.",
+        "Led strategy and AI initiatives through to sale to Smart Communications at 4x invested capital.",
       ]
     },
     {
       company: "DC Power Co", dates: "2018 - 2021", title: "Chief Customer and Technology Officer",
       flavours: ["default","operations","ai","advisory"],
       bullets: [
-        { text: "Founding executive team of Australia's first crowd-funded renewable energy retailer.", flavours: ["default","operations","ai","advisory"] },
-        { text: "Delivered strategic NPS of +51 in first year of operation.", flavours: ["default","operations"] },
-        { text: "Developed in-house customer engagement product reducing churn by over 25%.", flavours: ["default","operations","ai"] },
-        { text: "Set up digital sales channel delivering market-leading conversion rates for battery storage.", flavours: ["default","operations"] },
+        "Founding executive team of Australia's first crowd-funded renewable energy retailer.",
+        "Delivered strategic NPS of +51 in first year of operation.",
+        "Developed in-house customer engagement product reducing churn by over 25%.",
+        "Set up digital sales channel delivering market-leading conversion rates for battery storage.",
       ]
     },
     {
       company: "Billcap", dates: "2011 - 2018", title: "CEO and Co-founder",
       flavours: ["default","operations","ai","advisory"],
       bullets: [
-        { text: "Co-founded and led company delivering customer engagement SaaS platform to energy retailers and distributors.", flavours: ["default","operations","ai","advisory"] },
-        { text: "Grew client base to 5 energy companies and over 250,000 users.", flavours: ["default","operations"] },
-        { text: "Led sale of company to strategic investor delivering 8x return to investors.", flavours: ["default","operations","advisory"] },
-        { text: "Established pioneering research partnership for behavioural science field experiments in energy consumption and demand response.", flavours: ["default","ai","advisory"] },
+        "Co-founded and led company delivering customer engagement SaaS platform to energy retailers and distributors.",
+        "Grew client base to 5 energy companies and over 250,000 users.",
+        "Led sale of company to strategic investor delivering 8x return to investors.",
+        "Hands-on technical contributor: prototyped and iterated ML models in R for outlier detection and demand prediction.",
+        "Established pioneering research partnership with University of Melbourne; ran randomised field experiments across 8,000 households, generating three peer-reviewed publications in top economics journals.",
       ]
     },
-  ],
-
-  // --- EARLIER EXPERIENCE ---
-  earlier: [
-    { text: "Energy Return | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.", flavours: ["default","operations","advisory"] },
-    { text: "Cool Nrg | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.", flavours: ["default","operations"] },
-    { text: "Accenture (UK) | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.", flavours: ["default","operations","advisory"] },
-    { text: "Unilog (France) | Technology Strategy. Energy retail focus.", flavours: ["default","advisory"] },
-    { text: "PwC Consulting | SAP Consultant.", flavours: ["default"] },
+    {
+      company: "Energy Return", dates: "2009 - 2011", title: "Founder and Managing Director",
+      flavours: ["default","operations","advisory"],
+      bullets: [
+        "Energy efficiency consulting for local government.",
+      ]
+    },
+    {
+      company: "Cool Nrg", dates: "2007 - 2009", title: "General Manager — France",
+      flavours: ["default","operations"],
+      bullets: [
+        "Nation-wide residential energy efficiency and carbon abatement programs for energy retailers.",
+      ]
+    },
+    {
+      company: "Accenture (UK)", dates: "2005 - 2007", title: "Technology Strategy Manager",
+      flavours: ["default","operations","advisory"],
+      bullets: [
+        "CIO advisory, IT organisation design, telco strategy.",
+      ]
+    },
+    {
+      company: "Unilog (France) + PwC Consulting", dates: "2000 - 2005", title: "Technology Strategy / SAP Consultant",
+      flavours: ["default","advisory"],
+      bullets: [
+        "Technology strategy with energy retail focus (Unilog). SAP implementation (PwC).",
+      ]
+    },
   ],
 
   // --- ADVISORY and BOARDS ---
@@ -188,8 +212,10 @@ const CV = {
     { title: "An Experimental Study of Monthly Electricity Demand (In)elasticity", journal: "The Energy Journal", year: "2021", url: "https://journals.sagepub.com/doi/10.5547/01956574.42.2.dbyr", authors: "Byrne, La Nauze, Martin", flavours: ["default","ai","advisory"] },
     { title: "Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity", journal: "Journal of Political Economy", year: "2019", url: "https://doi.org/10.1086/705535", authors: "La Nauze (acknowledges Yann Burden and Billcap for proprietary data)", flavours: ["default","ai","advisory"] },
   ],
+
+  // --- PRESS ---
   press: [
-    { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5M raise from MA Growth Ventures and Octopus Ventures.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
+    { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5M raise.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
     { outlet: "Tech Trajectory Podcast (DiUS)", year: "2025", title: "Leading with Customer Clarity in a Changing World", description: "In conversation with Kavita Karwar on AI adoption, product strategy, and how customer clarity separates sustainable growth from hype.", url: "https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world", flavours: ["default","ai","advisory"] },
     { outlet: "Domain.com.au", year: "2017", title: "Turning the neighbours green", description: "Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work.", url: "https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/", flavours: ["default","advisory"] },
   ],
@@ -208,9 +234,15 @@ function setFlavour(f) {
   render();
 }
 
-function show(item) {
-  if (!item.flavours) return true;
-  return item.flavours.includes(currentFlavour);
+// Returns true if item should be dimmed in the current flavour context
+function isDim(item) {
+  if (currentFlavour === 'default') return false;
+  if (!item.flavours) return false;
+  return !item.flavours.includes(currentFlavour);
+}
+
+function d(cls, dimmed) {
+  return dimmed ? `${cls} dim` : cls;
 }
 
 function render() {
@@ -235,63 +267,46 @@ function render() {
   `;
 
   // Highlights
-  const visHighlights = CV.highlights.filter(show);
-  if (visHighlights.length) {
-    html += `<div class="section"><div class="section-title">Highlights</div><ul class="highlights">`;
-    visHighlights.forEach(h => html += `<li>${h.text}</li>`);
-    html += `</ul></div>`;
-  }
+  html += `<div class="section"><div class="section-title">Highlights</div><ul class="highlights">`;
+  CV.highlights.forEach(h => {
+    html += `<li class="${isDim(h) ? 'dim' : ''}">${h.text}</li>`;
+  });
+  html += `</ul></div>`;
 
-  // Focus
+  // Focus (always shows current flavour's tags)
   html += `<div class="section"><div class="section-title">Focus</div><div class="tags">`;
   focusTags.forEach(t => html += `<span class="tag">${t}</span>`);
   html += `</div></div>`;
 
-  // Experience
-  const visRoles = CV.roles.filter(show);
-  if (visRoles.length) {
-    html += `<div class="section"><div class="section-title">Experience</div>`;
-    visRoles.forEach(r => {
-      const visBullets = r.bullets.filter(show);
-      html += `<div class="role">
-        <div class="role-header"><span class="role-company">${r.company} | ${r.dates}</span></div>
-        <div class="role-title">${r.title}</div>`;
-      if (visBullets.length) {
-        html += `<ul class="role-bullets">`;
-        visBullets.forEach(b => html += `<li>${b.text}</li>`);
-        html += `</ul>`;
-      }
-      html += `</div>`;
-    });
+  // Experience — all roles shown, dimmed if not relevant
+  html += `<div class="section"><div class="section-title">Experience</div>`;
+  CV.roles.forEach(r => {
+    const dimmed = isDim(r);
+    html += `<div class="${d('role', dimmed)}">
+      <div class="role-header"><span class="role-company">${r.company} | ${r.dates}</span></div>
+      <div class="role-title">${r.title}</div>`;
+    if (r.bullets && r.bullets.length) {
+      html += `<ul class="role-bullets">`;
+      r.bullets.forEach(b => html += `<li>${b}</li>`);
+      html += `</ul>`;
+    }
     html += `</div>`;
-  }
-
-  // Earlier experience
-  const visEarlier = CV.earlier.filter(show);
-  if (visEarlier.length) {
-    html += `<div class="section"><div class="section-title">Earlier Experience</div><ul class="highlights">`;
-    visEarlier.forEach(e => html += `<li>${e.text}</li>`);
-    html += `</ul></div>`;
-  }
+  });
+  html += `</div>`;
 
   // Two-column: advisory + education/research
-  const visAdvisory = CV.advisory.filter(show);
-  const visResearch = CV.research.filter(show);
-
   html += `<div class="two-col">`;
 
   // Left: advisory
-  if (visAdvisory.length) {
-    html += `<div class="section"><div class="section-title">Advisory and Boards</div>`;
-    visAdvisory.forEach(a => {
-      html += `<div class="compact-item">
-        <div class="item-org">${a.org}</div>
-        <div class="item-detail">${a.role}</div>
-        <div class="item-dates">${a.dates}</div>
-      </div>`;
-    });
-    html += `</div>`;
-  }
+  html += `<div class="section"><div class="section-title">Advisory and Boards</div>`;
+  CV.advisory.forEach(a => {
+    html += `<div class="${d('compact-item', isDim(a))}">
+      <div class="item-org">${a.org}</div>
+      <div class="item-detail">${a.role}</div>
+      <div class="item-dates">${a.dates}</div>
+    </div>`;
+  });
+  html += `</div>`;
 
   // Right: education + research
   html += `<div>`;
@@ -305,38 +320,33 @@ function render() {
   });
   html += `</div>`;
 
-  if (visResearch.length) {
-    html += `<div class="section"><div class="section-title">Research Collaborations</div>`;
-    visResearch.forEach(r => {
-      const titleHtml = r.url
-        ? `<a href="${r.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${r.title}</a>`
-        : r.title;
-      const journalHtml = r.journal ? `<div class="item-dates">${r.journal} (${r.year})${r.authors ? ' — ' + r.authors : ''}</div>` : '';
-      html += `<div class="compact-item">
-        <div class="item-detail">${titleHtml}</div>
-        ${journalHtml}
-      </div>`;
-    });
-    html += `</div>`;
-  }
+  html += `<div class="section"><div class="section-title">Research Collaborations</div>`;
+  CV.research.forEach(r => {
+    const titleHtml = r.url
+      ? `<a href="${r.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${r.title}</a>`
+      : r.title;
+    html += `<div class="${d('compact-item', isDim(r))}">
+      <div class="item-detail">${titleHtml}</div>
+      <div class="item-dates">${r.journal} (${r.year})${r.authors ? ' — ' + r.authors : ''}</div>
+    </div>`;
+  });
+  html += `</div>`;
+
   html += `</div></div>`;
 
   // Press and media
-  const visPress = CV.press.filter(show);
-  if (visPress.length) {
-    html += `<div class="section"><div class="section-title">Press and Media</div>`;
-    visPress.forEach(p => {
-      const titleHtml = p.url
-        ? `<a href="${p.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${p.title}</a>`
-        : p.title;
-      html += `<div class="compact-item">
-        <div class="item-org">${p.outlet}</div>
-        <div class="item-detail">${titleHtml}</div>
-        <div class="item-dates">${p.year}${p.description ? ' — ' + p.description : ''}</div>
-      </div>`;
-    });
-    html += `</div>`;
-  }
+  html += `<div class="section"><div class="section-title">Press and Media</div>`;
+  CV.press.forEach(p => {
+    const titleHtml = p.url
+      ? `<a href="${p.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${p.title}</a>`
+      : p.title;
+    html += `<div class="${d('compact-item', isDim(p))}">
+      <div class="item-org">${p.outlet}</div>
+      <div class="item-detail">${titleHtml}</div>
+      <div class="item-dates">${p.year}${p.description ? ' — ' + p.description : ''}</div>
+    </div>`;
+  });
+  html += `</div>`;
 
   document.getElementById('cv').innerHTML = html;
 }
