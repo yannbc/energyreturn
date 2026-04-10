@@ -47,11 +47,10 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 **CEO and Co-founder**
 
 - Co-founded and led company delivering customer engagement SaaS platform to energy retailers and distributors. Built the technical foundation and data science capability from the ground up.
-- Designed and productionised ML models for smart meter analytics: load disaggregation, consumption forecasting, anomaly detection, and household segmentation — operating at scale across millions of interval meter reads.
-- Built demand response analytics: estimating household-level price elasticity and quantifying behavioural intervention effects using causal inference methods (difference-in-differences, randomised controlled trials).
-- Developed the data ingestion and processing pipelines for high-volume smart meter data (30-minute interval reads across 250,000+ users), handling data quality, imputation, and regulatory reporting requirements.
+- Hands-on technical contributor: prototyped ML models for outlier detection, consumption prediction, and household segmentation in R, working directly with smart meter interval data across 250,000+ users.
+- Established pioneering research partnership with the University of Melbourne for behavioural science field experiments in energy consumption and demand response. Served as the individual contributor on the Billcap side, ensuring data quality and academic rigour across causal inference methods (difference-in-differences, randomised controlled trials) run by the university research team.
+- Developed the data ingestion and processing pipelines for high-volume smart meter data (30-minute interval reads), handling data quality, imputation, and regulatory reporting requirements.
 - Grew client base to 5 energy companies across retail and distribution, each with distinct metering infrastructure, tariff structures, and regulatory contexts.
-- Established pioneering research partnership with the University of Melbourne for behavioural science field experiments in energy consumption and demand response.
 - Led sale of company to strategic investor.
 
 ---
