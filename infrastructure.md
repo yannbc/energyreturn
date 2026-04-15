@@ -46,7 +46,7 @@ Last updated: 15 April 2026
 To send from `yann@energyreturn.co` via Gmail:
 
 1. Gmail Settings > Accounts and Import > Send mail as > Add another email address
-2. Enter `yann@energyreturn.co`
+2. Enter `yann@energyreturn.co`, leave "Treat as an alias" ticked (this means Gmail treats both addresses as you, so incoming and outgoing both work in your normal inbox)
 3. SMTP server: `smtp.gmail.com`, port 587, Gmail username + Google App Password
 4. App Password: Google Account > Security > 2-Step Verification > App Passwords
 5. Gmail sends a verification email to `yann@energyreturn.co`, which forwards to your inbox. Click the link to confirm.
