@@ -1,0 +1,51 @@
+#!/usr/bin/env zsh
+set -euo pipefail
+
+if [[ $# -lt 1 ]]; then
+  echo "Usage: cv/tools/mdcv input.md [output.pdf]" >&2
+  exit 1
+fi
+
+INPUT="$1"
+OUTPUT="${2:-${INPUT:r}.pdf}"
+
+SCRIPT_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
+CSS_PATH="$SCRIPT_DIR/cv.css"
+TMP_HTML="$(mktemp /tmp/mdcv.XXXXXX.html)"
+
+cleanup() {
+  rm -f "$TMP_HTML"
+}
+trap cleanup EXIT
+
+if [[ ! -f "$INPUT" ]]; then
+  echo "Input file not found: $INPUT" >&2
+  exit 1
+fi
+
+if [[ ! -f "$CSS_PATH" ]]; then
+  echo "Missing stylesheet: $CSS_PATH" >&2
+  exit 1
+fi
+
+if ! command -v pandoc >/dev/null 2>&1; then
+  echo "pandoc is not installed" >&2
+  echo "Install with: brew install pandoc weasyprint" >&2
+  exit 1
+fi
+
+if ! command -v weasyprint >/dev/null 2>&1; then
+  echo "weasyprint is not installed" >&2
+  echo "Install with: brew install pandoc weasyprint" >&2
+  exit 1
+fi
+
+pandoc "$INPUT" \
+  --standalone \
+  --css "$CSS_PATH" \
+  --metadata title="CV" \
+  -o "$TMP_HTML"
+
+weasyprint "$TMP_HTML" "$OUTPUT"
+
+echo "Created $OUTPUT"
