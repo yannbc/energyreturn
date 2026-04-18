@@ -1,17 +1,24 @@
 # Job Search Log
 
-Last updated: 17 April 2026
+Last updated: 18 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 1 | Decidr | VP Product | Outreach | -- | 01 Apr | LinkedIn connection request to Paul Chan (CEO) | **URGENT: Listing expires 18 Apr -- chase today** |
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (16 days) -- chase or close** |
-| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (15 days) -- send follow-up** |
-| 5 | Hatch | Speculative / Advisory | Queued | -- | -- | LinkedIn connection request to Adam Jacobs | Await acceptance |
+| 1 | Decidr | VP Product | Outreach | -- | 01 Apr | LinkedIn messages to Paul Chan (CEO) and David Brudenell (Co-CEO) | **Listing expired 18 Apr -- chase or close** |
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (17 days) -- chase or close** |
+| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (16 days) -- chase or close** |
+| 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note to Adam Jacobs | Await connection acceptance |
 | 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales | Queued | 8 | -- | Found in daily scan (17 Apr) | Review and decide |
-| 7 | hipages Group | Senior Vice President of Product | Queued | 7 | -- | Found in daily scan (17 Apr) | Review and decide |
+| 7 | hipages Group | Senior Vice President of Product | Outreach | 7 | -- | LinkedIn message to Jeremy Burton (CTO) | Wait for reply (follow up by 22 Apr) |
+| 8 | Prezzee | Head of AI | Queued | 8 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 9 | Nine | Head of AI Product | Queued | 8 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 10 | Mastercard | Director, PM -- Advanced Analytics & AI | Queued | 7 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 11 | Derwent Search (client TBC) | Head of Data & AI | Queued | 7 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 12 | HotDoc | Chief Technology Officer | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 13 | NIDA (via Derwent) | Chief Technology Officer | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 14 | Crypto.com | Senior PM, AI Transformation | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
 
 ## Target Profile
 
@@ -22,9 +29,22 @@ Last updated: 17 April 2026
 
 ## Watchlist Companies
 
-To be confirmed. Proposed: Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Pendula (former), Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI.
+Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 18 April 2026 (automated -- web search fallback)
+
+- jobspy timed out; fell back to web search across LinkedIn, Indeed, SEEK
+- 9 search queries across Sydney and Melbourne
+- 11 unique roles found, all new (not previously seen)
+- 4 high-fit roles added to pipeline (score 7+):
+  - **Head of AI** at Prezzee (Score: 8/10) -- Sydney
+  - **Head of AI Product** at Nine (Score: 8/10) -- North Sydney (Hybrid)
+  - **Director, Product Management, Advanced Analytics & AI** at Mastercard (Score: 7/10) -- St Leonards, Sydney
+  - **Head of Data & AI** at Derwent Search / client undisclosed (Score: 7/10) -- Sydney
+- 3 additional roles added at score 6: HotDoc CTO (Melbourne), NIDA CTO (Sydney), Crypto.com Sr PM AI (Remote/Sydney)
+- Also noted: Relevance AI Director of Technical Support (watchlist, but wrong role), Accenture AI Engineering Sr Manager (watchlist, below VP seniority)
 
 ### 17 April 2026 (automated)
 
@@ -45,8 +65,12 @@ To be confirmed. Proposed: Canva, Atlassian, SafetyCulture, Rokt, Employment Her
 
 | Date | Action |
 |------|--------|
+| 18 Apr | Daily scan (web search fallback). 11 new roles found. 7 added to pipeline: Prezzee Head of AI (8), Nine Head of AI Product (8), Mastercard Director PM AI (7), Derwent Head of Data & AI (7), HotDoc CTO (6), NIDA CTO (6), Crypto.com Sr PM AI (6). |
+| 18 Apr | Follow-up flags: Decidr listing expired today. Relevance AI stale (17 days). WeConnect stale (16 days). |
 | 17 Apr | First automated daily scan ran. 55 unique roles scanned. 2 new roles added to pipeline (AWS ANZ AI Leader, hipages SVP Product). |
 | 17 Apr | Follow-up flags: Decidr listing expires 18 Apr (URGENT). Relevance AI stale (16 days). WeConnect stale (15 days). |
+| 17 Apr | hipages: LinkedIn message sent to Jeremy Burton (CTO) referencing CTO chinwags meetup. |
+| 17 Apr | Decidr: LinkedIn messages sent to Paul Chan (CEO, connection request) and David Brudenell (Co-CEO, direct message). |
 | 16 Apr | Pipeline created. Seeded Decidr, Relevance AI, Quantium, WeConnect, Hatch. |
 | 16 Apr | LinkedIn connection request sent to Adam Jacobs (Hatch Co-Founder) with conversational AI angle. |
 | 16 Apr | Quantium AI Eng & Consulting role confirmed rejected via email. |
@@ -56,7 +80,14 @@ To be confirmed. Proposed: Canva, Atlassian, SafetyCulture, Rokt, Employment Her
 
 - Hatch is Gen Z / early-career focused. Opportunity angle: conversational AI to unlock mid-career segment.
 - WeConnect proposal: team diagnostics + tech positioning, 8 weeks, £36K. Draft follow-up email in Gmail.
-- Decidr listing expires 18 April -- urgent.
+- Decidr listing expired 18 April. Check for replies from Paul Chan and David Brudenell.
 - Quantium: Sam Vincent intro'd Yann to Adam Jacobs speculatively, but Adam is at Hatch, not Quantium.
 - AWS ANZ AI Leader: Sales-side AI leadership at AWS. Worth investigating scope -- could be customer-facing AI strategy which plays to consulting/product strengths.
-- hipages SVP Product: Classic VP Product at a listed Aus tech company. Not AI-specific but strong title/seniority match.
+- hipages SVP Product: Classic VP Product at a listed Aus tech company. Not AI-specific but strong title/seniority match. Jeremy Burton (CTO) messaged via LinkedIn.
+- Prezzee Head of AI: Reports to exec team. AI will reshape how Prezzee operates. Strong fit.
+- Nine Head of AI Product: Shape AI strategy across Nine's media portfolio. Posted ~2 weeks ago -- may be moving fast.
+- Mastercard Director PM AI: AI & Data team. Listing closes 16 May 2026. Strong global brand but "Director" title (not VP).
+- Derwent Head of Data & AI: Recruiter-placed, client unknown. Worth engaging Derwent to learn more.
+- HotDoc CTO: Melbourne healthtech. Demonstrated AI leadership required. VC/PE-backed.
+- NIDA CTO: Performing arts institution. Not AI-forward but interesting brand.
+- Relevance AI also hiring Director of Technical Support -- not a fit but worth noting watchlist activity.
