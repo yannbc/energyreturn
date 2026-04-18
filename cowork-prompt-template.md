@@ -6,7 +6,7 @@ Use this once when starting a new Cowork project.
 
 ```
 Read the full application guide from the repo:
-https://raw.githubusercontent.com/yannbc/energyreturn/main/claude-cowork-handoff.md
+https://github.com/yannbc/energyreturn/blob/main/claude-cowork-handoff.md
 
 This is your reference for all job applications. It contains my profile, writing rules, framing rules, base CVs, and the five-step workflow.
 
@@ -34,8 +34,8 @@ This replaces the old search task. Cowork reads the repo log that Tasklet pushes
 ```
 Set up a daily scheduled task at 7:30am AEST. Name it "daily-application-builder". Each run:
 
-1. Read the job search log from: https://raw.githubusercontent.com/yannbc/energyreturn/main/job-search-log.md
-2. Read the application guide from: https://raw.githubusercontent.com/yannbc/energyreturn/main/claude-cowork-handoff.md
+1. Read the job search log from: https://github.com/yannbc/energyreturn/blob/main/job-search-log.md
+2. Read the application guide from: https://github.com/yannbc/energyreturn/blob/main/claude-cowork-handoff.md
 3. Parse the Active Pipeline table. Identify any roles where Status = "Queued" and Fit score >= 7.
 4. Skip any roles you've already processed in a previous run (maintain your own list by company + role title to avoid re-processing).
 5. For each new qualifying role, run the five-step workflow from the guide:
