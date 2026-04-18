@@ -5,6 +5,23 @@
 
 ---
 
+## Division of Labour: Tasklet vs Cowork
+
+**Tasklet** (the agent running at tasklet.ai) handles the daily scan:
+- Searches LinkedIn, Indeed and job aggregators at 7am AEST daily
+- Scores and deduplicates roles against a pipeline database
+- Emails a digest to yann@energyreturn.co with new matches
+- Maintains the pipeline database and job-search-log.md in the repo
+
+**Cowork** (you) handles application production:
+- Yann forwards roles from the Tasklet digest (or finds them independently)
+- You produce the full application pack: brief, cover letter, tailored CV
+- Follow the five-step workflow below for each role
+
+**Do NOT duplicate the scanning work.** Tasklet has browser-based LinkedIn access and a deduplication database. Your job starts when a role lands in front of you.
+
+---
+
 ## Writing Rules (Apply to ALL Output)
 
 - Australian English throughout (organisation, not organization; personalised, not personalized; colour, not color)
