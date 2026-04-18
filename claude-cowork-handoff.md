@@ -18,7 +18,20 @@
 - You produce the full application pack: brief, cover letter, tailored CV
 - Follow the five-step workflow below for each role
 
-**Do NOT duplicate the scanning work.** Tasklet has browser-based LinkedIn access and a deduplication database. Your job starts when a role lands in front of you.
+**Do NOT duplicate the scanning work.** Tasklet has browser-based LinkedIn access and a deduplication database. Your job starts when Tasklet pushes updated roles to the repo.
+
+### Automated Handoff via Repo
+
+The repo file `job-search-log.md` is the handoff point. It contains an **Active Pipeline** table with columns including Status and Fit score.
+
+Your scheduled task should:
+1. Read `job-search-log.md` from the repo
+2. Parse the Active Pipeline table
+3. Process any role where **Status = "Queued"** and **Fit >= 7**
+4. Skip roles you've already processed (maintain your own list of processed roles by company + role title)
+5. For each new qualifying role, run the five-step workflow below
+
+If no new qualifying roles are found, do nothing. No notification needed.
 
 ---
 

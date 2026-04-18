@@ -1,32 +1,65 @@
 # Claude Cowork -- Prompt Template
 
-## Initial Setup Prompt
+## Step 1: Load the Playbook
 
-Use this once when starting a new Cowork project. It loads the playbook and establishes the working relationship.
+Use this once when starting a new Cowork project.
 
 ```
 Read the full application guide from the repo:
 https://raw.githubusercontent.com/yannbc/energyreturn/main/claude-cowork-handoff.md
 
-This is your reference for all job applications. It contains:
-- My profile and career history
-- Writing rules (Australian English, no em dashes, no emojis)
-- 10 framing rules you must follow exactly
-- Two base CV variants (data science and consulting)
-- A five-step workflow for each role
+This is your reference for all job applications. It contains my profile, writing rules, framing rules, base CVs, and the five-step workflow.
 
-Confirm you've loaded it and summarise the framing rules back to me.
-
-IMPORTANT: You are handling application production only. Job scanning and sourcing is handled by a separate agent (Tasklet) which emails me a daily digest. Your job starts when I give you a role to process. Do not set up or run job searches.
+Confirm you've loaded it and summarise the 10 framing rules back to me.
 ```
 
-_If Cowork can't fetch the URL, upload `claude-cowork-handoff.md` as project knowledge and replace the URL with "Read the uploaded guide."_
+_If Cowork can't fetch the URL, upload `claude-cowork-handoff.md` as project knowledge instead._
 
 ---
 
-## Single Role Prompt
+## Step 2: Kill the Existing Job Search Task
 
-Paste this each time a new role needs processing:
+Tasklet handles all scanning. Cowork should not be running its own searches.
+
+```
+List your scheduled tasks. If there's a daily-job-search or similar scanning task, delete it. Job scanning is handled by Tasklet. You only produce application materials.
+```
+
+---
+
+## Step 3: Set Up the Daily Application Task
+
+This replaces the old search task. Cowork reads the repo log that Tasklet pushes each morning and produces application packs for new high-fit roles.
+
+```
+Set up a daily scheduled task at 7:30am AEST. Name it "daily-application-builder". Each run:
+
+1. Read the job search log from: https://raw.githubusercontent.com/yannbc/energyreturn/main/job-search-log.md
+2. Read the application guide from: https://raw.githubusercontent.com/yannbc/energyreturn/main/claude-cowork-handoff.md
+3. Parse the Active Pipeline table. Identify any roles where Status = "Queued" and Fit score >= 7.
+4. Skip any roles you've already processed in a previous run (maintain your own list by company + role title to avoid re-processing).
+5. For each new qualifying role, run the five-step workflow from the guide:
+   a. Research the company and role (web search for context, news, strategy signals)
+   b. Assess fit (1-10 with reasoning)
+   c. Write a tailored cover letter
+   d. Tailor the appropriate base CV (data science variant for product/AI roles, consulting variant for advisory/GTM roles)
+   e. Write application notes (key angles, referral opportunities, risks)
+6. Save outputs as:
+   - applications/{company-slug}/brief.md
+   - applications/{company-slug}/cover-letter.md
+   - applications/{company-slug}/cv.md
+7. Present all new application packs for my review.
+
+If no new qualifying roles are found, do nothing silently.
+
+IMPORTANT: Do not run any job searches yourself. The pipeline data comes from Tasklet via the repo. Your job is application production only.
+```
+
+---
+
+## Ad Hoc: Manual Role Submission
+
+For roles you find yourself outside the daily scan:
 
 ```
 New role to process:
@@ -35,64 +68,21 @@ New role to process:
 **Title:** [title]
 **Location:** [location]
 **Listing URL:** [url]
-**Source:** [LinkedIn / Seek / etc]
 
 Full job description:
 [paste JD or link]
 
-Run the five-step workflow from the guide. Flag anything that's a dealbreaker before writing materials.
-
-Output:
-- applications/{company-slug}/brief.md
-- applications/{company-slug}/cover-letter.md
-- applications/{company-slug}/cv.md
+Run the five-step workflow from the guide. Flag dealbreakers before writing materials.
 ```
 
 ---
 
-## Batch Prompt
-
-When forwarding multiple roles from the Tasklet digest:
-
-```
-New roles from today's scan. Process each one through the five-step workflow.
-Flag dealbreakers before writing materials.
-Prioritise them relative to each other and to any active applications.
-
-Role 1:
-- Company: [name]
-- Title: [title]
-- Location: [location]
-- URL: [url]
-- JD: [paste or link]
-
-Role 2:
-- Company: [name]
-- Title: [title]
-- Location: [location]
-- URL: [url]
-- JD: [paste or link]
-```
-
----
-
-## Refinement Prompts
+## Refinement
 
 After reviewing materials:
 
 ```
-For [company]: [specific feedback, e.g. "lead with the Pendula agentic angle instead of Billcap", "tone down the consulting language", "they care about governance more than technical depth"]
+For [company]: [specific feedback, e.g. "lead with the Pendula agentic angle", "tone down the consulting language"]
 
 Revise the cover letter and CV accordingly.
-```
-
----
-
-## Disable the Daily Job Search
-
-Cowork should NOT be running its own job search. If a scheduled daily-job-search task exists, disable or delete it. Tasklet handles scanning.
-
-To confirm: ask Cowork to list its scheduled tasks and remove any job search automation.
-```
-List your scheduled tasks. If there's a daily-job-search or similar scanning task, delete it. Job scanning is handled by Tasklet. You only produce application materials when I give you a role.
 ```
