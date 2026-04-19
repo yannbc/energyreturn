@@ -1,14 +1,14 @@
 # Job Search Log
 
-Last updated: 18 April 2026
+Last updated: 19 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
 | 1 | Decidr | VP Product | Outreach | -- | 01 Apr | LinkedIn messages to Paul Chan (CEO) and David Brudenell (Co-CEO) | **Listing expired 18 Apr -- chase or close** |
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (17 days) -- chase or close** |
-| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (16 days) -- chase or close** |
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (18 days) -- chase or close** |
+| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (17 days) -- chase or close** |
 | 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note to Adam Jacobs | Await connection acceptance |
 | 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales | Queued | 8 | -- | Found in daily scan (17 Apr) | Review and decide |
 | 7 | hipages Group | Senior Vice President of Product | Outreach | 7 | -- | LinkedIn message to Jeremy Burton (CTO) | Wait for reply (follow up by 22 Apr) |
@@ -19,6 +19,8 @@ Last updated: 18 April 2026
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
 | 13 | NIDA (via Derwent) | Chief Technology Officer | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
 | 14 | Crypto.com | Senior PM, AI Transformation | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan (19 Apr) | Review and decide |
+| 16 | Canva | Head of B2B Product Marketing | Queued | 6 | -- | Found in daily scan (19 Apr) | Review and decide (marketing role, not PM) |
 
 ## Target Profile
 
@@ -32,6 +34,16 @@ Last updated: 18 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 19 April 2026 (automated -- Saturday, 48h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 49 raw results, 38 unique after cross-platform dedup
+- 37 new (not previously seen), 1 was a re-listing of an existing pipeline role (AWS ANZ AI Leader)
+- 1 high-fit role added to pipeline (score 7+):
+  - **Director, Data & AI Strategy** at Publicis Sapient (Score: 7/10) -- Sydney
+- 1 additional role added at score 6: Canva Head of B2B Product Marketing (watchlist company, but this is a marketing role not product management)
+- Also noted: AWS ANZ AI Leader re-appeared with new Indeed URLs (already in pipeline). Relevance AI Director of Technical Support re-appeared on Indeed (not a fit). Engagement Manager AI Consulting at The Nudge Group (score 5, below target seniority).
 
 ### 18 April 2026 (automated -- web search fallback)
 
@@ -65,6 +77,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 19 Apr | Daily scan (Saturday, 48h window). 38 unique roles scanned, 37 new. 1 added to pipeline at score 7+ (Publicis Sapient Director Data & AI Strategy). 1 added at score 6 (Canva Head of B2B Product Marketing). |
+| 19 Apr | Follow-up flags: Decidr listing expired (chase or close). Relevance AI stale (18 days). WeConnect stale (17 days). |
 | 18 Apr | Daily scan (web search fallback). 11 new roles found. 7 added to pipeline: Prezzee Head of AI (8), Nine Head of AI Product (8), Mastercard Director PM AI (7), Derwent Head of Data & AI (7), HotDoc CTO (6), NIDA CTO (6), Crypto.com Sr PM AI (6). |
 | 18 Apr | Follow-up flags: Decidr listing expired today. Relevance AI stale (17 days). WeConnect stale (16 days). |
 | 17 Apr | First automated daily scan ran. 55 unique roles scanned. 2 new roles added to pipeline (AWS ANZ AI Leader, hipages SVP Product). |
@@ -91,3 +105,5 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - HotDoc CTO: Melbourne healthtech. Demonstrated AI leadership required. VC/PE-backed.
 - NIDA CTO: Performing arts institution. Not AI-forward but interesting brand.
 - Relevance AI also hiring Director of Technical Support -- not a fit but worth noting watchlist activity.
+- Publicis Sapient Director Data & AI Strategy: Digital consulting firm. Director-level AI strategy in Sydney. Aligns with consulting/strategy background.
+- Canva Head of B2B Product Marketing: Watchlist company, but this is a marketing role (not product management). Worth considering if interested in Canva as a platform.
