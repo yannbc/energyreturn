@@ -25,7 +25,7 @@ AI Product Management | Multi-Channel Product Strategy | Stakeholder Management 
 
 ## Experience
 
-### Pendula | 2021 - 2024
+### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
 - Led product strategy and a 20-person engineering, product and data organisation through to acquisition by Smart Communications.

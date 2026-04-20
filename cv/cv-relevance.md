@@ -25,7 +25,7 @@ Product Strategy | Enterprise AI Platforms | Multi-Product Portfolio | Enterpris
 
 ## Experience
 
-### Pendula | 2021 - 2024
+### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
 - Hired as CPTO to lead product, engineering, and data across a customer engagement orchestration platform. Led the organisation through to acquisition by Smart Communications.

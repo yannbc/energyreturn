@@ -24,7 +24,7 @@ AI Strategy and Delivery | Analytics Products | Enterprise Client Engagement | C
 
 ## Experience
 
-### Pendula | 2021 - 2024
+### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
 - Led product and engineering for an AI-powered customer engagement platform, delivering ML-driven decisioning solutions to enterprise clients including AGL, Allianz, and Origin.

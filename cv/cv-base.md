@@ -25,7 +25,7 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 
 ## Experience
 
-### Pendula | 2021 - 2024
+### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
 - Hired as CPTO. Led 20-person engineering, product and data team through to acquisition by Smart Communications.
