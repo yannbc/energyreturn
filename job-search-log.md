@@ -1,14 +1,14 @@
 # Job Search Log
 
-Last updated: 19 April 2026
+Last updated: 20 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
 | 1 | Decidr | VP Product | Outreach | -- | 01 Apr | LinkedIn messages to Paul Chan (CEO) and David Brudenell (Co-CEO) | **Listing expired 18 Apr -- chase or close** |
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (18 days) -- chase or close** |
-| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (17 days) -- chase or close** |
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | In review | -- | 01 Apr | Applied via LinkedIn | **Likely stale (19 days) -- chase or close** |
+| 4 | WeConnect | AI Consulting (8-week) | Applied | -- | 02 Apr | Sent proposal (£36K) | **Likely stale (18 days) -- chase or close** |
 | 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note to Adam Jacobs | Await connection acceptance |
 | 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales | Queued | 8 | -- | Found in daily scan (17 Apr) | Review and decide |
 | 7 | hipages Group | Senior Vice President of Product | Outreach | 7 | -- | LinkedIn message to Jeremy Burton (CTO) | Wait for reply (follow up by 22 Apr) |
@@ -21,6 +21,8 @@ Last updated: 19 April 2026
 | 14 | Crypto.com | Senior PM, AI Transformation | Queued | 6 | -- | Found in daily scan (18 Apr) | Review and decide |
 | 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan (19 Apr) | Review and decide |
 | 16 | Canva | Head of B2B Product Marketing | Queued | 6 | -- | Found in daily scan (19 Apr) | Review and decide (marketing role, not PM) |
+| 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 | -- | Found in daily scan (20 Apr) | Review and decide (security role, likely not a fit) |
+| 18 | The Nudge Group | Databricks Tech Lead - AI Consulting | Queued | 6 | -- | Found in daily scan (20 Apr) | Review and decide (below VP seniority target) |
 
 ## Target Profile
 
@@ -34,6 +36,17 @@ Last updated: 19 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 20 April 2026 (automated -- Monday, 48h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 38 raw results, 28 unique after cross-platform dedup
+- 21 new (not previously seen), 7 were re-listings of existing roles
+- 0 high-fit roles (score 7+)
+- 2 borderline roles added at score 6:
+  - **Head of Security, Public Sector ANZ** at Amazon Web Services (Score: 6/10) -- Sydney. Security role, not product/AI -- likely not a fit despite watchlist company.
+  - **Databricks Tech Lead - AI Consulting Business** at The Nudge Group (Score: 6/10) -- Sydney. Below VP/Director seniority target.
+- Also noted: AWS ANZ AI Leader re-appeared with new Indeed URLs (already in pipeline). Ericsson VP Head of Research appeared across multiple Sydney/Melbourne locations (telecom R&D, not AI -- score 5). Linktree Head of Data in Melbourne (no AI focus -- score 4). Quiet weekend for senior AI/product leadership listings in the Australian market.
 
 ### 19 April 2026 (automated -- Saturday, 48h window)
 
@@ -77,6 +90,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 20 Apr | Daily scan (Monday, 48h window). 28 unique roles scanned, 21 new. 0 high-fit (7+). 2 added at score 6 (AWS Head of Security, Nudge Group Databricks Tech Lead). Quiet weekend. |
+| 20 Apr | Follow-up flags: Decidr listing expired (chase or close). Relevance AI stale (19 days). WeConnect stale (18 days). hipages follow-up due 22 Apr. |
 | 19 Apr | Daily scan (Saturday, 48h window). 38 unique roles scanned, 37 new. 1 added to pipeline at score 7+ (Publicis Sapient Director Data & AI Strategy). 1 added at score 6 (Canva Head of B2B Product Marketing). |
 | 19 Apr | Follow-up flags: Decidr listing expired (chase or close). Relevance AI stale (18 days). WeConnect stale (17 days). |
 | 18 Apr | Daily scan (web search fallback). 11 new roles found. 7 added to pipeline: Prezzee Head of AI (8), Nine Head of AI Product (8), Mastercard Director PM AI (7), Derwent Head of Data & AI (7), HotDoc CTO (6), NIDA CTO (6), Crypto.com Sr PM AI (6). |
@@ -107,3 +122,5 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - Relevance AI also hiring Director of Technical Support -- not a fit but worth noting watchlist activity.
 - Publicis Sapient Director Data & AI Strategy: Digital consulting firm. Director-level AI strategy in Sydney. Aligns with consulting/strategy background.
 - Canva Head of B2B Product Marketing: Watchlist company, but this is a marketing role (not product management). Worth considering if interested in Canva as a platform.
+- Ericsson VP Head of Research: VP-level role but in telecom R&D, not AI/product. Multiple Sydney and Melbourne listings (likely same role). Not added to pipeline.
+- Linktree Head of Data: Melbourne-based, no AI focus. Interesting brand but not a strong fit.
