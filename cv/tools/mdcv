@@ -42,6 +42,7 @@ fi
 
 pandoc "$INPUT" \
   --standalone \
+  --section-divs \
   --css "$CSS_PATH" \
   --metadata title="CV" \
   -o "$TMP_HTML"
