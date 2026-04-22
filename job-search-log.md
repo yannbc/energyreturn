@@ -1,27 +1,28 @@
 # Job Search Log
 
-Last updated: 21 April 2026
+Last updated: 22 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 01 Apr | Conversation scheduled this afternoon | Await response |
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (19 days) -- chase or close** |
-| 7 | hipages Group | Senior Vice President of Product | Interviewing | 7 | -- | Spoke to Jeremy Burton; connecting to Jason (talent) | Wait for reply, follow up if no response in 5 days |
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 01 Apr | Progressed to next round | Await response |
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (20 days) -- chase or close** |
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 | -- | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up 26 Apr |
 | 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle |
-| 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 | -- | Found in daily scan | Review and decide |
+| 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 8 | Prezzee | Head of AI | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 9 | Nine | Head of AI Product | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 | -- | Found in daily scan | Review and decide |
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 16 | Canva | Head of B2B Product Marketing | Queued | 6 | -- | Found in daily scan | Review and decide -- note: this is a marketing role, not product management |
 | 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 | -- | Found in daily scan | Review and decide |
+| 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 | -- | Found in daily scan | Review and decide |
 
 ## Target Profile
 
@@ -35,6 +36,15 @@ Last updated: 21 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 22 April 2026 (automated -- Wednesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 54 unique results after cross-platform dedup
+- 49 new (not previously seen), 5 were re-listings of existing roles
+- 0 high-fit roles (score 7+)
+- 1 role added at score 6: LemmeRecruit Director of Data Science & AI (Sydney, client undisclosed)
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). Culture Amp Director of Product Marketing spotted (watchlist company, but marketing role -- score 5). Optus Product Manager AI in Sydney (score 5, below target seniority). Several EY CTO Tax Office roles (department name, not CTO position -- correctly filtered). Heidi Head of Product Design in Sydney and Melbourne (design leadership, not product management -- score 4). Quiet Wednesday for senior AI/product leadership in the Australian market.
 
 ### 21 April 2026 (automated -- Tuesday, 24h window)
 
@@ -98,6 +108,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 22 Apr | Daily scan (Wednesday, 24h window). 54 unique roles scanned, 49 new. 0 high-fit (7+). 1 added at score 6 (LemmeRecruit Director of Data Science & AI). AWS re-appeared. Culture Amp marketing role noted. Quiet day. |
+| 22 Apr | Follow-up flags: WeConnect stale (20 days -- chase or close). hipages follow-up due 26 Apr. 8 queued roles from 17 Apr need review. |
 | 21 Apr | Daily scan (Tuesday, 24h window). 33 unique roles scanned, 32 new. 0 high-fit (7+). 0 added at score 6. AWS roles re-appeared with new URLs. Quiet day. |
 | 20 Apr | Daily scan (Monday, 48h window). 28 unique roles scanned, 21 new. 0 high-fit (7+). 2 added at score 6 (AWS Head of Security, Nudge Group Databricks Tech Lead). Quiet weekend. |
 | 20 Apr | Follow-up flags: Decidr listing expired (chase or close). Relevance AI stale (19 days). WeConnect stale (18 days). hipages follow-up due 22 Apr. |
@@ -121,7 +133,7 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - Decidr listing expired 18 April. Rejected/closed. Check for replies from Paul Chan and David Brudenell.
 - Quantium: Sam Vincent intro'd Yann to Adam Jacobs speculatively, but Adam is at Hatch, not Quantium.
 - AWS ANZ AI Leader: Sales-side AI leadership at AWS. Worth investigating scope -- could be customer-facing AI strategy which plays to consulting/product strengths.
-- hipages SVP Product: Classic VP Product at a listed Aus tech company. Not AI-specific but strong title/seniority match. Jeremy Burton (CTO) messaged via LinkedIn. Spoke to Jeremy 20 Apr; he's connecting to Jason (talent).
+- hipages SVP Product: Classic VP Product at a listed Aus tech company. Not AI-specific but strong title/seniority match. Jeremy Burton (CTO) messaged via LinkedIn. Spoke to Jeremy 20 Apr; he's connecting to Jason (talent). CV and cover letter submitted via Jason.
 - Prezzee Head of AI: Reports to exec team. AI will reshape how Prezzee operates. Strong fit.
 - Nine Head of AI Product: Shape AI strategy across Nine's media portfolio. Posted ~2 weeks ago -- may be moving fast.
 - Mastercard Director PM AI: AI & Data team. Listing closes 16 May 2026. Strong global brand but "Director" title (not VP).
@@ -133,3 +145,6 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - Canva Head of B2B Product Marketing: Watchlist company, but this is a marketing role (not product management). Worth considering if interested in Canva as a platform.
 - Ericsson VP Head of Research: VP-level role but in telecom R&D, not AI/product. Multiple Sydney and Melbourne listings (likely same role). Not added to pipeline.
 - Linktree Head of Data: Melbourne-based, no AI focus. Interesting brand but not a strong fit.
+- LemmeRecruit Director of Data Science & AI: Recruiter-placed, client undisclosed. Director-level but strong AI alignment. Worth engaging recruiter to learn more about the client.
+- Culture Amp Director of Product Marketing: Watchlist company (Culture Amp) but this is a marketing role, not product/AI leadership. Score 5.
+- Optus Product Manager AI: Known brand, AI focus, but PM level is well below target seniority. Score 5.
