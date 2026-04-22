@@ -1,18 +1,19 @@
 # Job Search Log
 
-Last updated: 22 April 2026
+Last updated: 23 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
 | 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 01 Apr | Progressed to next round | Await response |
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (20 days) -- chase or close** |
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (21 days) -- chase or close** |
 | 7 | hipages Group | Senior Vice President of Product | Applied | 7 | -- | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up 26 Apr |
 | 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle |
 | 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 8 | Prezzee | Head of AI | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 9 | Nine | Head of AI Product | Queued | 8 | -- | Found in daily scan | Review and decide |
+| 20 | Bridgit | Head of AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan | Review and decide |
@@ -23,6 +24,7 @@ Last updated: 22 April 2026
 | 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 | -- | Found in daily scan | Review and decide |
+| 21 | OLIVER / The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 | -- | Found in daily scan | Review and decide -- note: marketing technology role, not pure product |
 
 ## Target Profile
 
@@ -36,6 +38,15 @@ Last updated: 22 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 23 April 2026 (automated -- Thursday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 58 unique results after cross-platform dedup
+- 55 new (not previously seen), 3 were re-listings of existing roles
+- 1 high-fit role (score 7+): Bridgit Head of AI (Sydney)
+- 1 additional role added at score 6: OLIVER / The Brandtech Group Director, Marketing Technology & Gen-AI Solutions (Sydney)
+- Notable: hipages SVP Product re-listed with new LinkedIn URL (already in pipeline, applied). AWS ANZ AI Leader re-appeared with new Indeed URL (already in pipeline). McMillan Shakespeare Head of Data & AI in Melbourne (score 5 -- Head of Data & AI but not an AI-forward company). Culture Amp Director of Financial Operations and Director of Product Marketing spotted (watchlist company, but wrong roles). Employment Hero Website Product Design Lead (watchlist, but design not product). NexGen Cloud "Executive Assistant to CPTO" correctly filtered (EA role, not CPTO).
 
 ### 22 April 2026 (automated -- Wednesday, 24h window)
 
@@ -108,6 +119,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 23 Apr | Daily scan (Thursday, 24h window). 58 unique roles scanned, 55 new. 1 high-fit (7+): Bridgit Head of AI (Sydney). 1 added at score 6 (OLIVER/Brandtech GenAI Director). hipages re-listed. AWS re-appeared. |
+| 23 Apr | Follow-up flags: WeConnect stale (21 days -- chase or close). hipages follow-up due 26 Apr. Hatch outreach 6 days, check LinkedIn. 11 queued roles from 17--22 Apr need review. |
 | 22 Apr | Daily scan (Wednesday, 24h window). 54 unique roles scanned, 49 new. 0 high-fit (7+). 1 added at score 6 (LemmeRecruit Director of Data Science & AI). AWS re-appeared. Culture Amp marketing role noted. Quiet day. |
 | 22 Apr | Follow-up flags: WeConnect stale (20 days -- chase or close). hipages follow-up due 26 Apr. 8 queued roles from 17 Apr need review. |
 | 21 Apr | Daily scan (Tuesday, 24h window). 33 unique roles scanned, 32 new. 0 high-fit (7+). 0 added at score 6. AWS roles re-appeared with new URLs. Quiet day. |
@@ -148,3 +161,7 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - LemmeRecruit Director of Data Science & AI: Recruiter-placed, client undisclosed. Director-level but strong AI alignment. Worth engaging recruiter to learn more about the client.
 - Culture Amp Director of Product Marketing: Watchlist company (Culture Amp) but this is a marketing role, not product/AI leadership. Score 5.
 - Optus Product Manager AI: Known brand, AI focus, but PM level is well below target seniority. Score 5.
+
+- Bridgit Head of AI: Sydney-based proptech/construction tech company. Strong title match. Worth researching the company and AI strategy.
+- OLIVER / The Brandtech Group Director Marketing Technology & Gen-AI Solutions: APAC-level role at a digital marketing agency. Gen-AI focus is interesting but this is marketing technology, not product management. Score 6.
+- McMillan Shakespeare Head of Data & AI: Melbourne-based salary packaging/fleet company. Head of Data & AI title is strong but company is not AI-forward. Score 5.
