@@ -1,13 +1,14 @@
 # Job Search Log
 
-Last updated: 24 April 2026
+Last updated: 25 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
+| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 | -- | Found in daily scan | Review and decide |
 | 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 01 Apr | Progressed to next round | Await response |
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (22 days) -- chase or close** |
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (23 days) -- chase or close** |
 | 7 | hipages Group | Senior Vice President of Product | Applied | 7 | -- | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up 26 Apr |
 | 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle |
 | 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 | -- | Found in daily scan | Review and decide |
@@ -39,6 +40,15 @@ Last updated: 24 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 25 April 2026 (automated -- Saturday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 40 unique results after cross-platform dedup
+- 36 new (not previously seen), 4 were re-listings of existing roles
+- 1 high-fit role (score 9): Anthropic Head of ANZ, Applied AI (Sydney). Top-tier AI company, regional leadership role, watchlist company. Standout opportunity.
+- 0 additional roles added at score 6
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security also re-appeared with new URLs. Pet Circle Director Technical Operations spotted (watchlist company, but tech ops role -- score 3). FrankieOne VP Engineering in Melbourne (fintech, AI-relevant, but engineering not product -- score 4). Goldman Sachs VP Synthetics Products Group (financial engineering, not AI product -- score 5). Johns Lyng Group Head of Technology (construction services, no AI -- score 4).
 
 ### 24 April 2026 (automated -- Friday, 24h window)
 
@@ -129,6 +139,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 25 Apr | Daily scan (Saturday, 24h window). 40 unique roles scanned, 36 new. 1 high-fit (9): Anthropic Head of ANZ, Applied AI (Sydney). AWS and AWS Security re-appeared. Pet Circle watchlist sighting (wrong role). |
+| 25 Apr | Follow-up flags: WeConnect stale (23 days -- chase or close). hipages follow-up due 26 Apr (tomorrow). Hatch outreach 8 days -- consider following up. 15 queued roles from 17--24 Apr need review. |
 | 24 Apr | Daily scan (Friday, 24h window). 51 unique roles scanned, 49 new. 1 high-fit (8): NAB Head of AI & Agentic Architecture (Sydney). AWS re-appeared. GROW Inc and Tyro Head of Product roles noted (score 5, no AI). |
 | 24 Apr | Follow-up flags: WeConnect stale (22 days -- chase or close). hipages follow-up due 26 Apr. Hatch outreach 7 days, check LinkedIn. 13 queued roles from 17--23 Apr need review. |
 | 23 Apr | Daily scan (Thursday, 24h window). 58 unique roles scanned, 55 new. 1 high-fit (7+): Bridgit Head of AI (Sydney). 1 added at score 6 (OLIVER/Brandtech GenAI Director). hipages re-listed. AWS re-appeared. |
@@ -179,3 +191,5 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - McMillan Shakespeare Head of Data & AI: Melbourne-based salary packaging/fleet company. Head of Data & AI title is strong but company is not AI-forward. Score 5.
 
 - NAB Head of AI & Agentic Architecture: Major Australian bank hiring for AI architecture leadership in Sydney. "Agentic Architecture" suggests cutting-edge AI agent/LLM work. Listed on both LinkedIn and Indeed. Strong brand, strong title, strong location. Score 8.
+
+- Anthropic Head of ANZ, Applied AI: Top-tier AI safety company hiring regional head of Applied AI in Sydney. Watchlist company. This is arguably the strongest match found to date -- perfect alignment on AI, seniority (regional head), company brand, and location. Score 9.
