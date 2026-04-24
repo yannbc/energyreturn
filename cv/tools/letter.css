@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --fg: #1a1a1a;
+  --fg2: #3a3a3a;
+  --fg3: #777;
+  --bg: #fff;
+  --accent: #2c5f2d;
+  --border: #ddd;
+  --serif: 'Source Serif 4', Georgia, serif;
+  --mono: 'JetBrains Mono', Menlo, monospace;
+}
+
+@page {
+  size: A4;
+  margin: 22mm 22mm 22mm 22mm;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  font-family: var(--serif);
+  color: var(--fg2);
+  background: var(--bg);
+  font-size: 11pt;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+#title-block-header { display: none; }
+
+a { color: inherit; text-decoration: none; border-bottom: 0.5px solid var(--border); }
+
+/* ── LETTERHEAD ─────────────────────────────────────── */
+h1 {
+  font-family: var(--serif);
+  font-size: 18pt;
+  font-weight: 600;
+  color: var(--fg);
+  letter-spacing: -0.01em;
+  margin-bottom: 4pt;
+}
+
+/* Contact line (first <p> after h1) */
+h1 + p {
+  font-family: var(--mono);
+  font-size: 8.5pt;
+  font-weight: 400;
+  color: var(--fg3);
+  line-height: 1.6;
+  margin-bottom: 14pt;
+}
+
+/* ── ROLE / COMPANY LINE (h2) ───────────────────────── */
+h2 {
+  font-family: var(--serif);
+  font-size: 12.5pt;
+  font-weight: 500;
+  color: var(--fg);
+  margin-top: 4pt;
+  margin-bottom: 2pt;
+  break-after: avoid;
+}
+
+/* Date line — italic paragraph after h2 */
+h2 + p {
+  font-family: var(--serif);
+  font-size: 10pt;
+  font-style: italic;
+  color: var(--fg3);
+  margin-bottom: 4pt;
+}
+
+/* ── HORIZONTAL RULES ───────────────────────────────── */
+hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 10pt 0 14pt 0;
+}
+
+/* ── BODY ───────────────────────────────────────────── */
+p {
+  font-size: 11pt;
+  color: var(--fg2);
+  line-height: 1.65;
+  margin-bottom: 10pt;
+  text-align: left;
+  hyphens: none;
+  orphans: 3;
+  widows: 3;
+}
+p strong { color: var(--fg); font-weight: 500; }
+
+em { color: var(--fg); font-style: italic; }
+
+@media print {
+  a { border-bottom: none; color: inherit; }
+}

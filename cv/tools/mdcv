@@ -1,8 +1,14 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
+TYPE="cv"
+if [[ "${1:-}" == "-l" || "${1:-}" == "--letter" ]]; then
+  TYPE="letter"
+  shift
+fi
+
 if [[ $# -lt 1 ]]; then
-  echo "Usage: cv/tools/mdcv input.md [output.pdf]" >&2
+  echo "Usage: cv/tools/mdcv [-l|--letter] input.md [output.pdf]" >&2
   exit 1
 fi
 
@@ -10,7 +16,13 @@ INPUT="$1"
 OUTPUT="${2:-${INPUT:r}.pdf}"
 
 SCRIPT_DIR="$(cd -- "$(dirname -- "$0")" && pwd)"
-CSS_PATH="$SCRIPT_DIR/cv.css"
+if [[ "$TYPE" == "letter" ]]; then
+  CSS_PATH="$SCRIPT_DIR/letter.css"
+  TITLE="Cover Letter"
+else
+  CSS_PATH="$SCRIPT_DIR/cv.css"
+  TITLE="CV"
+fi
 TMP_HTML="$(mktemp /tmp/mdcv.XXXXXX.html)"
 
 cleanup() {
@@ -44,7 +56,7 @@ pandoc "$INPUT" \
   --standalone \
   --section-divs \
   --css "$CSS_PATH" \
-  --metadata title="CV" \
+  --metadata title="$TITLE" \
   -o "$TMP_HTML"
 
 weasyprint "$TMP_HTML" "$OUTPUT"

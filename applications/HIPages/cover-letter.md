@@ -1,6 +1,12 @@
-# hipages — Senior Vice President of Product
+# Yann Burden
 
-**Applied:** April 2026
++61 400 941 979 | yannburden@gmail.com | energyreturn.co/me | linkedin.com/in/yannburden
+
+---
+
+## hipages — Senior Vice President of Product
+
+*April 2026*
 
 ---
 

@@ -1,0 +1,108 @@
+#!/usr/bin/env zsh
+set -euo pipefail
+
+# Sync the latest Claude Cowork output into applications/ and render PDFs.
+# Existing folders are skipped (never overwritten).
+
+REPO_ROOT="$(cd -- "$(dirname -- "$0")/../.." && pwd)"
+APPS_DIR="$REPO_ROOT/applications"
+COWORK_ROOT="$HOME/Library/Application Support/Claude/local-agent-mode-sessions"
+MDCV="$REPO_ROOT/cv/tools/mdcv"
+
+if ! command -v pandoc >/dev/null 2>&1 || ! command -v weasyprint >/dev/null 2>&1; then
+  echo "pandoc and weasyprint are required. brew install pandoc weasyprint" >&2
+  exit 1
+fi
+
+if [[ ! -d "$COWORK_ROOT" ]]; then
+  echo "Cowork session root not found: $COWORK_ROOT" >&2
+  exit 1
+fi
+
+# Pick the most recently modified outputs/applications directory.
+latest=$(
+  find "$COWORK_ROOT" -type d -path "*/local_*/outputs/applications" 2>/dev/null \
+    | while IFS= read -r d; do
+        mtime=$(stat -f "%m" "$d" 2>/dev/null || echo 0)
+        print -r -- "$mtime	$d"
+      done \
+    | sort -rn \
+    | head -1 \
+    | cut -f2-
+)
+
+if [[ -z "$latest" ]]; then
+  echo "No Cowork output folders found under $COWORK_ROOT" >&2
+  exit 1
+fi
+
+echo "Source: $latest"
+echo "Target: $APPS_DIR"
+echo
+
+copied=0
+rendered=0
+skipped=0
+
+for src in "$latest"/*/; do
+  [[ -d "$src" ]] || continue
+  slug=$(basename "$src")
+  dst="$APPS_DIR/$slug"
+
+  if [[ -d "$dst" ]]; then
+    echo "skip   $slug (already in repo)"
+    skipped=$((skipped + 1))
+    continue
+  fi
+
+  echo "copy   $slug"
+  cp -R "$src" "$dst"
+  copied=$((copied + 1))
+
+  # Resolve CV markdown. Support both unprefixed (cv.md) and Cowork's
+  # slug-prefixed ({slug}-cv.md) conventions.
+  cv_md=""
+  for candidate in "$dst/cv.md" "$dst/${slug}-cv.md"; do
+    if [[ -f "$candidate" ]]; then
+      cv_md="$candidate"
+      break
+    fi
+  done
+
+  if [[ -n "$cv_md" ]]; then
+    if "$MDCV" "$cv_md" "$dst/Yann Burden CV.pdf"; then
+      rendered=$((rendered + 1))
+    fi
+  fi
+
+  # Resolve cover letter markdown.
+  letter_md=""
+  for candidate in "$dst/cover-letter.md" "$dst/${slug}-cover-letter.md"; do
+    if [[ -f "$candidate" ]]; then
+      letter_md="$candidate"
+      break
+    fi
+  done
+
+  if [[ -n "$letter_md" ]]; then
+    # Pull company name from the h2 title "## Company — Role" if present.
+    company=$(awk -F' — ' '/^## / { sub(/^## /, "", $0); print $1; exit }' "$letter_md")
+    if [[ -z "$company" ]]; then
+      first="${slug%%-*}"
+      company="$(print -r -- "${(C)first}")"
+    fi
+    if "$MDCV" --letter "$letter_md" "$dst/Yann Burden Cover Letter - ${company}.pdf"; then
+      rendered=$((rendered + 1))
+    fi
+  fi
+done
+
+echo
+echo "Copied $copied new folder(s), rendered $rendered PDF(s), skipped $skipped existing."
+echo
+echo "Next:"
+echo "  - Review PDFs in $APPS_DIR"
+echo "  - If a cover letter renders with the old plaintext letterhead, the"
+echo "    markdown predates the letter.css format -- reformat the h1/h2 header"
+echo "    and re-run $MDCV --letter manually."
+echo "  - Stage and commit: git -C $REPO_ROOT status"

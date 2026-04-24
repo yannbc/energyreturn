@@ -98,3 +98,30 @@ For each role, produce three files:
 - `applications/{company-slug}/cover-letter.md`
 - `applications/{company-slug}/cv.md`
 - `applications/{company-slug}/brief.md`
+
+Markdown only. Do not attempt to generate PDFs. Yann renders PDFs locally via `cv/tools/mdcv` using pandoc + weasyprint, which are not available in your environment. PDFs are not checked into the repo.
+
+### Cover Letter Markdown Structure
+
+Cover letters render through `mdcv --letter` and expect this structure:
+
+```
+# Yann Burden
+
++61 400 941 979 | yannburden@gmail.com | energyreturn.co/me | linkedin.com/in/yannburden
+
+---
+
+## {Company} — {Role Title}
+
+*{Month Year}*
+
+---
+
+{Body paragraphs}
+
+Cheers,
+Yann
+```
+
+Letterhead (h1 + contact line) is required. Sign off with "Cheers, Yann" -- not "Kind regards".
