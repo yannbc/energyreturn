@@ -1,32 +1,33 @@
 # Job Search Log
 
-Last updated: 25 April 2026
+Last updated: 26 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 | -- | Found in daily scan | Review and decide |
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 01 Apr | Progressed to next round | Await response |
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- | 02 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (23 days) -- chase or close** |
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 | -- | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up 26 Apr |
-| 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle |
-| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 | -- | Found in daily scan | Review and decide |
-| 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 | -- | Found in daily scan | Review and decide |
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- |  2 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (24 days since proposal) -- chase or close** |
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- |  1 Apr | Progressed to next round | Await response |
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 | -- | Jason intro completed; CV and cover letter submitted | Follow up today (26 Apr) -- 5 days since CV submitted |
+| 5 | Hatch | Speculative / Advisory | Outreach | -- | -- | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | Consider following up (9 days since LinkedIn connection request) |
+| 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 8 | Prezzee | Head of AI | Queued | 8 | -- | Found in daily scan | Review and decide |
 | 9 | Nine | Head of AI Product | Queued | 8 | -- | Found in daily scan | Review and decide |
-| 20 | Bridgit | Head of AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 | -- | Found in daily scan | Review and decide |
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 | -- | Found in daily scan | Review and decide |
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 | -- | Found in daily scan | Review and decide |
 | 16 | Canva | Head of B2B Product Marketing | Queued | 6 | -- | Found in daily scan | Review and decide -- note: this is a marketing role, not product management |
 | 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 | -- | Found in daily scan | Review and decide |
 | 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 | -- | Found in daily scan | Review and decide |
-| 21 | OLIVER / The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 | -- | Found in daily scan | Review and decide -- note: marketing technology role, not pure product |
+| 20 | Bridgit | Head of AI | Queued | 7 | -- | Found in daily scan | Review and decide |
+| 21 | OLIVER | The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 | -- | Found in daily scan | Review and decide |
+| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 | -- | Found in daily scan | Review and decide |
+| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 | -- | Found in daily scan | Review and decide |
+| 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 | -- | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy |
 
 ## Target Profile
 
@@ -40,6 +41,15 @@ Last updated: 25 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 26 April 2026 (automated -- Saturday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 13 unique results after cross-platform dedup
+- 13 new (not previously seen), 0 were re-listings of existing roles
+- 1 high-fit role (score 7): Deloitte Associate Director - AI Engineer (Sydney). Senior consulting level, AI-focused but engineering function. Known brand.
+- 0 additional roles added at score 6 (Westpac Portfolio Director Non-Financial Risk scored 6 but filtered as false positive -- risk management role, not AI/product)
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Sydney and Melbourne URLs (already in pipeline). Employment Hero: Chef de Partie, Marketplace Trade Manager, and Marketing Coordinator spotted (watchlist company, but all irrelevant operational/entry-level roles -- false positives). VaynerX Associate Strategy Director (marketing agency, score 3). Quiet Saturday for senior AI/product leadership.
 
 ### 25 April 2026 (automated -- Saturday, 24h window)
 
@@ -139,6 +149,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 26 Apr | Daily scan (Saturday, 24h window). 13 unique roles scanned, 13 new. 1 high-fit (7): Deloitte Associate Director AI Engineer (Sydney). AWS roles re-appeared with new Indeed URLs. Employment Hero watchlist sightings (all irrelevant). Quiet Saturday. |
+| 26 Apr | Follow-up flags: WeConnect stale (24 days -- chase or close). hipages follow-up due today (5 days since CV submitted). Hatch outreach 9 days -- consider following up. 17 queued roles from 17--25 Apr need review. |
 | 25 Apr | Daily scan (Saturday, 24h window). 40 unique roles scanned, 36 new. 1 high-fit (9): Anthropic Head of ANZ, Applied AI (Sydney). AWS and AWS Security re-appeared. Pet Circle watchlist sighting (wrong role). |
 | 25 Apr | Follow-up flags: WeConnect stale (23 days -- chase or close). hipages follow-up due 26 Apr (tomorrow). Hatch outreach 8 days -- consider following up. 15 queued roles from 17--24 Apr need review. |
 | 24 Apr | Daily scan (Friday, 24h window). 51 unique roles scanned, 49 new. 1 high-fit (8): NAB Head of AI & Agentic Architecture (Sydney). AWS re-appeared. GROW Inc and Tyro Head of Product roles noted (score 5, no AI). |
@@ -166,7 +178,7 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 ## Notes
 
 - Hatch is Gen Z / early-career focused. Opportunity angle: conversational AI to unlock mid-career segment.
-- WeConnect proposal: team diagnostics + tech positioning, 8 weeks, £36K. Draft follow-up email in Gmail.
+- WeConnect proposal: team diagnostics + tech positioning, 8 weeks, GBP36K. Draft follow-up email in Gmail.
 - Decidr listing expired 18 April. Rejected/closed. Check for replies from Paul Chan and David Brudenell.
 - Quantium: Sam Vincent intro'd Yann to Adam Jacobs speculatively, but Adam is at Hatch, not Quantium.
 - AWS ANZ AI Leader: Sales-side AI leadership at AWS. Worth investigating scope -- could be customer-facing AI strategy which plays to consulting/product strengths.
@@ -193,3 +205,5 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - NAB Head of AI & Agentic Architecture: Major Australian bank hiring for AI architecture leadership in Sydney. "Agentic Architecture" suggests cutting-edge AI agent/LLM work. Listed on both LinkedIn and Indeed. Strong brand, strong title, strong location. Score 8.
 
 - Anthropic Head of ANZ, Applied AI: Top-tier AI safety company hiring regional head of Applied AI in Sydney. Watchlist company. This is arguably the strongest match found to date -- perfect alignment on AI, seniority (regional head), company brand, and location. Score 9.
+
+- Deloitte Associate Director - AI Engineer: Senior consulting level at a Big 4 firm in Sydney. AI-focused but engineering function, not product/strategy leadership. Score 7 but borderline -- engineering role may not align with product/strategy career trajectory.
