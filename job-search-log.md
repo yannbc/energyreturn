@@ -1,36 +1,36 @@
 # Job Search Log
 
-Last updated: 28 April 2026
+Last updated: 29 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- |  2 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (26 days since proposal) -- chase or close**
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- |  1 Apr | Progressed to next round | Await response | **Likely stale (27 days since last update) -- chase or close**
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (7 days since CV submitted)**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | Consider following up (11 days since LinkedIn connection request)
-| 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide |
-| 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide |
-| 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide |
-| 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide |
-| 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide |
-| 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide |
-| 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide |
-| 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide |
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 |  | Found in daily scan | Review and decide |
-| 16 | Canva | Head of B2B Product Marketing | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management |
-| 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 |  | Found in daily scan | Review and decide |
-| 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 |  | Found in daily scan | Review and decide |
-| 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 |  | Found in daily scan | Review and decide |
-| 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide |
-| 21 | OLIVER | The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 |  | Found in daily scan | Review and decide |
-| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 |  | Found in daily scan | Review and decide |
-| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 |  | Found in daily scan | Review and decide |
-| 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy |
-| 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide |
-| 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide |
-| 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide |
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Closed (Cold) | -- | 2 Apr | No response to follow-up email; closing | Closed -- no response after follow-up
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 1 Apr | Progressed to next round | Await response | **Likely stale (28 days since last update) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Follow up -- 8 days since CV submitted | **Follow up overdue (8 days since CV submitted)**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Consider following up (12 days since LinkedIn connection request) | Consider following up (12 days since LinkedIn connection request)
+| 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
+| 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide
+| 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide
+| 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide
+| 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
+| 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide
+| 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide
+| 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 |  | Found in daily scan | Review and decide
+| 16 | Canva | Head of B2B Product Marketing | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management
+| 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 |  | Found in daily scan | Review and decide
+| 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 |  | Found in daily scan | Review and decide
+| 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 |  | Found in daily scan | Review and decide
+| 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
+| 21 | OLIVER | The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 |  | Found in daily scan | Review and decide
+| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 |  | Found in daily scan | Review and decide
+| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 |  | Found in daily scan | Review and decide
+| 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
+| 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
+| 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide
+| 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide
 
 ## Target Profile
 
@@ -44,6 +44,15 @@ Last updated: 28 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 29 April 2026 (automated -- Wednesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 52 unique results after cross-platform dedup
+- 47 new (not previously seen), 5 re-listings of existing roles
+- 0 high-fit roles (score 7+)
+- 0 additional roles added at score 6
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). Visa Senior Director Data Science re-appeared on Indeed with new URL (already in pipeline). Canva Group Product Lead - Print spotted (watchlist company, wrong role -- printing product, not AI/product leadership). Monvia Australia CTO (Sydney, score 5 -- unknown small company). Spin Personnel Head of Product (Sydney, score 5 -- recruiter-placed, no AI focus). Sheet Society Head of Product parental leave cover (score 5 -- retail, temporary). Profusion Head of Service Transformation / Automation & AI (Melbourne, score 4 -- service transformation, not product/AI leadership). Blinq Head of Engineering (Sydney and Melbourne, score 3 -- engineering, not product). Quiet Wednesday for senior AI/product leadership.
 
 ### 28 April 2026 (automated -- Tuesday, 24h window)
 
@@ -169,7 +178,9 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 ## Action Log
 
 | Date | Action |
-|------|--------|
+|------|---------|
+| 29 Apr | Daily scan (Wednesday, 24h window). 52 unique roles scanned, 47 new. 0 high-fit (7+). 0 added at score 6. AWS ANZ AI Leader, AWS Head of Security, Visa Senior Director all re-appeared with new Indeed URLs (already in pipeline). Canva Group Product Lead - Print spotted (watchlist, wrong role). Quiet Wednesday. |
+| 29 Apr | Follow-up flags: hipages follow-up overdue (8 days since CV submitted). Hatch outreach 12 days -- consider following up. 22 queued roles from 17--28 Apr need review. |
 | 28 Apr | Daily scan (Tuesday, 24h window). 57 unique roles scanned, 54 new. 1 high-fit (7): Fyndr Group Head of AI (Sydney). 2 added at score 6 (AFCA Head of Product, Visa Senior Director Data Science). Anthropic re-appeared with new Indeed URL (already in pipeline). AFCA bulk hiring dominated results. |
 | 28 Apr | Follow-up flags: WeConnect stale (26 days -- chase or close). Relevance AI stale (27 days -- chase or close). hipages follow-up overdue (7 days since CV submitted). Hatch outreach 11 days -- consider following up. 22 queued roles from 17--28 Apr need review. |
 | 27 Apr | Daily scan (Monday, 48h window). 21 unique roles scanned, 13 new. 0 high-fit (7+). AWS roles re-appeared with new Indeed URLs. Quiet weekend. |
