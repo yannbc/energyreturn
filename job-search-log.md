@@ -1,15 +1,15 @@
 # Job Search Log
 
-Last updated: 27 April 2026
+Last updated: 28 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- |  2 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (25 days since proposal) -- chase or close**
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- |  1 Apr | Progressed to next round | Await response | **Likely stale (26 days since last update) -- chase or close**
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (6 days since CV submitted)**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | Consider following up (10 days since LinkedIn connection request)
+| 4 | WeConnect | AI Consulting Engagement (8-week) | Awaiting Response | -- |  2 Apr | Follow-up email sent to Tam | Follow up - 14 days since proposal sent | **Likely stale (26 days since proposal) -- chase or close**
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- |  1 Apr | Progressed to next round | Await response | **Likely stale (27 days since last update) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (7 days since CV submitted)**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | Consider following up (11 days since LinkedIn connection request)
 | 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide |
 | 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide |
 | 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide |
@@ -28,6 +28,9 @@ Last updated: 27 April 2026
 | 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 |  | Found in daily scan | Review and decide |
 | 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 |  | Found in daily scan | Review and decide |
 | 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy |
+| 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide |
+| 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide |
+| 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide |
 
 ## Target Profile
 
@@ -41,6 +44,15 @@ Last updated: 27 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 28 April 2026 (automated -- Tuesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 57 unique results after cross-platform dedup
+- 54 new (not previously seen), 3 re-listings of existing roles
+- 1 genuinely new high-fit role (score 7): Fyndr Group Head of AI (Sydney)
+- 2 additional roles added at score 6: AFCA Head of Product and Platform Engineering (Sydney), Visa Senior Director Data Science (Sydney)
+- Notable: Anthropic Head of ANZ re-appeared with new Indeed URL (already in pipeline, score 9). Mastercard Director PM AI re-appeared with new LinkedIn URL (already in pipeline). AWS roles re-appeared again with new Indeed URLs for Sydney and Melbourne (ANZ AI Leader, Head of Security, BD Manager Private Equity). AFCA dominated results with many Head-of roles across Sydney and Melbourne (complaints authority, bulk hiring across multiple functions). Employment Hero Data Analyst spotted (watchlist company, wrong level). Sportsbet roles appeared (Head of FP&A, Data Science partner -- not AI/product leadership).
 
 ### 27 April 2026 (automated -- Monday, 48h window)
 
@@ -158,6 +170,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|--------|
+| 28 Apr | Daily scan (Tuesday, 24h window). 57 unique roles scanned, 54 new. 1 high-fit (7): Fyndr Group Head of AI (Sydney). 2 added at score 6 (AFCA Head of Product, Visa Senior Director Data Science). Anthropic re-appeared with new Indeed URL (already in pipeline). AFCA bulk hiring dominated results. |
+| 28 Apr | Follow-up flags: WeConnect stale (26 days -- chase or close). Relevance AI stale (27 days -- chase or close). hipages follow-up overdue (7 days since CV submitted). Hatch outreach 11 days -- consider following up. 22 queued roles from 17--28 Apr need review. |
 | 27 Apr | Daily scan (Monday, 48h window). 21 unique roles scanned, 13 new. 0 high-fit (7+). AWS roles re-appeared with new Indeed URLs. Quiet weekend. |
 | 27 Apr | Follow-up flags: WeConnect stale (25 days -- chase or close). Relevance AI stale (26 days -- chase or close). hipages follow-up overdue (6 days since CV submitted). Hatch outreach 10 days -- consider following up. 19 queued roles from 17--25 Apr need review. |
 | 26 Apr | Daily scan (Saturday, 24h window). 13 unique roles scanned, 13 new. 1 high-fit (7): Deloitte Associate Director AI Engineer (Sydney). AWS roles re-appeared with new Indeed URLs. Employment Hero watchlist sightings (all irrelevant). Quiet Saturday. |
@@ -218,3 +232,9 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - Anthropic Head of ANZ, Applied AI: Top-tier AI safety company hiring regional head of Applied AI in Sydney. Watchlist company. This is arguably the strongest match found to date -- perfect alignment on AI, seniority (regional head), company brand, and location. Score 9.
 
 - Deloitte Associate Director - AI Engineer: Senior consulting level at a Big 4 firm in Sydney. AI-focused but engineering function, not product/strategy leadership. Score 7 but borderline -- engineering role may not align with product/strategy career trajectory.
+
+- Fyndr Group Head of AI: Head of AI role in Sydney. Strong title match. Company not on watchlist -- worth researching Fyndr Group's size, funding, and AI strategy before applying.
+
+- AFCA Head of Product and Platform Engineering: Government complaints authority in Sydney. Head of Product role with platform engineering responsibilities. Not an AI-forward organisation but the role may touch AI/data initiatives. Score 6.
+
+- Visa Senior Director Data Science: Strong global brand, Senior Director level in Sydney. Data science focus rather than pure product/AI leadership, but seniority and location are right. Score 6.
