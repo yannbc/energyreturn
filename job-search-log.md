@@ -1,15 +1,15 @@
 # Job Search Log
 
-Last updated: 29 April 2026
+Last updated: 30 April 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
 | 4 | WeConnect | AI Consulting Engagement (8-week) | Closed (Cold) | -- | 2 Apr | No response to follow-up email; closing | Closed -- no response after follow-up
-| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 1 Apr | Progressed to next round | Await response | **Likely stale (28 days since last update) -- chase or close**
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Follow up -- 8 days since CV submitted | **Follow up overdue (8 days since CV submitted)**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Consider following up (12 days since LinkedIn connection request) | Consider following up (12 days since LinkedIn connection request)
+| 2 | Relevance AI | Technical PM / Lead, Enterprise | Interviewing | -- | 1 Apr | Progressed to next round | Await response | **Likely stale (29 days since last update) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Follow up -- 9 days since CV submitted | **Follow up overdue (9 days since CV submitted)**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Consider following up (13 days since LinkedIn connection request) | Consider following up (13 days since LinkedIn connection request)
 | 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
 | 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide
@@ -31,6 +31,9 @@ Last updated: 29 April 2026
 | 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide
 | 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide
+| 28 | Westpac Group | Head of Data & Intelligence, Enterprise | Queued | 6 |  | Found in daily scan | Review and decide
+| 29 | NAB | Associate Director, AI CoE L1 DCO | Queued | 6 |  | Found in daily scan | Review and decide -- note: Associate Director level below VP target. NAB already in pipeline for Head of AI & Agentic Architecture (score 8).
+| 30 | Slalom | Director - Data and AI Engineering | Queued | 6 |  | Found in daily scan | Review and decide
 
 ## Target Profile
 
@@ -44,6 +47,16 @@ Last updated: 29 April 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 30 April 2026 (automated -- Thursday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 40 unique results (by URL) after cross-platform dedup
+- 40 new URLs (not previously seen), 0 exact URL re-listings
+- Pipeline re-listings with new URLs: AWS ANZ AI Leader (Sydney + Melbourne new Indeed URLs), hipages SVP Product (new LinkedIn URL), AWS Head of Security (Sydney + Melbourne new Indeed URLs) -- all already in pipeline
+- 0 high-fit roles (score 7+)
+- 3 additional roles added at score 6: Westpac Group Head of Data & Intelligence Enterprise (Sydney), NAB Associate Director AI CoE (Melbourne), Slalom Director Data and AI Engineering (Melbourne)
+- Notable: Westpac Head of Data & Intelligence appeared on both LinkedIn and Indeed (same role). Employment Hero Bid & Marketing Manager spotted (watchlist company, wrong role). NVIDIA Developer Relations Manager ANZ in Sydney (watchlist, wrong role). Monvia CTO re-appeared with new LinkedIn URL (score 4, unknown small company). Accenture roles in Melbourne (Implementation Director, Programmatic Manager -- neither AI/product). NAB Associate Director AI CoE is a second, lower-level NAB role alongside the already-pipelined Head of AI & Agentic Architecture. Equifax Head of Identity Products in Sydney (data company, but wrong function -- identity/fraud, not AI leadership).
 
 ### 29 April 2026 (automated -- Wednesday, 24h window)
 
@@ -178,7 +191,9 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 ## Action Log
 
 | Date | Action |
-|------|---------|
+|------|---------| 
+| 30 Apr | Daily scan (Thursday, 24h window). 40 unique results by URL, 40 new URLs. 0 high-fit (7+). 3 added at score 6 (Westpac Head of Data & Intelligence, NAB Associate Director AI CoE, Slalom Director Data and AI Engineering). AWS ANZ AI Leader, hipages SVP Product, AWS Head of Security all re-appeared with new URLs. Employment Hero Bid & Marketing Manager spotted (watchlist, wrong role). NVIDIA Developer Relations Manager ANZ spotted (watchlist, wrong role). |
+| 30 Apr | Follow-up flags: hipages follow-up overdue (9 days since CV submitted). Hatch outreach 13 days -- consider following up. 25 queued roles from 17--30 Apr need review. |
 | 29 Apr | Daily scan (Wednesday, 24h window). 52 unique roles scanned, 47 new. 0 high-fit (7+). 0 added at score 6. AWS ANZ AI Leader, AWS Head of Security, Visa Senior Director all re-appeared with new Indeed URLs (already in pipeline). Canva Group Product Lead - Print spotted (watchlist, wrong role). Quiet Wednesday. |
 | 29 Apr | Follow-up flags: hipages follow-up overdue (8 days since CV submitted). Hatch outreach 12 days -- consider following up. 22 queued roles from 17--28 Apr need review. |
 | 28 Apr | Daily scan (Tuesday, 24h window). 57 unique roles scanned, 54 new. 1 high-fit (7): Fyndr Group Head of AI (Sydney). 2 added at score 6 (AFCA Head of Product, Visa Senior Director Data Science). Anthropic re-appeared with new Indeed URL (already in pipeline). AFCA bulk hiring dominated results. |
@@ -249,3 +264,9 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - AFCA Head of Product and Platform Engineering: Government complaints authority in Sydney. Head of Product role with platform engineering responsibilities. Not an AI-forward organisation but the role may touch AI/data initiatives. Score 6.
 
 - Visa Senior Director Data Science: Strong global brand, Senior Director level in Sydney. Data science focus rather than pure product/AI leadership, but seniority and location are right. Score 6.
+
+- Westpac Head of Data & Intelligence, Enterprise: Major bank, Enterprise division in Sydney. Head-of-level data role with AI mentioned in the job description. Data/intelligence function rather than pure product/AI leadership. Known brand. Score 6.
+
+- NAB Associate Director, AI CoE L1 DCO: AI Centre of Excellence at NAB Melbourne. Associate Director level is below the VP/Head target seniority. NAB already in pipeline for the stronger Head of AI & Agentic Architecture role (score 8). Score 6.
+
+- Slalom Director - Data and AI Engineering: Consulting firm (Slalom) in Melbourne. Director-level AI engineering. Engineering focus rather than product/strategy, and Melbourne location. Score 6.
