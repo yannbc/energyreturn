@@ -1,32 +1,32 @@
 # Job Search Log
 
-Last updated: 2 May 2026
+Last updated: 3 May 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Follow up -- 10 days since CV submitted | **Follow up overdue (10 days since CV submitted)**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Likely stale (14 days since LinkedIn connection request) -- chase or close | **Likely stale (14 days since LinkedIn connection request) -- chase or close**
-| 6 | Amazon Web Services | ANZ AI Leader -- AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (12 days since CV submitted)**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (16 days since LinkedIn connection request) -- chase or close**
+| 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
 | 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide
-| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 |  | Found in daily scan | Review and decide
-| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 |  | Found in daily scan | Review and decide
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 |  | Found in daily scan | Review and decide
-| 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
-| 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
-| 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 |  | Found in daily scan | Review and decide
 | 16 | Canva | Head of B2B Product Marketing | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management
 | 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 |  | Found in daily scan | Review and decide
 | 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 |  | Found in daily scan | Review and decide
 | 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 |  | Found in daily scan | Review and decide
+| 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 21 | OLIVER | The Brandtech Group | Director, Marketing Technology & Gen-AI Solutions (APAC) | Queued | 6 |  | Found in daily scan | Review and decide
+| 22 | NAB | Head of AI & Agentic Architecture | Queued | 8 |  | Found in daily scan | Review and decide
+| 23 | Anthropic | Head of ANZ, Applied AI | Queued | 9 |  | Found in daily scan | Review and decide
+| 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
+| 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide
 | 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide
 | 28 | Westpac Group | Head of Data & Intelligence, Enterprise | Queued | 6 |  | Found in daily scan | Review and decide
@@ -45,6 +45,15 @@ Last updated: 2 May 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 3 May 2026 (automated -- Sunday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 14 unique results (by URL) after cross-platform dedup
+- 13 new URLs (not previously seen), 1 re-listing of existing role
+- 0 high-fit roles (score 7+)
+- 0 additional roles added at score 6 (all false positives or pipeline re-listings)
+- Notable: AWS ANZ AI Leader and AWS Head of Security re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Partner Account Manager and Sr BD Manager Private Equity also re-appeared (not relevant). Employment Hero Marketing Manager spotted (watchlist company, completely wrong role). Havas Media SEO Director - Search & AI Discovery scored 6 but filtered as false positive (SEO/search marketing, not AI product leadership). Honeywell Pacific Products BD Director (not relevant). Aon Product Director Property and Construction (not AI). Jellyfish SEO Director (not AI). Very quiet Sunday for senior AI/product leadership.
 
 ### 2 May 2026 (automated -- Saturday, 24h window)
 
@@ -208,6 +217,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|---------| 
+| 3 May | Daily scan (Sunday, 24h window). 14 unique results by URL, 13 new URLs. 0 high-fit (7+). 0 added at score 6 (all false positives or pipeline re-listings). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Employment Hero Marketing Manager spotted (watchlist, wrong role). Havas Media SEO Director filtered as false positive. Quiet Sunday. |
+| 3 May | Follow-up flags: hipages follow-up overdue (12 days since CV submitted). Hatch outreach likely stale (16 days since LinkedIn connection request) -- chase or close. 24 queued roles from 17 Apr--2 May need review. |
 | 2 May | Daily scan (Saturday, 24h window). 59 unique results by URL, 57 new URLs. 0 high-fit (7+). 0 added at score 6 (Havas SEO Director filtered as false positive). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Employment Hero Facility Manager spotted (watchlist, wrong role). QBE Data & AI Ops Senior Manager spotted (below VP seniority). Macquarie Group Director of Product Digital Banking spotted (known brand, no AI). NAB Head of Business Lending Analytics appeared (pipeline company, different role). |
 | 2 May | Follow-up flags: hipages follow-up overdue (11 days since CV submitted). Hatch outreach likely stale (15 days since LinkedIn connection request) -- chase or close. 24 queued roles from 17 Apr--30 Apr need review. |
 | 30 Apr | Daily scan (Thursday, 24h window). 40 unique results by URL, 40 new URLs. 0 high-fit (7+). 3 added at score 6 (Westpac Head of Data & Intelligence, NAB Associate Director AI CoE, Slalom Director Data and AI Engineering). AWS ANZ AI Leader, hipages SVP Product, AWS Head of Security all re-appeared with new URLs. Employment Hero Bid & Marketing Manager spotted (watchlist, wrong role). NVIDIA Developer Relations Manager ANZ spotted (watchlist, wrong role). |
