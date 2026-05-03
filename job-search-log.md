@@ -1,6 +1,6 @@
 # Job Search Log
 
-Last updated: 3 May 2026
+Last updated: 4 May 2026
 
 ## Active Pipeline
 
@@ -45,6 +45,15 @@ Last updated: 3 May 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 4 May 2026 (automated -- Monday, 48h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 17 unique results (by URL) after cross-platform dedup
+- 13 new URLs (not previously seen), 4 re-listings of existing roles
+- 0 high-fit roles (score 7+)
+- 0 additional roles added at score 6 (all false positives or pipeline re-listings)
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Partner Account Manager and Sr BD Manager Private Equity also re-appeared (not relevant). MYOB Head of Product Marketing spotted (watchlist company, marketing role -- not product management). State Street Managing Director Alpha Client & Product Solutions spotted in Melbourne (known brand, not AI-focused). RACV AI Engineer in Melbourne (IC role). Golden Wattle Ventures B2B SaaS Sales Consultant (sales role). Teneo Insolvency Consultant (completely irrelevant). Quiet Monday weekend scan for senior AI/product leadership.
 
 ### 3 May 2026 (automated -- Sunday, 24h window)
 
@@ -217,6 +226,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|---------| 
+| 4 May | Daily scan (Monday, 48h window). 17 unique results by URL, 13 new URLs. 0 high-fit (7+). 0 added at score 6 (all false positives or pipeline re-listings). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. MYOB Head of Product Marketing spotted (watchlist, marketing role). State Street MD Alpha Client & Product Solutions spotted (known brand, not AI). RACV AI Engineer (IC). Quiet weekend scan. |
+| 4 May | Follow-up flags: hipages follow-up overdue (13 days since CV submitted). Hatch outreach likely stale (17 days since LinkedIn connection request) -- chase or close. 26 queued roles from 17 Apr--30 Apr need review. |
 | 3 May | Daily scan (Sunday, 24h window). 14 unique results by URL, 13 new URLs. 0 high-fit (7+). 0 added at score 6 (all false positives or pipeline re-listings). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Employment Hero Marketing Manager spotted (watchlist, wrong role). Havas Media SEO Director filtered as false positive. Quiet Sunday. |
 | 3 May | Follow-up flags: hipages follow-up overdue (12 days since CV submitted). Hatch outreach likely stale (16 days since LinkedIn connection request) -- chase or close. 24 queued roles from 17 Apr--2 May need review. |
 | 2 May | Daily scan (Saturday, 24h window). 59 unique results by URL, 57 new URLs. 0 high-fit (7+). 0 added at score 6 (Havas SEO Director filtered as false positive). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Employment Hero Facility Manager spotted (watchlist, wrong role). QBE Data & AI Ops Senior Manager spotted (below VP seniority). Macquarie Group Director of Product Digital Banking spotted (known brand, no AI). NAB Head of Business Lending Analytics appeared (pipeline company, different role). |
