@@ -1,588 +1,388 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Yann Burden — Technology Leadership</title>
 <meta property="og:title" content="Yann Burden — Technology Leadership">
-<meta property="og:description" content="Founder and technical leader across energy, SaaS and AI. Billcap (exited), DC Power Co, Pendula.">
-<meta property="og:image" content="https://energyreturn.co/og-card.png">
-<meta property="og:url" content="https://energyreturn.co">
+<meta property="og:description" content="Founder and technical leader across energy, SaaS and AI. Three exits: Billcap (Tally Group), Pendula (Smart Communications), DC Power Co.">
 <meta property="og:type" content="website">
 <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root {
-    --fg: #1a1a1a;
-    --fg-secondary: #555;
-    --fg-tertiary: #888;
-    --bg: #faf9f7;
-    --bg-card: #f2f0ec;
-    --accent: #2c5f2d;
-    --accent-light: #e8efe8;
-    --border: #e0ddd8;
+    /* Tokens — paper, ink, two marks. All non-neutrals on chroma 0.09 */
+    --paper:        oklch(98.4% 0.006 75);
+    --paper-alt:    oklch(96.0% 0.010 75);
+    --rule:         oklch(89.0% 0.012 75);
+    --rule-strong:  oklch(72.0% 0.012 75);
+    --ink:          oklch(20.0% 0.012 75);
+    --ink-2:        oklch(40.0% 0.010 75);
+    --ink-3:        oklch(58.0% 0.008 75);
+    --forest:       oklch(38.0% 0.090 145);
+    --forest-soft:  oklch(94.5% 0.025 145);
+    --ochre:        oklch(58.0% 0.090 70);
+    --ochre-soft:   oklch(95.5% 0.025 70);
+
     --serif: 'Source Serif 4', Georgia, serif;
     --mono: 'JetBrains Mono', 'SF Mono', monospace;
-    --max-w: 680px;
-    --space-unit: 8px;
+
+    --max-w: 760px;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { font-size: 17px; -webkit-font-smoothing: antialiased; }
+  body { font-family: var(--serif); color: var(--ink); background: var(--paper); line-height: 1.55; font-weight: 300; }
+  a { color: inherit; }
 
-  html {
-    font-size: 17px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
+  /* NAV */
+  nav { position: fixed; top: 0; width: 100%; background: color-mix(in oklch, var(--paper) 92%, transparent);
+        backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+        border-bottom: 1px solid var(--rule); z-index: 100;
+        padding: 14px 32px; display: flex; justify-content: space-between; align-items: center; }
+  nav .name, nav a { font-family: var(--mono); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; }
+  nav .name { font-size: 11px; font-weight: 500; color: var(--ink); }
+  nav .links { display: flex; gap: 24px; }
+  nav a { font-size: 10.5px; color: var(--ink-3); transition: color .2s; }
+  nav a:hover { color: var(--ink); }
 
-  body {
-    font-family: var(--serif);
-    color: var(--fg);
-    background: var(--bg);
-    line-height: 1.7;
-  }
+  section { max-width: var(--max-w); margin: 0 auto; padding: 0 32px; }
 
-  /* --- NAV --- */
-  nav {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(250, 249, 247, 0.92);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid var(--border);
-    z-index: 100;
-    padding: 16px 32px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  /* SECTION HEADER */
+  .section-head { padding-top: 72px; border-top: 2px solid var(--ink); margin-top: 0; }
+  .section-meta { display: flex; justify-content: space-between; align-items: baseline; padding-top: 16px; }
+  .section-meta .eyebrow { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .section-meta .index { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; color: var(--forest); }
+  .section-title { font-family: var(--serif); font-size: 2rem; font-weight: 300; letter-spacing: -0.02em; line-height: 1.1; margin-top: 14px; }
+  .section-deck { font-family: var(--serif); font-size: 1.1rem; font-weight: 300; color: var(--ink-2); margin-top: 10px; max-width: 60ch; line-height: 1.45; }
 
-  nav .name {
-    font-family: var(--mono);
-    font-size: 0.76rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--fg);
-  }
+  /* HERO */
+  .hero { padding-top: 140px; padding-bottom: 64px; }
+  .hero-meta { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 24px; }
+  .hero-meta .where { font-family: var(--mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-3); }
+  .hero-meta .ed { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; color: var(--forest); }
+  .hero h1 { font-size: 3.1rem; font-weight: 300; line-height: 1.05; letter-spacing: -0.025em; margin-bottom: 20px; }
+  .hero .lede { font-size: 1.18rem; font-weight: 300; color: var(--ink-2); line-height: 1.45; max-width: 52ch; }
+  .metrics { display: flex; gap: 36px; flex-wrap: wrap; margin-top: 36px; }
+  .metric { border-top: 2px solid var(--ink); padding-top: 10px; min-width: 170px; }
+  .metric .fig { font-family: var(--serif); font-size: 2.4rem; font-weight: 300; line-height: 1; letter-spacing: -0.02em; }
+  .metric .lbl { font-size: 0.85rem; color: var(--ink-2); margin-top: 8px; line-height: 1.35; }
+  .metric .src { font-family: var(--mono); font-size: 10px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-top: 8px; }
 
-  nav .nav-links {
-    display: flex;
-    gap: 28px;
-  }
+  .ctas { margin-top: 36px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .cta { font-family: var(--mono); font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; padding: 10px 18px; text-decoration: none; transition: all .15s; }
+  .cta.primary { background: var(--ink); color: var(--paper); }
+  .cta.secondary { color: var(--ink); border: 1px solid var(--ink); }
+  .cta.tertiary { color: var(--ink-2); border: 1px solid var(--rule); }
+  .cta:hover { transform: translateY(-1px); }
 
-  nav a {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.04em;
-    color: var(--fg-tertiary);
-    text-decoration: none;
-    transition: color 0.2s;
-  }
+  /* OFFERINGS */
+  .offerings { padding-bottom: 80px; }
+  .offering { display: grid; grid-template-columns: 60px 1fr; gap: 20px; padding: 22px 0; border-top: 1px solid var(--rule); align-items: baseline; }
+  .offering:first-of-type { border-top: 0; }
+  .offerings > .grid { margin-top: 32px; border-bottom: 1px solid var(--rule); }
+  .offering .num { font-family: var(--mono); font-size: 11px; color: var(--forest); letter-spacing: 0.06em; }
+  .offering h3 { font-size: 1.2rem; font-weight: 400; margin-bottom: 6px; line-height: 1.3; }
+  .offering p { font-size: 0.95rem; color: var(--ink-2); line-height: 1.6; }
 
-  nav a:hover { color: var(--fg); }
+  /* RECORD */
+  .record-section { padding-bottom: 80px; }
+  .record { display: grid; grid-template-columns: 160px 1fr; gap: 24px; padding: 22px 0; border-top: 1px solid var(--rule); }
+  .records { margin-top: 32px; }
+  .record .who { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink); }
+  .record .when { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); margin-top: 4px; }
+  .record .now { display: inline-block; margin-top: 6px; padding: 2px 8px; font-family: var(--mono); font-size: 10px; letter-spacing: 0.04em; color: var(--forest); background: var(--forest-soft); }
+  .record h4 { font-size: 1.05rem; font-weight: 400; margin-bottom: 6px; line-height: 1.3; }
+  .record p { font-size: 0.92rem; color: var(--ink-2); line-height: 1.6; }
+  .record .stats { display: flex; gap: 20px; flex-wrap: wrap; margin-top: 14px; }
+  .stat { border-top: 1px solid var(--ink); padding-top: 5px; min-width: 100px; }
+  .stat .fig { font-family: var(--serif); font-size: 1.35rem; font-weight: 300; line-height: 1; letter-spacing: -0.01em; }
+  .stat .lbl { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); margin-top: 6px; }
 
-  /* --- SECTIONS --- */
-  section {
-    max-width: var(--max-w);
-    margin: 0 auto;
-    padding: 0 32px;
-  }
+  /* PULL QUOTE */
+  .pull { border-left: 2px solid var(--ink); padding-left: 20px; max-width: 64ch; margin: 28px 0; }
+  .pull.cite { border-left-color: var(--ochre); }
+  .pull q { font-style: italic; font-size: 1.25rem; font-weight: 300; line-height: 1.5; color: var(--ink); display: block; }
+  .pull q::before { content: "\201C"; }
+  .pull q::after { content: "\201D"; }
+  .pull .src { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-3); margin-top: 12px; }
+  .pull.cite .src .who { color: var(--ochre); }
 
-  /* --- HERO --- */
-  .hero {
-    padding-top: 160px;
-    padding-bottom: 96px;
-    border-bottom: 1px solid var(--border);
-  }
+  /* THESIS */
+  .thesis { padding-bottom: 80px; }
+  .thesis p { font-size: 1rem; color: var(--ink-2); line-height: 1.65; margin-top: 20px; max-width: 62ch; }
 
-  .hero h1 {
-    font-size: 2.8rem;
-    font-weight: 300;
-    line-height: 1.2;
-    letter-spacing: -0.02em;
-    margin-bottom: 32px;
-    color: var(--fg);
-  }
+  /* PRESS / CITATION cards */
+  .cite-list { margin-top: 32px; display: grid; gap: 28px; }
+  .cite-card { border-left: 2px solid var(--ochre); padding-left: 20px; }
+  .cite-card .src { font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ochre); margin-bottom: 8px; }
+  .cite-card p { font-size: 0.95rem; line-height: 1.6; color: var(--ink); margin-bottom: 8px; }
+  .cite-card .more { font-family: var(--mono); font-size: 10.5px; letter-spacing: 0.04em; color: var(--ink-3); text-decoration: none; }
+  .cite-card .more:hover { color: var(--ink); }
 
-  .hero p {
-    font-size: 1.15rem;
-    line-height: 1.75;
-    color: var(--fg-secondary);
-    max-width: 560px;
-    font-weight: 300;
-  }
+  /* CONTACT */
+  .contact { padding-bottom: 96px; }
+  .contact p { font-size: 1rem; color: var(--ink-2); line-height: 1.6; margin-top: 24px; max-width: 60ch; }
 
-  .hero .meta {
-    margin-top: 40px;
-    display: flex;
-    gap: 32px;
-    flex-wrap: wrap;
-  }
+  footer { max-width: var(--max-w); margin: 0 auto; padding: 24px 32px 48px; border-top: 1px solid var(--rule); }
+  footer p { font-family: var(--mono); font-size: 10.5px; color: var(--ink-3); letter-spacing: 0.06em; }
+  footer .ed { color: var(--ochre); }
 
-  .hero .meta-item {
-    font-family: var(--mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.04em;
-    color: var(--fg-tertiary);
-  }
-
-  .hero .meta-item span {
-    display: block;
-    font-family: var(--serif);
-    font-size: 1.05rem;
-    color: var(--fg);
-    margin-top: 4px;
-    font-weight: 400;
-    letter-spacing: 0;
-  }
-
-  /* --- OFFERINGS --- */
-  .offerings {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .section-label {
-    font-family: var(--mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: var(--fg-tertiary);
-    margin-bottom: 48px;
-  }
-
-  .offering {
-    margin-bottom: 56px;
-  }
-
-  .offering:last-child { margin-bottom: 0; }
-
-  .offering-number {
-    font-family: var(--mono);
-    font-size: 0.72rem;
-    color: var(--accent);
-    margin-bottom: 8px;
-  }
-
-  .offering h3 {
-    font-size: 1.3rem;
-    font-weight: 400;
-    margin-bottom: 12px;
-    line-height: 1.35;
-  }
-
-  .offering p {
-    font-size: 0.95rem;
-    color: var(--fg-secondary);
-    line-height: 1.7;
-    font-weight: 300;
-  }
-
-  /* --- TRACK RECORD --- */
-  .track-record {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .record {
-    margin-bottom: 48px;
-    display: grid;
-    grid-template-columns: 140px 1fr;
-    gap: 24px;
-    align-items: baseline;
-  }
-
-  .record:last-child { margin-bottom: 0; }
-
-  .record-company {
-    font-family: var(--mono);
-    font-size: 0.76rem;
-    font-weight: 500;
-    letter-spacing: 0.02em;
-    color: var(--fg);
-  }
-
-  .record-return {
-    display: inline-block;
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    color: var(--accent);
-    background: var(--accent-light);
-    padding: 2px 8px;
-    border-radius: 3px;
-    margin-top: 6px;
-    letter-spacing: 0.02em;
-  }
-
-  .record-detail h4 {
-    font-size: 1rem;
-    font-weight: 400;
-    margin-bottom: 6px;
-    line-height: 1.4;
-  }
-
-  .record-detail p {
-    font-size: 0.88rem;
-    color: var(--fg-secondary);
-    line-height: 1.65;
-    font-weight: 300;
-  }
-
-  /* --- THESIS --- */
-  .thesis {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    border-bottom: 1px solid var(--border);
-  }
-
-  .thesis blockquote {
-    font-size: 1.35rem;
-    font-weight: 300;
-    line-height: 1.55;
-    color: var(--fg);
-    margin-bottom: 32px;
-    font-style: italic;
-    letter-spacing: -0.01em;
-  }
-
-  .thesis p {
-    font-size: 0.95rem;
-    color: var(--fg-secondary);
-    line-height: 1.75;
-    font-weight: 300;
-    margin-bottom: 20px;
-  }
-
-  .thesis p:last-child { margin-bottom: 0; }
-
-  /* --- CONTACT --- */
-  .contact {
-    padding-top: 80px;
-    padding-bottom: 120px;
-  }
-
-  .contact p {
-    font-size: 0.95rem;
-    color: var(--fg-secondary);
-    line-height: 1.7;
-    font-weight: 300;
-    margin-bottom: 32px;
-  }
-
-  .contact-links {
-    display: flex;
-    gap: 24px;
-    flex-wrap: wrap;
-  }
-
-  .contact-links a {
-    font-family: var(--mono);
-    font-size: 0.76rem;
-    letter-spacing: 0.03em;
-    color: var(--fg);
-    text-decoration: none;
-    padding: 10px 20px;
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    transition: all 0.2s;
-  }
-
-  .contact-links a:hover {
-    border-color: var(--fg);
-    background: var(--fg);
-    color: var(--bg);
-  }
-
-  /* --- FOOTER --- */
-  footer {
-    max-width: var(--max-w);
-    margin: 0 auto;
-    padding: 24px 32px 48px;
-    border-top: 1px solid var(--border);
-  }
-
-  footer p {
-    font-family: var(--mono);
-    font-size: 0.65rem;
-    color: var(--fg-tertiary);
-    letter-spacing: 0.03em;
-  }
-
-  /* --- RESPONSIVE --- */
+  /* RESPONSIVE */
   @media (max-width: 640px) {
-    .hero { padding-top: 120px; padding-bottom: 64px; }
-    .hero h1 { font-size: 2rem; }
-    .hero p { font-size: 1.05rem; }
+    .hero { padding-top: 110px; }
+    .hero h1 { font-size: 2.2rem; }
     .record { grid-template-columns: 1fr; gap: 8px; }
-    .hero .meta { gap: 24px; }
-    nav { padding: 14px 20px; }
-    section { padding-left: 20px; padding-right: 20px; }
-    .thesis blockquote { font-size: 1.15rem; }
+    .offering { grid-template-columns: 40px 1fr; gap: 12px; }
+    nav { padding: 12px 18px; }
+    nav .links { gap: 16px; }
+    section { padding: 0 18px; }
+    .section-title { font-size: 1.6rem; }
   }
 
-  /* --- ENTRANCE ANIMATIONS --- */
-  .fade-in {
-    opacity: 0;
-    transform: translateY(16px);
-    animation: fadeUp 0.6s ease forwards;
-  }
-
-  @keyframes fadeUp {
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  .delay-1 { animation-delay: 0.1s; }
-  .delay-2 { animation-delay: 0.2s; }
-  .delay-3 { animation-delay: 0.35s; }
-  .delay-4 { animation-delay: 0.5s; }
+  /* Fade-in */
+  .fade { opacity: 0; transform: translateY(12px); animation: fadeUp .55s ease forwards; }
+  @keyframes fadeUp { to { opacity: 1; transform: translateY(0); } }
+  .d1 { animation-delay: .08s; } .d2 { animation-delay: .16s; } .d3 { animation-delay: .26s; }
 </style>
 </head>
 <body>
 
 <nav>
   <div class="name">Yann Burden</div>
-  <div class="nav-links">
+  <div class="links">
     <a href="#work">Work</a>
     <a href="#record">Record</a>
     <a href="#advisory">Advisory</a>
     <a href="#thesis">Thesis</a>
-    <a href="#conversation">Podcast</a>
+    <a href="#voices">Voices</a>
     <a href="#research">Research</a>
-    <a href="#press">Press</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <section class="hero">
-  <h1 class="fade-in">Technology leadership<br>for what comes next</h1>
-  <p class="fade-in delay-1">Helping organisations navigate technology shifts: not just the software, but the culture, structure, and decision-making that need to change around it. Two exits as founder/CPTO. Twenty-five years across SaaS, energy, education, and telco.</p>
-  <div class="meta fade-in delay-2">
-    <div class="meta-item">Exits<span>2</span></div>
-    <div class="meta-item">Years<span>25+</span></div>
-    <div class="meta-item">Platforms<span>SaaS, High Growth</span></div>
-    <div class="meta-item">Domains<span>Energy, Education, Telco</span></div>
-    <div class="meta-item">Based<span>Sydney — works globally</span></div>
+  <div class="hero-meta">
+    <div class="where">Sydney &nbsp;·&nbsp; works globally &nbsp;·&nbsp; AU · UK · EU · CA</div>
+    <div class="ed">ED · 2026</div>
+  </div>
+  <h1 class="fade">Technology leadership<br>for what comes next.</h1>
+  <p class="lede fade d1">Helping organisations navigate technology shifts &mdash; not just the software, but the culture, structure, and decision-making that need to change around it.</p>
+
+  <div class="metrics fade d2">
+    <div class="metric">
+      <div class="fig">8&times;</div>
+      <div class="lbl">Investor return on Billcap exit</div>
+      <div class="src">2018 · Tally Group</div>
+    </div>
+    <div class="metric">
+      <div class="fig">$5M</div>
+      <div class="lbl">Incremental ARR unlocked at Pendula</div>
+      <div class="src">2021–2025 · Smart Communications UK</div>
+    </div>
+    <div class="metric">
+      <div class="fig">+51</div>
+      <div class="lbl">NPS at DC Power Co, year one</div>
+      <div class="src">2018 · Founding executive team</div>
+    </div>
+  </div>
+
+  <div class="ctas fade d3">
+    <a class="cta primary" href="/me">Full CV &rarr;</a>
+    <a class="cta secondary" href="mailto:yann@energyreturn.co">Email</a>
+    <a class="cta tertiary" href="https://www.linkedin.com/in/yannburden" target="_blank">LinkedIn</a>
   </div>
 </section>
 
-<section class="offerings" id="work">
-  <div class="section-label">What I do</div>
-
-  <div class="offering fade-in">
-    <div class="offering-number">01</div>
-    <h3>AI Strategy and Product Advisory</h3>
-    <p>Helping organisations figure out where AI creates defensible value, and what needs to change beyond the software: team structure, decision-making, assessment of build-vs-buy, and the discipline to not build things just because you can. Deep experience in customer engagement, conversational AI, and energy technology.</p>
+<section id="work" class="offerings">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">What I do</span><span class="index">01 / 06</span></div>
+    <h2 class="section-title">Four ways I work.</h2>
+    <p class="section-deck">AI strategy, founder coaching, fractional product / tech leadership, and education advisory.</p>
   </div>
-
-  <div class="offering fade-in">
-    <div class="offering-number">02</div>
-    <h3>Founder and Portfolio Coaching</h3>
-    <p>Helping growth-stage founders compress learning cycles rather than feature cycles. Architecture decisions, GTM discipline, and avoiding the trap of shipping more just because building got cheaper. Grounded in having actually built and exited twice, not in frameworks borrowed from other people's companies.</p>
-  </div>
-
-  <div class="offering fade-in">
-    <div class="offering-number">03</div>
-    <h3>Fractional Product and Technology Leadership</h3>
-    <p>Time-boxed engagements where I embed with your team, scope the real problem, and either hand off a clear roadmap or convert to a permanent role. A low-risk way to get senior product and technology leadership without committing to a full-time hire before either side is ready.</p>
-  </div>
-
-  <div class="offering fade-in">
-    <div class="offering-number">04</div>
-    <h3>Education and Institutional Advisory</h3>
-    <p>Helping universities and institutions adapt to technology shifts at a structural level: curriculum relevance, industry partnership models, and bridging the gap between what academia teaches and what employers actually need. Nine years on the University of Melbourne CS advisory group.</p>
+  <div class="grid">
+    <div class="offering"><div class="num">01</div>
+      <div><h3>AI Strategy and Product Advisory</h3>
+      <p>Helping organisations figure out where AI creates defensible value, and what needs to change beyond the software: team structure, decision-making, build-vs-buy, and the discipline to not build things just because you can.</p></div></div>
+    <div class="offering"><div class="num">02</div>
+      <div><h3>Founder and Portfolio Coaching</h3>
+      <p>Helping growth-stage founders compress learning cycles rather than feature cycles. Architecture decisions, GTM discipline, avoiding the trap of shipping more just because building got cheaper. Grounded in three exits.</p></div></div>
+    <div class="offering"><div class="num">03</div>
+      <div><h3>Fractional Product and Technology Leadership</h3>
+      <p>Time-boxed engagements where I embed with your team, scope the real problem, and either hand off a clear roadmap or convert to a permanent role. Low-risk way to get senior leadership without committing to a full-time hire too early.</p></div></div>
+    <div class="offering"><div class="num">04</div>
+      <div><h3>Education and Institutional Advisory</h3>
+      <p>Helping universities adapt to technology shifts at a structural level: curriculum relevance, industry partnership models, bridging what academia teaches and what employers actually need. Nine years on the Melbourne University CS advisory group.</p></div></div>
   </div>
 </section>
 
-<section class="track-record" id="record">
-  <div class="section-label">Track record</div>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">Billcap</div>
-    </div>
-    <div class="record-detail">
-      <h4>CEO and Co-founder</h4>
-      <p>Australia's first smart meter customer engagement platform. Five energy retailers, 250,000+ users. Multi-tenant platform operating across distinct regulatory contexts. Hands-on technical contributor to the data science capability (R, ML prototyping). Research partnership with the University of Melbourne on behavioural field experiments. Sold to industry acquirer.</p>
-    </div>
+<section id="record" class="record-section">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">Track record</span><span class="index">02 / 06</span></div>
+    <h2 class="section-title">Three exits in fifteen years.</h2>
+    <p class="section-deck">Founder, then operator, across energy retail, customer engagement, and AI.</p>
   </div>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">Pendula</div>
-    </div>
-    <div class="record-detail">
+  <div class="records">
+    <div class="record"><div>
+      <div class="who">Pendula</div><div class="when">2021 — 2025</div>
+    </div><div>
       <h4>Chief Product and Technology Officer</h4>
-      <p>Customer engagement platform. Led 20-person product and engineering team. Unlocked $5M ARR through enterprise product strategy. Established London office and signed first UK client. Acquired by Smart Communications.</p>
-    </div>
-  </div>
+      <p>Hired as CPTO. Led a 20-person product and engineering organisation through Series A, international expansion, and acquisition by Smart Communications UK. Established London office, signed first UK client, led AI strategy through to sale.</p>
+      <div class="stats">
+        <div class="stat"><div class="fig">$5M</div><div class="lbl">incremental ARR</div></div>
+        <div class="stat"><div class="fig">20</div><div class="lbl">team led</div></div>
+        <div class="stat"><div class="fig">UK</div><div class="lbl">acquirer · Smart Comms</div></div>
+      </div>
+    </div></div>
 
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">DC Power Co</div>
-    </div>
-    <div class="record-detail">
+    <div class="record"><div>
+      <div class="who">DC Power Co</div><div class="when">2018 — 2021</div>
+    </div><div>
       <h4>Chief Commercial and Technology Officer</h4>
-      <p>Australia's first crowd-funded renewable energy retailer. +51 NPS. Built the customer engagement product that reduced churn by 25%.</p>
-    </div>
-  </div>
+      <p>Founding executive team of Australia's first crowd-funded renewable energy retailer. Built the customer engagement product that reduced churn. Delivered a market-leading digital sales channel for battery storage.</p>
+      <div class="stats">
+        <div class="stat"><div class="fig">+51</div><div class="lbl">NPS year one</div></div>
+        <div class="stat"><div class="fig">-25%</div><div class="lbl">churn</div></div>
+      </div>
+    </div></div>
 
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">Earlier</div>
-    </div>
-    <div class="record-detail">
+    <div class="record"><div>
+      <div class="who">Billcap</div><div class="when">2011 — 2018</div>
+    </div><div>
+      <h4>CEO and Co-founder</h4>
+      <p>Co-founded Australia's first smart-meter customer engagement SaaS for energy retailers. Hands-on technical contributor (R, ML prototyping). Established the Melbourne University research partnership and ran randomised field experiments across 8,000 households. Sold to Tally Group.</p>
+      <div class="stats">
+        <div class="stat"><div class="fig">8&times;</div><div class="lbl">investor return</div></div>
+        <div class="stat"><div class="fig">250k</div><div class="lbl">end users</div></div>
+        <div class="stat"><div class="fig">5</div><div class="lbl">enterprise clients</div></div>
+        <div class="stat"><div class="fig">3</div><div class="lbl">peer-reviewed papers</div></div>
+      </div>
+    </div></div>
+
+    <div class="record"><div>
+      <div class="who">Earlier</div><div class="when">2000 — 2011</div>
+    </div><div>
       <h4>Energy, consulting, and programme delivery</h4>
-      <p>Built the SaaS foundation that led to Billcap — early product and platform work in energy customer engagement. Energy efficiency programme delivery across Australia and France (Energy Return, Cool Nrg). A decade of CIO advisory, IT strategy, and outsourcing governance at Accenture, PwC, and Unilog, working across energy and telco in the UK, France, and Australia.</p>
-    </div>
+      <p>Energy efficiency programme delivery across Australia and France (Energy Return, Cool Nrg). A decade of CIO advisory, IT strategy, and outsourcing governance at Accenture, PwC, and Unilog — working across energy and telco in the UK, France, and Australia.</p>
+    </div></div>
   </div>
 </section>
 
-<section class="track-record" id="advisory">
-  <div class="section-label">Advisory and boards</div>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">University of Melbourne</div>
-      <div class="record-return">2015 - 2024</div>
-    </div>
-    <div class="record-detail">
-      <h4>Industry Advisory Group — School of Computing and Information Systems</h4>
-      <p>Long-standing member of the industry advisory group, providing practitioner perspective on curriculum relevance, graduate readiness, and the evolving relationship between academic computer science and industry practice.</p>
-    </div>
+<section id="advisory" class="record-section">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">Advisory and boards</span><span class="index">03 / 06</span></div>
+    <h2 class="section-title">Where I'm currently sitting.</h2>
   </div>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company">Black Nova VC</div>
-      <div class="record-return">Current</div>
-    </div>
-    <div class="record-detail">
+  <div class="records">
+    <div class="record"><div>
+      <div class="who">Black Nova VC</div>
+      <div class="now">Current</div>
+    </div><div>
       <h4>Venture Partner — AI Advisory</h4>
       <p>Coaching growth-stage portfolio company founders on AI strategy, architecture decisions, and the discipline required to build well when building gets cheaper.</p>
-    </div>
+    </div></div>
+    <div class="record"><div>
+      <div class="who">University of Melbourne</div>
+      <div class="when">2015 — 2024 (concluded)</div>
+    </div><div>
+      <h4>Industry Advisory Group — School of Computing and Information Systems</h4>
+      <p>Nine-year term on the industry advisory group, providing practitioner perspective on curriculum relevance, graduate readiness, and the relationship between academic computer science and industry practice. Term concluded 2024.</p>
+    </div></div>
   </div>
 </section>
 
-<section class="thesis" id="thesis">
-  <div class="section-label">How I think</div>
+<section id="thesis" class="thesis">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">How I think</span><span class="index">04 / 06</span></div>
+    <h2 class="section-title">The hard part isn't the technology.</h2>
+  </div>
 
-  <blockquote class="fade-in">"The hard part of a technology shift is never the technology. It's getting the organisation to change around it."</blockquote>
+  <div class="pull">
+    <q>The hard part of a technology shift is never the technology. It's getting the organisation to change around it.</q>
+    <div class="src"><span class="who">Yann Burden</span> &nbsp;·&nbsp; Thesis</div>
+  </div>
 
-  <p class="fade-in">As AI reduces the cost of building, the binding constraint shifts from engineering capacity to judgment. The discipline premium rises. This applies equally to startups shipping product, universities rethinking curriculum, and enterprises reorganising teams.</p>
+  <p>As AI reduces the cost of building, the binding constraint shifts from engineering capacity to judgment. The discipline premium rises. This applies equally to startups shipping product, universities rethinking curriculum, and enterprises reorganising teams.</p>
 
-  <p class="fade-in">Most organisations treat technology shifts as software problems. They buy tools, run pilots, and wonder why adoption stalls. The real work is cultural: changing how people make decisions, what they measure, and which assumptions they're willing to let go of. That's what I help with.</p>
+  <p>Most organisations treat technology shifts as software problems. They buy tools, run pilots, and wonder why adoption stalls. The real work is cultural: changing how people make decisions, what they measure, and which assumptions they're willing to let go of. That's what I help with.</p>
 
-  <p class="fade-in">The common thread across my career is building products and teams that sit between complex regulated systems and end users. Energy retailers, telcos, universities, customer platforms. The pattern is always the same: the technology is the easy part, the organisational change is the hard part, and the companies that get both right are the ones that win.</p>
+  <p>The common thread across my career is building products and teams that sit between complex regulated systems and end users. Energy retailers, telcos, universities, customer platforms. The pattern is always the same: the technology is the easy part, the organisational change is the hard part.</p>
 </section>
 
-<section class="thesis" id="conversation">
-  <div class="section-label">In conversation</div>
-
-  <p class="fade-in" style="margin-bottom: 32px;">From the <a href="https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world" target="_blank" style="color: var(--accent); text-decoration: none; border-bottom: 1px solid var(--accent);">Tech Trajectory podcast</a> with Kavita Karwar (DiUS), July 2025.</p>
-
-  <blockquote class="fade-in" style="margin-bottom: 40px;">"We're very good at recording the things that have already happened. When you're in the high-growth company game, it's ultimately a bet on what the next thing is, or what isn't being done that should be done, and that can be done economically."</blockquote>
-
-  <blockquote class="fade-in" style="margin-bottom: 40px; font-size: 1.1rem;">"You should put in ten times more effort continuously getting feedback from your customer than you did in guessing who they might be in the first place."</blockquote>
-
-  <blockquote class="fade-in" style="margin-bottom: 40px; font-size: 1.1rem;">"The mistake we can make is only listening to the complaint and not thinking about the difference between stated preference and revealed preference. A complaint is a stated preference. The revealed preference is: are they using the product more or less?"</blockquote>
-
-  <div class="fade-in" style="display: flex; gap: 16px; flex-wrap: wrap;">
-    <a href="https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world" target="_blank" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--fg-tertiary); text-decoration: none; transition: color 0.2s;">Listen on Buzzsprout &rarr;</a>
-    <a href="https://open.spotify.com/show/1TiZDbaklrHkQCcNVXHvZK" target="_blank" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--fg-tertiary); text-decoration: none; transition: color 0.2s;">Listen on Spotify &rarr;</a>
-  </div>
-</section>
-
-<section class="track-record" id="research">
-  <div class="section-label">Research</div>
-
-  <p style="font-size: 0.95rem; color: var(--fg-secondary); line-height: 1.75; font-weight: 300; margin-bottom: 40px;">Billcap's smart meter data underpinned a multi-year research programme with the University of Melbourne, producing peer-reviewed publications in leading economics journals. I was the individual contributor on the Billcap side, working directly with the research team on data quality, experimental design, and analytical rigour.</p>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company" style="font-size: 0.68rem;">Review of Economics and Statistics</div>
-      <div class="record-return">2018</div>
-    </div>
-    <div class="record-detail">
-      <h4><a href="https://direct.mit.edu/rest/article/100/3/510/58467/Tell-Me-Something-I-Don-t-Already-Know" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">Tell Me Something I Don't Already Know: Informedness and the Impact of Information Programs</a></h4>
-      <p>Byrne, La Nauze, Martin. Randomised controlled trial across 8,000 Victorian households testing personalised smart meter feedback on energy consumption. Published in a top-5 economics journal.</p>
-    </div>
+<section id="voices" class="thesis">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">Voices</span><span class="index">05 / 06</span></div>
+    <h2 class="section-title">In conversation, in print.</h2>
+    <p class="section-deck">Selected pulls from podcast appearances and press coverage.</p>
   </div>
 
-  <div class="record fade-in">
-    <div>
-      <div class="record-company" style="font-size: 0.68rem;">The Energy Journal</div>
-      <div class="record-return">2021</div>
-    </div>
-    <div class="record-detail">
-      <h4><a href="https://journals.sagepub.com/doi/10.5547/01956574.42.2.dbyr" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">An Experimental Study of Monthly Electricity Demand (In)elasticity</a></h4>
-      <p>Byrne, La Nauze, Martin. Field experiment estimating household electricity demand elasticity at the monthly level. Published in the leading energy economics journal.</p>
-    </div>
-  </div>
-
-  <div class="record fade-in">
-    <div>
-      <div class="record-company" style="font-size: 0.68rem;">Journal of Political Economy</div>
-      <div class="record-return">2019</div>
-    </div>
-    <div class="record-detail">
-      <h4><a href="https://doi.org/10.1086/705535" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity</a></h4>
-      <p>La Nauze. Uses Billcap proprietary data. Acknowledgements: "I thank Yann Burden and Billcap for access to proprietary data." Published in a top-5 economics journal.</p>
-    </div>
-  </div>
-
-  <p class="fade-in" style="font-size: 0.85rem; color: var(--fg-tertiary); margin-top: 32px; font-weight: 300;">See also: <a href="https://pursuit.unimelb.edu.au/articles/smart-customers-save" target="_blank" style="color: var(--fg-tertiary); border-bottom: 1px solid var(--border);">Smart customers save</a> (University of Melbourne Pursuit, 2015) for an accessible summary of the research programme.</p>
-</section>
-
-<section class="track-record" id="press">
-  <div class="section-label">Press</div>
-
-  <div style="display: grid; gap: 24px; margin-top: 8px;">
-
-    <div class="fade-in" style="border-left: 2px solid var(--border); padding-left: 24px;">
-      <div style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em; color: var(--fg-tertiary); text-transform: uppercase; margin-bottom: 8px;">SmartCompany &mdash; August 2023</div>
-      <p style="font-size: 0.95rem; font-weight: 400; line-height: 1.6; color: var(--fg); margin-bottom: 8px;">Named and pictured as Chief Growth Officer in coverage of Pendula's <strong>$14.5 million raise</strong> from MA Growth Ventures and Octopus Ventures. Pendula's customer retention platform uses advanced analytics and generative AI to reduce churn and maximise customer lifetime value.</p>
-      <a href="https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/" target="_blank" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--fg-tertiary); text-decoration: none; transition: color 0.2s;">Read on SmartCompany &rarr;</a>
+  <div class="cite-list">
+    <div class="cite-card">
+      <div class="src">Tech Trajectory Podcast &nbsp;·&nbsp; Kavita Karwar · DiUS · Jul 2025</div>
+      <div class="pull cite" style="margin: 0; padding-left: 0; border-left: 0;">
+        <q>You should put in ten times more effort continuously getting feedback from your customer than you did in guessing who they might be in the first place.</q>
+      </div>
+      <a class="more" href="https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world" target="_blank">Listen on Buzzsprout &rarr;</a>
     </div>
 
-    <div class="fade-in" style="border-left: 2px solid var(--border); padding-left: 24px;">
-      <div style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.06em; color: var(--fg-tertiary); text-transform: uppercase; margin-bottom: 8px;">Domain.com.au &mdash; 2017</div>
-      <p style="font-size: 0.95rem; font-weight: 400; line-height: 1.6; color: var(--fg); margin-bottom: 12px;">Quoted as an expert on behavioural change in energy consumption, drawing on Billcap's work with social norm feedback and smart meter data. Cited alongside Robert Cialdini's research and the Opower model.</p>
-      <blockquote style="margin: 0 0 12px; padding: 0; font-style: italic; color: var(--fg-secondary); font-size: 0.95rem; line-height: 1.7; font-weight: 300;">"People want to signal. Householders don't want to hide their solar panels. They want people to see them, and that's good."</blockquote>
-      <blockquote style="margin: 0 0 12px; padding: 0; font-style: italic; color: var(--fg-secondary); font-size: 0.95rem; line-height: 1.7; font-weight: 300;">"I think we'll see energy use becoming the next dinner party conversation &mdash; people asking, 'Well, how many kilowatt hours do you use?'"</blockquote>
-      <a href="https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/" target="_blank" style="font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.04em; color: var(--fg-tertiary); text-decoration: none; transition: color 0.2s;">Read on Domain.com.au &rarr;</a>
+    <div class="cite-card">
+      <div class="src">SmartCompany &nbsp;·&nbsp; Aug 2023</div>
+      <p>Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5M raise from MA Growth Ventures and Octopus Ventures.</p>
+      <a class="more" href="https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/" target="_blank">Read on SmartCompany &rarr;</a>
     </div>
 
   </div>
 </section>
 
-<section class="contact" id="contact">
-  <div class="section-label">Get in touch</div>
+<section id="research" class="record-section">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">Research</span><span class="index">06 / 06</span></div>
+    <h2 class="section-title">Three papers, two top-5 journals.</h2>
+    <p class="section-deck">Multi-year experimental research with the University of Melbourne, anchored on Billcap's smart-meter data.</p>
+  </div>
 
-  <p>Based in Sydney. Works remotely with international clients across APAC, UK, and Europe. Open to both advisory engagements and permanent leadership roles in energy-tech, AI, and adjacent sectors. Working rights in Australia, UK, EU, and Canada.</p>
+  <div class="records">
+    <div class="record"><div>
+      <div class="who" style="color: var(--ochre)">Rev. Econ. & Stat.</div>
+      <div class="when">2018</div>
+    </div><div>
+      <h4><a href="https://direct.mit.edu/rest/article/100/3/510/58467/Tell-Me-Something-I-Don-t-Already-Know" target="_blank">Tell Me Something I Don't Already Know: Informedness and the Impact of Information Programs</a></h4>
+      <p>Byrne, La Nauze, Martin. RCT across 8,000 Victorian households. Review of Economics and Statistics — top-5 economics journal.</p>
+    </div></div>
 
-  <div class="contact-links">
-    <a href="/cdn-cgi/l/email-protection#5920383737193c373c2b3e202b3c2d2c2b37773a36">Email</a>
-    <a href="https://www.linkedin.com/in/yannburden" target="_blank">LinkedIn</a>
-    <a href="https://energyreturn.co/me" target="_blank">Full CV</a>
+    <div class="record"><div>
+      <div class="who" style="color: var(--ochre)">Energy Journal</div>
+      <div class="when">2021</div>
+    </div><div>
+      <h4><a href="https://journals.sagepub.com/doi/10.5547/01956574.42.2.dbyr" target="_blank">An Experimental Study of Monthly Electricity Demand (In)elasticity</a></h4>
+      <p>Byrne, La Nauze, Martin. Field experiment estimating household electricity demand elasticity at the monthly level.</p>
+    </div></div>
+
+    <div class="record"><div>
+      <div class="who" style="color: var(--ochre)">J. Political Economy</div>
+      <div class="when">2019</div>
+    </div><div>
+      <h4><a href="https://doi.org/10.1086/705535" target="_blank">Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity</a></h4>
+      <p>La Nauze. Uses Billcap proprietary data. Journal of Political Economy — top-5 economics journal.</p>
+    </div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="section-head">
+    <div class="section-meta"><span class="eyebrow">Get in touch</span><span class="index">END</span></div>
+    <h2 class="section-title">Let's talk.</h2>
+  </div>
+  <p>Based in Sydney. Works remotely with international clients across APAC, UK and Europe. Open to advisory engagements and permanent leadership roles in energy-tech, AI, and adjacent sectors. Working rights in Australia, UK, EU, and Canada.</p>
+  <div class="ctas">
+    <a class="cta primary" href="mailto:yann@energyreturn.co">Email</a>
+    <a class="cta secondary" href="https://www.linkedin.com/in/yannburden" target="_blank">LinkedIn</a>
+    <a class="cta tertiary" href="/me">Full CV</a>
   </div>
 </section>
 
 <footer>
-  <p>&copy; 2026 Yann Burden</p>
+  <p>&copy; 2026 Yann Burden &nbsp;·&nbsp; <span class="ed">ED · 2026</span></p>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  // Intersection Observer for scroll-triggered fade-ins
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.style.animationPlayState = 'running';
-        observer.unobserve(entry.target);
-      }
-    });
-  }, { threshold: 0.15 });
-
-  document.querySelectorAll('.offerings .fade-in, .track-reco
+</body>
+</html>
