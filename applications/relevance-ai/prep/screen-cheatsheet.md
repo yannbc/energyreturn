@@ -4,9 +4,9 @@
 > "Before we get into me, can I ask — where is the current pressure point on the team you are hiring into? That helps me give you the most useful version of my background."
 
 ## 2-min background (if asked)
-3 companies, 3 exits.
+3 companies, 2 exits.
 - Billcap → Tally Group, 8x. Co-founder/CEO.
-- DC Power Co → Ion Group. CCTO.
+- DC Power Co. CCTO. Founding exec team, Australia's first crowd-funded retailer.
 - Pendula → Smart Communications. CPTO then Chief AI Officer.
 - Now: Venture Partner, Black Nova VC.
 - "Pendula is the closest match to what Relevance is building. I'll spare you the geek-out unless you want it."

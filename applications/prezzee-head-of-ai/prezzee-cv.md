@@ -58,7 +58,7 @@ AI and Data Science | Machine Learning | Personalisation and Recommendations | A
 
 **Chief Customer and Technology Officer**
 
-- Founding executive team of Australia's first crowd-funded renewable energy retailer -- a two-sided business serving both generation supply and homeowners, with cross-sell into solar and battery storage as the commercial lever. Acquired by Ion Group.
+- Founding executive team of Australia's first crowd-funded renewable energy retailer -- a two-sided business serving both generation supply and homeowners, with cross-sell into solar and battery storage as the commercial lever. Customer book acquired by Ion Group.
 
 - Developed in-house customer engagement product reducing churn by over 25%, using predictive churn models built on usage patterns, billing data, and behavioural signals.
 

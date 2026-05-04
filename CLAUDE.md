@@ -41,7 +41,7 @@ Three tools work in this repo. Each has a distinct job:
 
 1. **Billcap (2011--2018) -- CEO & Co-founder.** Built a vertical ML customer engagement platform for energy retailers. Smart meter data powering personalised engagement that drove retention and cross-sell. Five enterprise clients, 250,000+ end users. Hands-on technical founder -- prototyped ML models in R. Established the University of Melbourne research partnership. Sold to Tally Group for 8x investor return.
 
-2. **DC Power Co (2018--2021) -- Chief Customer & Technology Officer.** Founding exec team. Built the tech stack and customer operations from scratch. Reduced churn 25% with predictive models. NPS +51 in year one. Acquired by Ion Group.
+2. **DC Power Co (2018--2021) -- Chief Customer & Technology Officer.** Founding exec team. Built the tech stack and customer operations from scratch. Reduced churn 25% with predictive models. NPS +51 in year one. Customer book sold to Ion Group; the company did not deliver a shareholder return -- not a true exit.
 
 3. **Pendula (2021--2025) -- CPTO then Chief AI Officer.** Led 20-person engineering, product and data team. Shipped agentic customer communication workflows in production -- intent classification, next-best-action recommendation, conversational AI agents using LLMs with RAG. Unlocked $5M incremental ARR. Opened London office. Led AI strategy through acquisition by Smart Communications.
 
@@ -86,7 +86,7 @@ These have been corrected during prior work. Get them right every time.
 
 6. **"Acquired by Smart Communications"** -- name the acquirer for Pendula.
 
-7. **DC Power Co was acquired by Ion Group** -- include this.
+7. **DC Power Co was not a true exit.** The customer book was acquired by Ion Group; the company itself did not deliver a shareholder return. Do not list DC Power Co alongside Billcap and Pendula as an "exit". When mentioning the Ion Group transaction in CVs or briefs, phrase it as "Customer book acquired by Ion Group" -- never "Acquired by Ion Group" unqualified.
 
 8. **Black Nova VC advisory is current.** Position it as "sharpening my thinking on what separates AI strategy from shipped AI products" -- not as idle time between roles.
 
@@ -114,7 +114,7 @@ These have been corrected during prior work. Get them right every time.
 | 5 enterprise clients | Billcap multi-tenant SaaS |
 | 20-person team | Pendula engineering, product, data |
 | 3 peer-reviewed papers | Melbourne Uni research collaboration |
-| 3 exits (Billcap, DC Power Co, Pendula) | All acquired |
+| 2 exits (Billcap, Pendula) | Both delivered shareholder returns |
 
 ---
 
