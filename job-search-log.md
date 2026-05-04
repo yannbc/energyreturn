@@ -1,13 +1,13 @@
 # Job Search Log
 
-Last updated: 4 May 2026
+Last updated: 5 May 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (12 days since CV submitted)**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (16 days since LinkedIn connection request) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (14 days since CV submitted) -- likely stale, chase or close**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (18 days since LinkedIn connection request) -- chase or close**
 | 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
 | 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide
@@ -45,6 +45,15 @@ Last updated: 4 May 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 5 May 2026 (automated -- Tuesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 50 unique results (by URL) after cross-platform dedup
+- 48 new URLs (not previously seen), 2 re-listings of existing roles
+- 0 high-fit roles (score 7+)
+- 0 additional roles added at score 6
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Partner Account Manager and Sr BD Manager Private Equity also re-appeared (not relevant). UltraTalent Head of AI in Sydney spotted (strong title match but salary capped at $200k -- below $250k floor, recruiter-placed, unknown client). Employment Hero Go to Market Analyst spotted (watchlist company, completely wrong role). Microsoft Sales Director spotted (watchlist company, wrong function). Optiver AI Engineer (IC role). Freelancer.com Director of Product in Sydney (known brand, no AI focus -- score 5). Coates Group Director Product Delivery (product-adjacent, no AI). Moose Toys Senior AI Engineer in Melbourne (IC role). Gridsight Senior/Staff Data Engineer across Sydney and Melbourne (IC data engineering, energy/climate company -- worth watching). Quiet Tuesday for senior AI/product leadership.
 
 ### 4 May 2026 (automated -- Monday, 48h window)
 
@@ -226,6 +235,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|---------| 
+| 5 May | Daily scan (Tuesday, 24h window). 50 unique results by URL, 48 new URLs. 0 high-fit (7+). 0 added at score 6. AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. UltraTalent Head of AI spotted (salary $200k -- below floor). Employment Hero Go to Market Analyst spotted (watchlist, wrong role). Microsoft Sales Director spotted (watchlist, wrong function). Freelancer.com Director of Product in Sydney (known brand, no AI). Optiver AI Engineer (IC). Moose Toys Senior AI Engineer (IC). |
+| 5 May | Follow-up flags: hipages follow-up overdue (14 days since CV submitted) -- likely stale, chase or close. Hatch outreach likely stale (18 days since LinkedIn connection request) -- chase or close. 26 queued roles from 17 Apr--30 Apr need review. Mastercard listing closes 16 May (11 days). |
 | 4 May | Daily scan (Monday, 48h window). 17 unique results by URL, 13 new URLs. 0 high-fit (7+). 0 added at score 6 (all false positives or pipeline re-listings). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. MYOB Head of Product Marketing spotted (watchlist, marketing role). State Street MD Alpha Client & Product Solutions spotted (known brand, not AI). RACV AI Engineer (IC). Quiet weekend scan. |
 | 4 May | Follow-up flags: hipages follow-up overdue (13 days since CV submitted). Hatch outreach likely stale (17 days since LinkedIn connection request) -- chase or close. 26 queued roles from 17 Apr--30 Apr need review. |
 | 3 May | Daily scan (Sunday, 24h window). 14 unique results by URL, 13 new URLs. 0 high-fit (7+). 0 added at score 6 (all false positives or pipeline re-listings). AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Employment Hero Marketing Manager spotted (watchlist, wrong role). Havas Media SEO Director filtered as false positive. Quiet Sunday. |
@@ -271,6 +282,8 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 | Date | Action |
 |------|---------| 
+| 5 May | Daily scan (Tuesday, 24h window). 50 unique results by URL, 48 new URLs. 0 high-fit (7+). 0 added at score 6. AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. UltraTalent Head of AI spotted (salary $200k -- below floor). Employment Hero Go to Market Analyst spotted (watchlist, wrong role). Microsoft Sales Director spotted (watchlist, wrong function). Freelancer.com Director of Product in Sydney (known brand, no AI). Optiver AI Engineer (IC). Moose Toys Senior AI Engineer (IC). |
+| 5 May | Follow-up flags: hipages follow-up overdue (14 days since CV submitted) -- likely stale, chase or close. Hatch outreach likely stale (18 days since LinkedIn connection request) -- chase or close. 26 queued roles from 17 Apr--30 Apr need review. Mastercard listing closes 16 May (11 days). |
 | 1 May | Daily scan (Friday, 24h window). 40 unique results by URL, 35 new URLs. 0 high-fit (7+). 0 added at score 6. AWS ANZ AI Leader, AWS Head of Security re-appeared with new Indeed URLs. Quantium Senior Engineering Manager AI Consulting spotted (watchlist, below VP seniority). Employment Hero sightings (Senior Project Manager, Assistant Manager, Finance Business Partner -- all wrong roles). PwC Risk Project Manager spotted (watchlist, wrong role). Fyndr Group Manager Data & Analytics spotted (lower-level role, Head of AI already in pipeline). |
 | 1 May | Follow-up flags: hipages follow-up overdue (10 days since CV submitted). Hatch outreach likely stale (14 days since LinkedIn connection request) -- chase or close. 25 queued roles from 17 Apr--30 Apr need review. |
 | 30 Apr | Daily scan (Thursday, 24h window). 40 unique results by URL, 40 new URLs. 0 high-fit (7+). 3 added at score 6 (Westpac Head of Data & Intelligence, NAB Associate Director AI CoE, Slalom Director Data and AI Engineering). AWS ANZ AI Leader, hipages SVP Product, AWS Head of Security all re-appeared with new URLs. Employment Hero Bid & Marketing Manager spotted (watchlist, wrong role). NVIDIA Developer Relations Manager ANZ spotted (watchlist, wrong role). |
