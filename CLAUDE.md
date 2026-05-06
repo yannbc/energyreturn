@@ -26,10 +26,10 @@ Three tools work in this repo. Each has a distinct job:
 | Tool | Job | Runs |
 |---|---|---|
 | **Tasklet** (tasklet.ai) | Daily job scan, scoring, dedup, pipeline database, digest email, repo updates | Daily 7:00am AEST (automated) |
-| **Claude Cowork** | Application pack production (cover letter, tailored CV, brief) for roles Tasklet surfaces | Daily 7:30am AEST (automated), reads `job-search-log.md` |
+| **Claude Cowork** | Application pack production (cover letter, tailored CV, brief) for one role at a time | On demand, when Yann picks a role from `job-search-log.md` |
 | **Claude Code** | Ad hoc work: interview prep, repo maintenance, site updates, CV refinements | On demand |
 
-**Do not duplicate work across tools.** Tasklet owns scanning. Cowork owns application production. Claude Code handles everything else.
+**Do not duplicate work across tools.** Tasklet owns scanning. Cowork owns application production. Claude Code handles everything else. See `WORKFLOW.md` for the full operating model.
 
 ---
 
