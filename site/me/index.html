@@ -13,18 +13,21 @@
   @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap');
 
   :root {
-    --fg: #1a1a1a;
-    --fg2: #444;
-    --fg3: #777;
-    --bg: #fff;
-    --accent: #2c5f2d;
-    --border: #ddd;
+    /* Tokens mirror site/index.html */
+    --paper:  oklch(98.4% 0.006 75);
+    --rule:   oklch(89.0% 0.012 75);
+    --ink:    oklch(20.0% 0.012 75);
+    --ink-2:  oklch(40.0% 0.010 75);
+    --ink-3:  oklch(58.0% 0.008 75);
+    --forest: oklch(38.0% 0.090 145);
+    --ochre:  oklch(58.0% 0.090 70);
+
     --serif: 'Source Serif 4', Georgia, serif;
     --mono: 'JetBrains Mono', monospace;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
-  body { font-family: var(--serif); color: var(--fg); background: var(--bg); font-size: 14px; line-height: 1.6; }
+  body { font-family: var(--serif); color: var(--ink); background: var(--paper); font-size: 14px; line-height: 1.6; }
 
   .page { max-width: 760px; margin: 40px auto; padding: 48px 56px; }
 
@@ -32,40 +35,43 @@
     body { font-size: 11pt; }
     .page { margin: 0; padding: 32px 40px; max-width: none; }
     .no-print { display: none !important; }
-    a { color: var(--fg); text-decoration: none; }
+    a { color: var(--ink); text-decoration: none; }
     .dim { opacity: 1 !important; }
   }
 
   /* --- HEADER --- */
-  header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--fg); }
-  h1 { font-size: 28px; font-weight: 600; line-height: 1.2; }
-  .tagline { font-size: 15px; font-weight: 300; color: var(--fg2); margin-top: 4px; }
-  .contact-info { text-align: right; font-family: var(--mono); font-size: 11px; color: var(--fg2); line-height: 1.8; }
-  .contact-info a { color: var(--fg2); text-decoration: none; }
-  .citizenship { font-family: var(--mono); font-size: 11px; color: var(--fg3); margin-top: 4px; }
+  header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 2px solid var(--ink); }
+  h1 { font-size: 28px; font-weight: 300; line-height: 1.05; letter-spacing: -0.025em; color: var(--ink); }
+  .tagline { font-size: 15px; font-weight: 300; color: var(--ink-2); margin-top: 4px; }
+  .contact-info { text-align: right; font-family: var(--mono); font-size: 11px; color: var(--ink-2); line-height: 1.8; letter-spacing: 0.04em; }
+  .contact-info a { color: var(--ink-2); text-decoration: none; }
+  .citizenship { font-family: var(--mono); font-size: 11px; color: var(--ink-3); margin-top: 4px; letter-spacing: 0.04em; }
 
   /* --- SECTIONS --- */
   .section { margin-bottom: 20px; }
-  .section-title { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+  .section-title { font-family: var(--mono); font-size: 10px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--forest); margin-bottom: 10px; padding-bottom: 4px; border-bottom: 1px solid var(--rule); }
+
+  /* Press and Media -- ochre accent for external voice */
+  .section.press .section-title { color: var(--ochre); border-bottom-color: var(--ochre); }
 
   /* --- HIGHLIGHTS --- */
-  .highlights { font-size: 13px; color: var(--fg2); line-height: 1.7; }
+  .highlights { font-size: 13px; color: var(--ink-2); line-height: 1.7; }
   .highlights li { margin-bottom: 4px; margin-left: 16px; transition: opacity 0.2s ease; }
 
   /* --- ROLES --- */
   .role { margin-bottom: 16px; transition: opacity 0.2s ease; }
   .role-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 2px; }
-  .role-company { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--accent); }
-  .role-dates { font-family: var(--mono); font-size: 11px; color: var(--fg3); }
-  .role-title { font-size: 16px; font-weight: 400; margin-bottom: 4px; }
-  .role-bullets { font-size: 13px; color: var(--fg2); }
+  .role-company { font-family: var(--mono); font-size: 12px; font-weight: 500; color: var(--ink); letter-spacing: 0.02em; }
+  .role-dates { font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
+  .role-title { font-size: 16px; font-weight: 400; margin-bottom: 4px; color: var(--ink); }
+  .role-bullets { font-size: 13px; color: var(--ink-2); }
   .role-bullets li { margin-bottom: 3px; margin-left: 16px; }
 
   /* --- SIDEBAR ITEMS (education, advisory, etc) --- */
   .compact-item { margin-bottom: 10px; transition: opacity 0.2s ease; }
-  .compact-item .item-org { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--fg); }
-  .compact-item .item-detail { font-size: 13px; color: var(--fg2); }
-  .compact-item .item-dates { font-family: var(--mono); font-size: 10px; color: var(--fg3); }
+  .compact-item .item-org { font-family: var(--mono); font-size: 11px; font-weight: 500; color: var(--ink); letter-spacing: 0.02em; }
+  .compact-item .item-detail { font-size: 13px; color: var(--ink-2); }
+  .compact-item .item-dates { font-family: var(--mono); font-size: 10px; color: var(--ink-3); letter-spacing: 0.04em; }
 
   /* --- TWO COLUMN --- */
   .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
@@ -73,15 +79,15 @@
 
   /* --- FOCUS TAGS --- */
   .tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
-  .tag { font-family: var(--mono); font-size: 10px; padding: 2px 8px; border: 1px solid var(--border); border-radius: 3px; color: var(--fg2); }
+  .tag { font-family: var(--mono); font-size: 10px; padding: 2px 8px; border: 1px solid var(--rule); border-radius: 3px; color: var(--ink-2); }
 
   /* --- DIM: items not relevant to current highlight --- */
   .dim { opacity: 0.22; }
 
   /* --- HIGHLIGHT BAR (screen only) --- */
-  .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; font-family: var(--mono); font-size: 11px; color: var(--fg3); }
-  .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--border); border-radius: 3px; background: var(--bg); color: var(--fg2); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
-  .flavour-bar button.active { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+  .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
+  .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); color: var(--ink-2); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
+  .flavour-bar button.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
 </style>
 </head>
 <body>
@@ -227,9 +233,8 @@ const CV = {
 
   // --- PRESS ---
   press: [
-    { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5M raise.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
+    { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Featured in coverage of Pendula's $14.5M raise.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
     { outlet: "Tech Trajectory Podcast (DiUS)", year: "2025", title: "Leading with Customer Clarity in a Changing World", description: "In conversation with Kavita Karwar on AI adoption, product strategy, and how customer clarity separates sustainable growth from hype.", url: "https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world", flavours: ["default","ai","advisory"] },
-    { outlet: "Domain.com.au", year: "2017", title: "Turning the neighbours green", description: "Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work.", url: "https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/", flavours: ["default","advisory"] },
   ],
 };
 
@@ -335,7 +340,7 @@ function render() {
   html += `<div class="section"><div class="section-title">Research Collaborations</div>`;
   CV.research.forEach(r => {
     const titleHtml = r.url
-      ? `<a href="${r.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${r.title}</a>`
+      ? `<a href="${r.url}" target="_blank" style="color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule);">${r.title}</a>`
       : r.title;
     html += `<div class="${d('compact-item', isDim(r))}">
       <div class="item-detail">${titleHtml}</div>
@@ -347,10 +352,10 @@ function render() {
   html += `</div></div>`;
 
   // Press and media
-  html += `<div class="section"><div class="section-title">Press and Media</div>`;
+  html += `<div class="section press"><div class="section-title">Press and Media</div>`;
   CV.press.forEach(p => {
     const titleHtml = p.url
-      ? `<a href="${p.url}" target="_blank" style="color: var(--fg); text-decoration: none; border-bottom: 1px solid var(--border);">${p.title}</a>`
+      ? `<a href="${p.url}" target="_blank" style="color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule);">${p.title}</a>`
       : p.title;
     html += `<div class="${d('compact-item', isDim(p))}">
       <div class="item-org">${p.outlet}</div>
