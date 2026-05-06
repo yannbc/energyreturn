@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --fg: #1a1a1a;
-  --fg2: #3a3a3a;
-  --fg3: #777;
-  --bg: #fff;
-  --accent: #2c5f2d;
-  --border: #ddd;
+  /* Tokens mirror site/index.html: paper, ink hierarchy, forest + ochre on chroma 0.09 */
+  --paper:        oklch(98.4% 0.006 75);
+  --rule:         oklch(89.0% 0.012 75);
+  --ink:          oklch(20.0% 0.012 75);
+  --ink-2:        oklch(40.0% 0.010 75);
+  --ink-3:        oklch(58.0% 0.008 75);
+  --forest:       oklch(38.0% 0.090 145);
+  --ochre:        oklch(58.0% 0.090 70);
+
   --serif: 'Source Serif 4', Georgia, serif;
   --mono: 'JetBrains Mono', Menlo, monospace;
 }
@@ -20,26 +23,25 @@
 
 html, body {
   font-family: var(--serif);
-  color: var(--fg2);
-  background: var(--bg);
+  color: var(--ink-2);
+  background: var(--paper);
   font-size: 10pt;
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
-/* Hide pandoc's title block */
 #title-block-header { display: none; }
 
-a { color: inherit; text-decoration: none; border-bottom: 0.5px solid var(--border); }
+a { color: inherit; text-decoration: none; border-bottom: 0.5px solid var(--rule); }
 
 /* ── NAME (h1) ─────────────────────────────────────── */
 h1 {
   font-family: var(--serif);
   font-size: 26pt;
-  font-weight: 600;
-  line-height: 1.15;
-  letter-spacing: -0.01em;
-  color: var(--fg);
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+  color: var(--ink);
   margin-bottom: 4pt;
 }
 
@@ -49,7 +51,7 @@ h1 + p {
   font-size: 11.5pt;
   font-weight: 300;
   font-style: italic;
-  color: var(--fg2);
+  color: var(--ink-2);
   margin-bottom: 10pt;
 }
 h1 + p strong { font-weight: 400; }
@@ -60,7 +62,8 @@ h1 + p + p + p {
   font-family: var(--mono);
   font-size: 8.5pt;
   font-weight: 400;
-  color: var(--fg3);
+  color: var(--ink-3);
+  letter-spacing: 0.04em;
   line-height: 1.6;
   margin-bottom: 2pt;
 }
@@ -68,7 +71,7 @@ h1 + p + p + p {
 /* ── HORIZONTAL RULES ──────────────────────────────── */
 hr {
   border: none;
-  border-top: 1px solid var(--fg);
+  border-top: 2px solid var(--ink);
   margin: 10pt 0 4pt 0;
 }
 hr + h2 { margin-top: 8pt; }
@@ -80,11 +83,11 @@ h2 {
   font-weight: 500;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--accent);
+  color: var(--forest);
   margin-top: 14pt;
   margin-bottom: 6pt;
   padding-bottom: 3pt;
-  border-bottom: 1px solid var(--border);
+  border-bottom: 1px solid var(--rule);
   break-after: avoid;
   page-break-after: avoid;
 }
@@ -94,7 +97,8 @@ h3 {
   font-family: var(--mono);
   font-size: 10pt;
   font-weight: 500;
-  color: var(--accent);
+  letter-spacing: 0.02em;
+  color: var(--ink);
   margin-top: 9pt;
   margin-bottom: 1pt;
   break-after: avoid;
@@ -106,7 +110,7 @@ h3 + p {
   font-family: var(--serif);
   font-size: 11.5pt;
   font-weight: 400;
-  color: var(--fg);
+  color: var(--ink);
   margin-top: 0;
   margin-bottom: 4pt;
   break-after: avoid;
@@ -117,11 +121,11 @@ h3 + p strong { font-weight: 500; }
 /* ── BODY PARAGRAPHS ───────────────────────────────── */
 p {
   font-size: 10pt;
-  color: var(--fg2);
+  color: var(--ink-2);
   line-height: 1.55;
   margin-bottom: 5pt;
 }
-p strong { color: var(--fg); font-weight: 500; }
+p strong { color: var(--ink); font-weight: 500; }
 
 /* ── LISTS ─────────────────────────────────────────── */
 ul {
@@ -132,7 +136,7 @@ ul {
 li {
   position: relative;
   font-size: 9.75pt;
-  color: var(--fg2);
+  color: var(--ink-2);
   line-height: 1.5;
   margin-bottom: 3pt;
   padding-left: 10pt;
@@ -145,10 +149,10 @@ li::before {
   top: 0.55em;
   width: 3pt;
   height: 3pt;
-  background: var(--accent);
+  background: var(--forest);
   border-radius: 50%;
 }
-li strong { color: var(--fg); font-weight: 500; }
+li strong { color: var(--ink); font-weight: 500; }
 
 /* ── SECTIONS (from pandoc --section-divs) ─────────── */
 section section {
@@ -157,28 +161,36 @@ section section {
   margin-bottom: 1pt;
 }
 
+/* ── PRESS / MEDIA — ochre accent for external voice ────────────── */
+section#press-and-media h2,
+section#press h2,
+section#press-coverage h2 {
+  color: var(--ochre);
+}
+section#press-and-media li::before,
+section#press li::before,
+section#press-coverage li::before {
+  background: var(--ochre);
+}
+
 /* ── EMPHASIS ─────────────────────────────────────── */
-em { color: var(--fg); font-style: italic; }
+em { color: var(--ink); font-style: italic; }
 
 /* ── CODE / MONO INLINE (if used) ──────────────────── */
 code {
   font-family: var(--mono);
   font-size: 9pt;
-  color: var(--fg);
+  color: var(--ink);
   background: transparent;
 }
 
 /* ── FINE TUNING ──────────────────────────────────── */
-/* First section title shouldn't have top margin collapse issues */
 hr + h2 { margin-top: 6pt; }
 
-/* Keep role title with its bullets */
 h3 + p + ul { break-before: avoid; page-break-before: avoid; }
 
-/* Avoid orphaned headings at end of page */
 h1, h2, h3 { orphans: 3; widows: 3; }
 
-/* Print-only polish */
 @media print {
   a { border-bottom: none; color: inherit; }
 }
