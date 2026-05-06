@@ -231,6 +231,14 @@ const CV = {
     { title: "Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity", journal: "Journal of Political Economy", year: "2019", url: "https://doi.org/10.1086/705535", authors: "La Nauze (acknowledges Yann Burden and Billcap for proprietary data)", flavours: ["default","ai","advisory"] },
   ],
 
+  // --- TECHNICAL ---
+  technical: [
+    { heading: "Hands-on with current AI tooling", body: "Day-to-day agentic development in Claude Code and Cursor — spec-driven, TDD-aware. Python, TypeScript, SQL. My current side project (a solar panel performance assessment app) is built end-to-end on this loop.", flavours: ["default","operations","ai"] },
+    { heading: "I design and ship agent systems", body: "Multi-agent orchestration over enterprise data, with cost and quality instrumented from day one. CrewAI, Anthropic SDK, AWS Bedrock, Langfuse. Led Pendula's AI-powered analytics layer — so non-engineers could query data directly instead of waiting on the data team.", flavours: ["default","ai","advisory"] },
+    { heading: "Production AI, not demos", body: "Intent classification, next-best-action scoring, conversational agents with RAG and tool use. The substrate behind Pendula's $5M ARR uplift.", flavours: ["default","ai"] },
+    { heading: "Cloud, data, ops", body: "AWS, GCP, Postgres, event streaming, MLOps. Senior enough to architect, hands-on enough to spot issues myself.", flavours: ["default","operations","ai"] },
+  ],
+
   // --- PRESS ---
   press: [
     { outlet: "SmartCompany", year: "2023", title: "Eight Aussie startups that raised $149 million this week", description: "Featured in coverage of Pendula's $14.5M raise.", url: "https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/", flavours: ["default","advisory"] },
@@ -350,6 +358,14 @@ function render() {
   html += `</div>`;
 
   html += `</div></div>`;
+
+  // Technical -- capability statements, not a tech inventory
+  html += `<div class="section"><div class="section-title">Technical</div><ul class="highlights">`;
+  CV.technical.forEach(t => {
+    const dimmed = isDim(t);
+    html += `<li class="${dimmed ? 'dim' : ''}"><strong>${t.heading}.</strong> ${t.body}</li>`;
+  });
+  html += `</ul></div>`;
 
   // Press and media
   html += `<div class="section press"><div class="section-title">Press and Media</div>`;
