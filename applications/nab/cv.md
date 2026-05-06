@@ -27,7 +27,7 @@ Agentic Architecture | AI Platform Strategy | LLMOps | Production AI Systems | D
 ### Pendula | 2021 - 2024
 **Chief Product and Technology Officer / Chief AI Officer**
 
-- Led 20-person engineering, product and data team through to acquisition by Smart Communications.
+- Led 25-person engineering, product and data team through to acquisition by Smart Communications.
 - Shipped agentic workflows in production: intent classification for inbound routing, next-best-action recommendation for outbound orchestration, sentiment analysis pipelines, and conversational AI agents using LLMs with RAG.
 - Architected the data pipeline infrastructure underpinning AI features: event streaming, feature stores, and model serving on AWS. Designed for scalability, observability, and fault tolerance.
 - Built evaluation frameworks for LLM-powered systems -- prompt engineering, output quality monitoring, regression testing, and production guardrails.

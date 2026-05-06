@@ -126,7 +126,7 @@ Folder: `applications/mastercard-director-pm-aa-ai/`
 3. Warm-path check via Black Nova and any finserv contacts.
 4. Confirm location (Sydney vs global / remote).
 
-**Structural flag**: global matrixed orgs run differently from 20-person startup orgs. Your Accenture / PwC years help but were 15+ years ago. Name the pattern recognition explicitly in interview.
+**Structural flag**: global matrixed orgs run differently from 25-person startup orgs. Your Accenture / PwC years help but were 15+ years ago. Name the pattern recognition explicitly in interview.
 
 **Salary note**: undisclosed. Mastercard Director typically clears $250K base; confirm.
 

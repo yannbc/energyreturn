@@ -28,7 +28,7 @@ Product Leadership | Execution Discipline | AI-Enabled Transformation | Organisa
 ### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
-- Led 20-person engineering, product, and data organisation through to acquisition by Smart Communications.
+- Led 25-person engineering, product, and data organisation through to acquisition by Smart Communications.
 - Shifted the organisation from build-perfect-then-ship to an experiment-first, outcome-owned model by instituting a product bets approach: set the portfolio mix (bold / steady / safe) at the leadership layer, then devolved execution accountability to squads with ownership of specific features end-to-end.
 - Unlocked $5M additional ARR through enterprise-focused product execution, with AI-driven personalisation as the commercial differentiator.
 - Integrated non-deterministic AI and agentic decisioning into Pendula's deterministic workflow engine — the "AI on rails" pattern. Enabled marketers to drop LLM-powered nodes into governed, auditable, rollback-safe workflows rather than shipping end-to-end black boxes.
@@ -61,7 +61,7 @@ Product Leadership | Execution Discipline | AI-Enabled Transformation | Organisa
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---

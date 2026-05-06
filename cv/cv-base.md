@@ -1,6 +1,6 @@
 # Yann Burden
 
-**AI, Data Science and Technology Executive. Exited Founder.**
+**AI and Technology Executive. Exited Founder.**
 
 +61 400 941 979 | yannburden@gmail.com | energyreturn.co/me | linkedin.com/in/yannburden
 
@@ -28,7 +28,7 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 ### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
-- Hired as CPTO. Led 20-person engineering, product and data team through to acquisition by Smart Communications.
+- Hired as CPTO. Led 25-person engineering, product and data team through to acquisition by Smart Communications.
 - Designed and implemented the AI layer of Pendula's customer engagement platform: intent classification models for inbound message routing, next-best-action recommendation engines for outbound orchestration, and sentiment analysis pipelines processing millions of customer interactions.
 - Built and deployed conversational AI agents using LLMs for enterprise customer communication — prompt engineering, retrieval-augmented generation, evaluation frameworks, and production monitoring.
 - Architected the data pipeline infrastructure underpinning AI features: event streaming, feature stores, and model serving on cloud infrastructure (AWS).
@@ -60,7 +60,7 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---
@@ -83,9 +83,8 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 
 ## Press and Media
 
-- **SmartCompany** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures. [smartcompany.com.au](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)
-- **Tech Trajectory Podcast, DiUS** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity. [Buzzsprout](https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world)
-- **Domain.com.au** (2017): Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work. [domain.com.au](https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/)
+- **[SmartCompany](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures.
+- **[Tech Trajectory Podcast, DiUS](https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world)** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity.
 
 ## Research Collaborations
 
@@ -99,4 +98,7 @@ Billcap's smart meter data underpinned a multi-year research programme with the 
 
 ## Technical
 
-Python | SQL | R | AWS | GCP | Scikit-learn | TensorFlow | Pandas | Spark | PostgreSQL | Event streaming | MLOps
+- **Hands-on with current AI tooling.** Day-to-day agentic development in Claude Code and Cursor -- spec-driven, TDD-aware. Python, TypeScript, SQL. My current side project (a solar panel performance assessment app) is built end-to-end on this loop.
+- **I design and ship agent systems.** Multi-agent orchestration over enterprise data, with cost and quality instrumented from day one. CrewAI, Anthropic SDK, AWS Bedrock, Langfuse. Led Pendula's AI-powered analytics layer -- so non-engineers could query data directly instead of waiting on the data team.
+- **Production AI, not demos.** Intent classification, next-best-action scoring, conversational agents with RAG and tool use. The substrate behind Pendula's $5M ARR uplift.
+- **Cloud, data, ops.** AWS, GCP, Postgres, event streaming, MLOps. Senior enough to architect, hands-on enough to spot issues myself.

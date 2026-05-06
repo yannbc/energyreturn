@@ -31,7 +31,7 @@ Good strategic fit with structural and experience caveats.
 ### Risks and flags
 
 - Seniority framing: Director at Mastercard sits a notch below the CPTO scale of Yann's most recent role. Worth checking the title ladder -- if this is genuinely a VP-equivalent, it works; if it is a traditional Director reporting into a VP, there is a step-down risk.
-- Structural fit: large matrixed global orgs run differently from 20-person startup orgs. Yann's Accenture and PwC years help, but that was 15+ years ago. Important to name the pattern recognition in interview.
+- Structural fit: large matrixed global orgs run differently from 25-person startup orgs. Yann's Accenture and PwC years help, but that was 15+ years ago. Important to name the pattern recognition in interview.
 - Location: Mastercard ANZ role is likely Sydney; global roles might be remote. Confirm.
 - Salary: undisclosed in pipeline. Mastercard Director typically clears the $250K floor on base but confirm.
 

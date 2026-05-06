@@ -36,7 +36,7 @@ AI Strategy and Delivery | Enterprise Field Leadership | GenAI and Agentic Produ
 
 **Chief Product and Technology Officer**
 
-- Led 20-person engineering, product, and data organisation through to acquisition by Smart Communications. Remained hands-on across AI system design and architecture throughout.
+- Led 25-person engineering, product, and data organisation through to acquisition by Smart Communications. Remained hands-on across AI system design and architecture throughout.
 
 - Integrated non-deterministic AI and agentic decisioning into Pendula's deterministic workflow engine -- the "AI on rails" pattern. Enabled marketers to drop LLM-powered nodes into governed, auditable, rollback-safe workflows rather than shipping end-to-end black boxes.
 
@@ -84,7 +84,7 @@ AI Strategy and Delivery | Enterprise Field Leadership | GenAI and Agentic Produ
 
 - CIO advisory and IT organisation design for enterprise clients in energy and telco. Led technology strategy engagements including outsourcing governance, operating model design, and large-scale programme assurance.
 
-### Unilog (France) | 2003 - 2005
+### Unilog (France) | 2004
 
 **Technology Strategy Consultant**
 

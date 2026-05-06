@@ -28,7 +28,7 @@ AI Product Management | Multi-Channel Product Strategy | Stakeholder Management 
 ### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
-- Led product strategy and a 20-person engineering, product and data organisation through to acquisition by Smart Communications.
+- Led product strategy and a 25-person engineering, product and data organisation through to acquisition by Smart Communications.
 - Defined and delivered the AI product roadmap: intent classification for inbound message routing, next-best-action recommendations for outbound orchestration, and conversational AI agents -- shipped across SMS, email, push, and voice channels.
 - Managed the product lifecycle end-to-end, from discovery and prioritisation through delivery and iteration, working cross-functionally with data scientists, engineers, designers, and business stakeholders.
 - Drove AI adoption across the organisation, championing ML-driven personalisation as the platform's core differentiator and leading internal education on AI capabilities and limitations.
@@ -61,7 +61,7 @@ AI Product Management | Multi-Channel Product Strategy | Stakeholder Management 
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---

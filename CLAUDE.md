@@ -43,7 +43,7 @@ Three tools work in this repo. Each has a distinct job:
 
 2. **DC Power Co (2018--2021) -- Chief Customer & Technology Officer.** Founding exec team. Built the tech stack and customer operations from scratch. Reduced churn 25% with predictive models. NPS +51 in year one. Customer book sold to Ion Group; the company did not deliver a shareholder return -- not a true exit.
 
-3. **Pendula (2021--2025) -- CPTO then Chief AI Officer.** Led 20-person engineering, product and data team. Shipped agentic customer communication workflows in production -- intent classification, next-best-action recommendation, conversational AI agents using LLMs with RAG. Unlocked $5M incremental ARR. Opened London office. Led AI strategy through acquisition by Smart Communications.
+3. **Pendula (2021--2025) -- CPTO then Chief AI Officer.** Led 25-person engineering, product and data team. Shipped agentic customer communication workflows in production -- intent classification, next-best-action recommendation, conversational AI agents using LLMs with RAG. Unlocked $5M incremental ARR. Opened London office. Led AI strategy through acquisition by Smart Communications.
 
 **Education:** BSc Information Systems, University of Melbourne (1998)
 
@@ -112,7 +112,7 @@ These have been corrected during prior work. Get them right every time.
 | NPS +51 in year one | DC Power Co |
 | 250,000+ end users | Billcap platform scale |
 | 5 enterprise clients | Billcap multi-tenant SaaS |
-| 20-person team | Pendula engineering, product, data |
+| 25-person team | Pendula engineering, product, data |
 | 3 peer-reviewed papers | Melbourne Uni research collaboration |
 | 2 exits (Billcap, Pendula) | Both delivered shareholder returns |
 

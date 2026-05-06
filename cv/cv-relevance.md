@@ -59,7 +59,7 @@ Product Strategy | Enterprise AI Platforms | Multi-Product Portfolio | Enterpris
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide programme delivery across energy efficiency and carbon abatement.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy Consultant. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy Consultant. Energy retail focus.
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---

@@ -28,7 +28,7 @@ AI Strategy and Delivery | Enterprise Consulting | Engineering Leadership | Cust
 ### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
-- Hired as CPTO. Led 20-person engineering, product and data team through to acquisition by Smart Communications. Remained hands-on across AI system design and architecture throughout.
+- Hired as CPTO. Led 25-person engineering, product and data team through to acquisition by Smart Communications. Remained hands-on across AI system design and architecture throughout.
 - Restructured the engineering organisation from key-person-dependent silos into cross-functional delivery squads, coaching engineering managers and establishing repeatable delivery practices.
 - Designed and built the AI layer of the customer engagement platform: intent classification, next-best-action recommendation engines, sentiment analysis, and conversational AI agents using LLMs with retrieval-augmented generation.
 - Unlocked $5M incremental ARR by reorienting platform delivery toward enterprise clients, with AI-driven personalisation as the key differentiator.
@@ -60,7 +60,7 @@ AI Strategy and Delivery | Enterprise Consulting | Engineering Leadership | Cust
 
 - CIO advisory and IT organisation design for enterprise clients in energy and telco. Led technology strategy engagements including outsourcing governance, operating model design, and large-scale programme assurance.
 
-### Unilog (France) | 2003 - 2005
+### Unilog (France) | 2004
 **Technology Strategy Consultant**
 
 - Technology strategy consulting with energy retail focus. Client-facing delivery across enterprise transformation programmes.

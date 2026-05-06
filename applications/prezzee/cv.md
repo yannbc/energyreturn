@@ -28,7 +28,7 @@ AI Transformation | Agentic Workflows | Customer Engagement | Personalisation | 
 ### Pendula | 2021 - 2025
 **Chief Product and Technology Officer**
 
-- Hired as CPTO. Led 20-person engineering, product and data team through to acquisition by Smart Communications.
+- Hired as CPTO. Led 25-person engineering, product and data team through to acquisition by Smart Communications.
 - Shipped agentic customer communication workflows in production: intent classification for inbound message routing, next-best-action recommendation engines for outbound orchestration, and sentiment analysis pipelines processing millions of customer interactions.
 - Built and deployed conversational AI agents using LLMs for enterprise customer communication -- prompt engineering, retrieval-augmented generation, evaluation frameworks, and production monitoring.
 - Established responsible AI practices for customer-facing systems: model monitoring, bias detection, human-in-the-loop review for high-stakes communications, and documentation standards for AI governance.
@@ -61,7 +61,7 @@ AI Transformation | Agentic Workflows | Customer Engagement | Personalisation | 
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---

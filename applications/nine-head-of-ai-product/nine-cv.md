@@ -36,7 +36,7 @@ AI Product Leadership | Personalisation and Recommendation | Conversational AI a
 
 **Chief Product and Technology Officer**
 
-- Led 20-person engineering, product, and data organisation through to acquisition by Smart Communications.
+- Led 25-person engineering, product, and data organisation through to acquisition by Smart Communications.
 
 - Shifted the organisation from build-perfect-then-ship to an experiment-first, outcome-owned model by instituting a product bets approach: set the portfolio mix (bold / steady / safe) at the leadership layer, then devolved execution accountability to squads with ownership of specific features end-to-end.
 
@@ -88,7 +88,7 @@ AI Product Leadership | Personalisation and Recommendation | Conversational AI a
 
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
 
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 

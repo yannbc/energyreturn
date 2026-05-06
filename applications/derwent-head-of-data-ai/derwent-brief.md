@@ -24,7 +24,7 @@ Strong archetype fit, with the obvious caveat that the client is unknown. Yann's
 
 ### Strongest experience-to-requirement mappings
 
-- **Owned a combined data, AI and engineering function:** at Pendula as CPTO, led 20 people across engineering, product and data through to acquisition by Smart Communications. Shipped the platform data pipelines, feature stores, and ML/LLM systems in production.
+- **Owned a combined data, AI and engineering function:** at Pendula as CPTO, led 25 people across engineering, product and data through to acquisition by Smart Communications. Shipped the platform data pipelines, feature stores, and ML/LLM systems in production.
 - **Executive credibility across founder, operator and advisor lanes:** 8x investor return on Billcap via Tally Group, plus the Black Nova Venture Partner advisory track. The composite biography reads well to CEO-level sponsors who want an executive peer, not a specialist.
 - **Commercial outcomes from AI:** $5M incremental ARR at Pendula from AI-driven personalisation; 25% churn reduction at DC Power Co; NPS +51 at DC Power Co in first year. Tangible, measurable, board-readable.
 

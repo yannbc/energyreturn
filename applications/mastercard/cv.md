@@ -60,7 +60,7 @@ AI Strategy and Delivery | Analytics Products | Enterprise Client Engagement | C
 
 - CIO advisory and IT organisation design for enterprise clients in energy and telco. Led technology strategy engagements including outsourcing governance, operating model design, and large-scale programme assurance.
 
-### Unilog (France) | 2003 - 2005
+### Unilog (France) | 2004
 **Technology Strategy Consultant**
 
 - Technology strategy consulting with energy retail focus. Client-facing delivery across enterprise transformation programmes.

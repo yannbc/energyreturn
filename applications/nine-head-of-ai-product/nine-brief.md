@@ -26,7 +26,7 @@ Strong fit with one honest caveat. Yann has no prior media or broadcaster experi
 
 - **Personalisation and recommendation at product level:** at Pendula, shipped next-best-action recommendation engines for outbound orchestration into production. The mental model is shared with content recommendation in streaming and news.
 - **Production LLM and RAG experience:** conversational AI agents using LLMs with retrieval-augmented generation, evaluated and monitored in production. This is the exact pattern publishers need for newsroom tools, reader-facing Q&A, and archive intelligence.
-- **Cross-functional leadership credibility:** ran a 20-person engineering, product and data team through to acquisition at Pendula, including enterprise GTM. Nine's role needs someone who can coordinate across editorial, tech and commercial, which is a peer skill.
+- **Cross-functional leadership credibility:** ran a 25-person engineering, product and data team through to acquisition at Pendula, including enterprise GTM. Nine's role needs someone who can coordinate across editorial, tech and commercial, which is a peer skill.
 
 ### Risks and flags
 

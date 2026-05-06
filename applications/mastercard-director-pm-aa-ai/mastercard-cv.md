@@ -36,7 +36,7 @@ AI Product Management | Enterprise B2B SaaS | Fraud and Anomaly Analytics | Prop
 
 **Chief Product and Technology Officer**
 
-- Led 20-person engineering, product and data team through to acquisition by Smart Communications.
+- Led 25-person engineering, product and data team through to acquisition by Smart Communications.
 
 - Integrated non-deterministic AI and agentic decisioning into Pendula's deterministic workflow engine -- the "AI on rails" pattern. Enabled marketers to drop LLM-powered nodes into governed, auditable, rollback-safe workflows rather than shipping end-to-end black boxes.
 
@@ -86,7 +86,7 @@ AI Product Management | Enterprise B2B SaaS | Fraud and Anomaly Analytics | Prop
 
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
 
-- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
 
 - **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 

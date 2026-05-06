@@ -28,7 +28,7 @@ Enterprise AI Adoption | Technical Pre-Sales Leadership | Agentic Workflows | AI
 ### Pendula | 2021 - 2024
 **Chief Product and Technology Officer / Chief AI Officer**
 
-- Led 20-person engineering, product and data team through to acquisition by Smart Communications.
+- Led 25-person engineering, product and data team through to acquisition by Smart Communications.
 - Shipped agentic customer communication workflows in production: intent classification for inbound message routing, next-best-action recommendation engines for outbound orchestration, and sentiment analysis pipelines processing millions of customer interactions.
 - Built and deployed conversational AI agents using LLMs for enterprise customer communication -- prompt engineering, retrieval-augmented generation, evaluation frameworks, and production monitoring.
 - Led technical pre-sales for enterprise accounts: scoped AI use cases, built technical champions within customer organisations, executed POCs, and validated ROI -- directly contributing to $5M incremental ARR.
