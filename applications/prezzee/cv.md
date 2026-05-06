@@ -61,8 +61,8 @@ AI Transformation | Agentic Workflows | Customer Engagement | Personalisation | 
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | Technology Strategy. Energy retail focus.
-- **PwC Consulting** | SAP Consultant.
+- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---
 
@@ -84,7 +84,7 @@ AI Transformation | Agentic Workflows | Customer Engagement | Personalisation | 
 
 ## Press and Media
 
-- **SmartCompany** (Aug 2023): Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures. [smartcompany.com.au](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)
+- **SmartCompany** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures. [smartcompany.com.au](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)
 - **Tech Trajectory Podcast, DiUS** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity. [Buzzsprout](https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world)
 - **Domain.com.au** (2017): Quoted as expert on behavioural change in energy consumption, drawing on Billcap's smart meter and social norm feedback work. [domain.com.au](https://www.domain.com.au/news/turning-the-neighbours-green-20120723-22ji5/)
 

@@ -65,10 +65,10 @@ AI Strategy and Delivery | Analytics Products | Enterprise Client Engagement | C
 
 - Technology strategy consulting with energy retail focus. Client-facing delivery across enterprise transformation programmes.
 
-### PwC Consulting | 2000 - 2003
+### PwC Consulting | 1999 - 2002
 **SAP Consultant**
 
-- Enterprise systems implementation across multiple client engagements.
+- SAP consulting across multiple client engagements.
 
 ### Other
 

@@ -88,9 +88,9 @@ AI Product Leadership | Personalisation and Recommendation | Conversational AI a
 
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
 
-- **Unilog (France)** | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
 
-- **PwC Consulting** | SAP Consultant.
+- **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---
 
@@ -112,7 +112,7 @@ AI Product Leadership | Personalisation and Recommendation | Conversational AI a
 
 ## Press and Media
 
-- **SmartCompany** (Aug 2023): Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures.
+- **SmartCompany** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures.
 
 - **Tech Trajectory Podcast, DiUS** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity.
 

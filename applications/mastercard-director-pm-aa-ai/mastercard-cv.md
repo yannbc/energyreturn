@@ -86,9 +86,9 @@ AI Product Management | Enterprise B2B SaaS | Fraud and Anomaly Analytics | Prop
 
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
 
-- **Unilog (France)** | Technology Strategy. Energy retail focus.
+- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
 
-- **PwC Consulting** | SAP Consultant.
+- **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---
 

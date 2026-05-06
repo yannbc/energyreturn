@@ -96,7 +96,7 @@ These have been corrected during prior work. Get them right every time.
    - "Power from the People" -- La Nauze. *Journal of Political Economy*, 2019. (Top-5 economics journal. Explicitly acknowledges "Yann Burden and Billcap for access to proprietary data.")
 
 10. **Press coverage** -- use as credibility signals:
-    - SmartCompany (Aug 2023): Named and pictured as CGO in coverage of Pendula's $14.5M raise
+    - SmartCompany (Aug 2023): Featured in coverage of Pendula's $14.5M raise
     - Tech Trajectory Podcast, DiUS (Jul 2025): AI adoption, product strategy, customer clarity
     - Domain.com.au (Oct 2017): Quoted as expert on behavioural change in energy consumption
 

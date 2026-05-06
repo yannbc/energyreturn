@@ -61,8 +61,8 @@ Product Leadership | Execution Discipline | AI-Enabled Transformation | Organisa
 - **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
 - **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
 - **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
-- **Unilog (France)** | Technology Strategy. Energy retail focus.
-- **PwC Consulting** | SAP Consultant.
+- **Unilog (France)** | 2003 - 2005 | Technology Strategy. Energy retail focus.
+- **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
 ---
 
