@@ -26,10 +26,10 @@ Three tools work in this repo. Each has a distinct job:
 | Tool | Job | Runs |
 |---|---|---|
 | **Tasklet** (tasklet.ai) | Daily job scan, scoring, dedup, pipeline database, digest email, repo updates | Daily 7:00am AEST (automated) |
-| **Claude Cowork** | Application pack production (cover letter, tailored CV, brief) for one role at a time | On demand, when Yann picks a role from `job-search-log.md` |
+| **Claude Cowork** | Application pack production (cover letter, tailored CV, brief) for roles Tasklet surfaces | Daily 7:30am AEST (automated), reads `job-search-log.md` |
 | **Claude Code** | Ad hoc work: interview prep, repo maintenance, site updates, CV refinements | On demand |
 
-**Do not duplicate work across tools.** Tasklet owns scanning. Cowork owns application production. Claude Code handles everything else. See `WORKFLOW.md` for the full operating model.
+**Do not duplicate work across tools.** Tasklet owns scanning. Cowork owns application production. Claude Code handles everything else.
 
 ---
 
@@ -41,9 +41,9 @@ Three tools work in this repo. Each has a distinct job:
 
 1. **Billcap (2011--2018) -- CEO & Co-founder.** Built a vertical ML customer engagement platform for energy retailers. Smart meter data powering personalised engagement that drove retention and cross-sell. Five enterprise clients, 250,000+ end users. Hands-on technical founder -- prototyped ML models in R. Established the University of Melbourne research partnership. Sold to Tally Group for 8x investor return.
 
-2. **DC Power Co (2018--2021) -- Chief Customer & Technology Officer.** Founding exec team. Built the tech stack and customer operations from scratch. Reduced churn 25% with predictive models. NPS +51 in year one. Customer book sold to Ion Group; the company did not deliver a shareholder return -- not a true exit.
+2. **DC Power Co (2018--2021) -- Chief Customer & Technology Officer.** Founding exec team. Built the tech stack and customer operations from scratch. Reduced churn 25% with predictive models. NPS +51 in year one. Acquired by Ion Group.
 
-3. **Pendula (2021--2025) -- CPTO then Chief AI Officer.** Led 25-person engineering, product and data team. Shipped agentic customer communication workflows in production -- intent classification, next-best-action recommendation, conversational AI agents using LLMs with RAG. Unlocked $5M incremental ARR. Opened London office. Led AI strategy through acquisition by Smart Communications.
+3. **Pendula (2021--2025) -- CPTO then Chief AI Officer.** Led 20-person engineering, product and data team. Shipped agentic customer communication workflows in production -- intent classification, next-best-action recommendation, conversational AI agents using LLMs with RAG. Unlocked $5M incremental ARR. Opened London office. Led AI strategy through acquisition by Smart Communications.
 
 **Education:** BSc Information Systems, University of Melbourne (1998)
 
@@ -55,7 +55,7 @@ Three tools work in this repo. Each has a distinct job:
 
 **Contact:** +61 400 941 979 | yannburden@gmail.com | energyreturn.co/me | linkedin.com/in/yannburden
 
-**Salary floor:** $250K AUD. Do not surface or progress any role confirmed below this.
+**Salary floor:** $225K AUD. Do not surface or progress any role confirmed below this.
 
 ---
 
@@ -86,7 +86,7 @@ These have been corrected during prior work. Get them right every time.
 
 6. **"Acquired by Smart Communications"** -- name the acquirer for Pendula.
 
-7. **DC Power Co was not a true exit.** The customer book was acquired by Ion Group; the company itself did not deliver a shareholder return. Do not list DC Power Co alongside Billcap and Pendula as an "exit". When mentioning the Ion Group transaction in CVs or briefs, phrase it as "Customer book acquired by Ion Group" -- never "Acquired by Ion Group" unqualified.
+7. **DC Power Co was acquired by Ion Group** -- include this.
 
 8. **Black Nova VC advisory is current.** Position it as "sharpening my thinking on what separates AI strategy from shipped AI products" -- not as idle time between roles.
 
@@ -96,7 +96,7 @@ These have been corrected during prior work. Get them right every time.
    - "Power from the People" -- La Nauze. *Journal of Political Economy*, 2019. (Top-5 economics journal. Explicitly acknowledges "Yann Burden and Billcap for access to proprietary data.")
 
 10. **Press coverage** -- use as credibility signals:
-    - SmartCompany (Aug 2023): Featured in coverage of Pendula's $14.5M raise
+    - SmartCompany (Aug 2023): Named and pictured as CGO in coverage of Pendula's $14.5M raise
     - Tech Trajectory Podcast, DiUS (Jul 2025): AI adoption, product strategy, customer clarity
     - Domain.com.au (Oct 2017): Quoted as expert on behavioural change in energy consumption
 
@@ -112,9 +112,9 @@ These have been corrected during prior work. Get them right every time.
 | NPS +51 in year one | DC Power Co |
 | 250,000+ end users | Billcap platform scale |
 | 5 enterprise clients | Billcap multi-tenant SaaS |
-| 25-person team | Pendula engineering, product, data |
+| 20-person team | Pendula engineering, product, data |
 | 3 peer-reviewed papers | Melbourne Uni research collaboration |
-| 2 exits (Billcap, Pendula) | Both delivered shareholder returns |
+| 3 exits (Billcap, DC Power Co, Pendula) | All acquired |
 
 ---
 
