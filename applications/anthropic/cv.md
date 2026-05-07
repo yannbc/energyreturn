@@ -39,7 +39,7 @@ Enterprise AI Adoption | Technical Pre-Sales Leadership | Agentic Workflows | AI
 ### DC Power Co | 2018 - 2021
 **Chief Customer and Technology Officer**
 
-- Founding executive team of Australia's first crowd-funded renewable energy retailer. Acquired by Ion Group.
+- Founding executive team of Australia's first crowd-funded renewable energy retailer. Customer book acquired by Ion Group.
 - Developed in-house customer engagement product reducing churn by over 25%, using predictive churn models built on usage patterns, billing data, and behavioural signals.
 - Delivered strategic NPS of +51 in first year of operation.
 - Set up digital sales channel delivering market-leading conversion rates for battery storage.
@@ -83,9 +83,8 @@ Enterprise AI Adoption | Technical Pre-Sales Leadership | Agentic Workflows | AI
 
 ## Press and Media
 
-- **SmartCompany** (Aug 2023): Named and pictured as Chief Growth Officer in coverage of Pendula's $14.5 million raise.
-- **Tech Trajectory Podcast, DiUS** (Jul 2025): AI adoption, product strategy, and customer clarity.
-- **Domain.com.au** (2017): Quoted as expert on behavioural change in energy consumption.
+- **[SmartCompany](https://www.smartcompany.com.au/startupsmart/eight-aussie-startups-raised-149-million-week/)** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise from MA Growth Ventures and Octopus Ventures.
+- **[Tech Trajectory Podcast, DiUS](https://techtrajectorypodcast.buzzsprout.com/2457356/episodes/17422143-leading-with-customer-clarity-in-a-changing-world)** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity.
 
 ## Research Collaborations
 
@@ -99,4 +98,7 @@ Billcap's smart meter data underpinned a multi-year research programme with the 
 
 ## Technical
 
-Python | SQL | R | AWS | GCP | LLMs | RAG | Prompt Engineering | MLOps | Event Streaming | PostgreSQL
+- **Hands-on with current AI tooling.** Day-to-day agentic development in Claude Code and Cursor -- spec-driven, TDD-aware. Python, TypeScript, SQL. My current side project (a solar panel performance assessment app) is built end-to-end on this loop.
+- **I design and ship agent systems.** Multi-agent orchestration over enterprise data, with cost and quality instrumented from day one. CrewAI, Anthropic SDK, AWS Bedrock, Langfuse. Led Pendula's AI-powered analytics layer -- so non-engineers could query data directly instead of waiting on the data team.
+- **Production AI, not demos.** Intent classification, next-best-action scoring, conversational agents with RAG and tool use. The substrate behind Pendula's $5M ARR uplift.
+- **Cloud, data, ops.** AWS, GCP, Postgres, event streaming, MLOps. Senior enough to architect, hands-on enough to spot issues myself.

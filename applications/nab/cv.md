@@ -38,7 +38,7 @@ Agentic Architecture | AI Platform Strategy | LLMOps | Production AI Systems | D
 ### DC Power Co | 2018 - 2021
 **Chief Customer and Technology Officer**
 
-- Founding executive team of Australia's first crowd-funded renewable energy retailer. Acquired by Ion Group.
+- Founding executive team of Australia's first crowd-funded renewable energy retailer. Customer book acquired by Ion Group.
 - Built predictive churn models on usage patterns, billing data, and behavioural signals -- reducing churn by over 25%.
 - Delivered strategic NPS of +51 in first year.
 - Designed digital sales and engagement platform from scratch on cloud infrastructure.
@@ -90,4 +90,7 @@ Agentic Architecture | AI Platform Strategy | LLMOps | Production AI Systems | D
 
 ## Technical
 
-Python | SQL | R | AWS | GCP | LLMs | RAG | Prompt Engineering | MLOps | Event Streaming | Feature Stores | Model Serving | PostgreSQL | Spark
+- **Hands-on with current AI tooling.** Day-to-day agentic development in Claude Code and Cursor -- spec-driven, TDD-aware. Python, TypeScript, SQL. My current side project (a solar panel performance assessment app) is built end-to-end on this loop.
+- **I design and ship agent systems.** Multi-agent orchestration over enterprise data, with cost and quality instrumented from day one. CrewAI, Anthropic SDK, AWS Bedrock, Langfuse. Led Pendula's AI-powered analytics layer -- so non-engineers could query data directly instead of waiting on the data team.
+- **Production AI, not demos.** Intent classification, next-best-action scoring, conversational agents with RAG and tool use. The substrate behind Pendula's $5M ARR uplift.
+- **Cloud, data, ops.** AWS, GCP, Postgres, event streaming, MLOps. Senior enough to architect, hands-on enough to spot issues myself.
