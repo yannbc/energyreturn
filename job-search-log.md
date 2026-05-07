@@ -15,7 +15,7 @@ Last updated: 7 May 2026
 | 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Follow up overdue (16 days since CV submitted) -- likely stale, chase or close**
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide | Listing closes 16 May (9 days)
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Queued | 7 |  | Found in daily scan | Review and decide
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 | 7 May 2026 | CV and cover letter submitted via Publicis Sapient careers (req 2025-126967) | Wait for reply, follow up if no response in 5 days
 | 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 24 | Deloitte | Associate Director - AI Engineer | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
 | 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
