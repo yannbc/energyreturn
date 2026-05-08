@@ -155,7 +155,10 @@ li::before {
 li strong { color: var(--ink); font-weight: 500; }
 
 /* ── SECTIONS (from pandoc --section-divs) ─────────── */
-section section {
+/* Only role-level (h3) sections must stay together. */
+/* h2 sections can flow across pages -- otherwise short sections like */
+/* Technical get pushed onto a near-empty page of their own. */
+section.level3 {
   break-inside: avoid-page;
   page-break-inside: avoid;
   margin-bottom: 1pt;
