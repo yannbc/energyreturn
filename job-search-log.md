@@ -1,6 +1,6 @@
 # Job Search Log
 
-Last updated: 12 May 2026
+Last updated: 13 May 2026
 
 ## Active Pipeline
 
@@ -13,7 +13,7 @@ Last updated: 12 May 2026
 | 22 | NAB | Head of AI & Agentic Architecture | Materials Ready | 8 |  | Application pack built | Review and decide
 | 32 | Zip Co | Director Business Management, Technology, Data & AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 36 | NAB | Head of Data Science AI | Materials Ready | 8 |  | Application pack built | 
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (386 days since last action) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (387 days since last action) -- chase or close**
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
@@ -22,6 +22,7 @@ Last updated: 12 May 2026
 | 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 |  | Application submitted via iCIMS portal | Review and decide
 | 24 | Deloitte | Associate Director - AI Engineer | Materials Ready | 7 |  | Application pack built -- cover letter pitches beyond IC | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
 | 37 | Peoplebank | Senior Director - Data & AI Engineering (AI-ML) | Queued | 7 |  | Found in daily scan | Review and decide
+| 38 | Ethos BeathChapman | Director - Digital, Data + AI Risk | Queued | 7 |  | Found in daily scan | Review and decide
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
@@ -38,8 +39,9 @@ Last updated: 12 May 2026
 | 33 | Sharp & Carter | Head of AI & Innovation | Queued | 6 |  | Found in daily scan | Review and decide
 | 34 | Future State People | Head of Data & AI | Queued | 6 |  | Found in daily scan | Review and decide
 | 35 | Prezzee | Head of Product, Scale & Enablement | Queued | 6 |  | Found in daily scan | Review and decide
-| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires 18 Apr. | **Very stale (366 days since last action) -- close**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (25 days since LinkedIn connection request) -- chase or close**
+| 39 | Insignia Financial | General Manager AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
+| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires 18 Apr. | **Very stale (367 days since last action) -- close**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (26 days since LinkedIn connection request) -- chase or close**
 
 
 ## Target Profile
@@ -54,6 +56,15 @@ Last updated: 12 May 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 13 May 2026 (automated -- Wednesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 83 unique results (by URL) after cross-platform dedup
+- 76 new URLs (not previously seen), 7 re-listings of existing roles
+- 1 high-fit role (score 7+): Director - Digital, Data + AI Risk at Ethos BeathChapman (score 7)
+- 2 new pipeline additions (Ethos BeathChapman Director Digital Data + AI Risk at score 7, Insignia Financial GM AI Transformation at score 6)
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Indeed URLs (already in pipeline). Mastercard Director PM AI re-appeared with new LinkedIn URL (already in pipeline). AMP Head of Product spotted in Sydney (score 5 -- non-AI product role). Head of Data at University of Sydney spotted (score 5 -- academic, location unclear). EY Product Lead CTO Tax Office in Sydney and Melbourne (score 4-5 -- CTO substring match only, actually tax tech role). Canva Senior Engineering Manager BE/ML in Melbourne (watchlist, but engineering manager seniority). Insignia Financial GM AI Transformation in Docklands Melbourne (interesting -- GM title, AI transformation, financial services). Salesforce Principal Data and AI Architect in Melbourne (IC role). AFCA Senior Manager Data & AI Governance posted across multiple URLs in Sydney and Melbourne (below target seniority). Employment Hero HSEQ Quality Manager spotted (watchlist, wrong function).
 
 ### 12 May 2026 (automated -- Tuesday, 24h window)
 
