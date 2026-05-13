@@ -1,28 +1,30 @@
 # Job Search Log
 
-Last updated: 13 May 2026
+Last updated: 14 May 2026
 
 ## Active Pipeline
 
 | # | Company | Role | Status | Fit | Applied | Last Action | Next Step |
 |---|---------|------|--------|-----|---------|-------------|-----------|
 | 23 | Anthropic | Head of ANZ, Applied AI | Materials Ready | 9 |  | Application pack built | Review and decide
+| 22 | NAB | Head of AI & Agentic Architecture | Materials Ready | 8 |  | Application pack built | Review and decide
+| 36 | NAB | Head of Data Science AI | Materials Ready | 8 |  | Application pack built | 
 | 6 | Amazon Web Services | ANZ AI Leader – AWS Global Sales (AGS) | Queued | 8 |  | Found in daily scan | Review and decide
 | 8 | Prezzee | Head of AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 9 | Nine | Head of AI Product | Queued | 8 |  | Found in daily scan | Review and decide
-| 22 | NAB | Head of AI & Agentic Architecture | Materials Ready | 8 |  | Application pack built | Review and decide
 | 32 | Zip Co | Director Business Management, Technology, Data & AI | Queued | 8 |  | Found in daily scan | Review and decide
-| 36 | NAB | Head of Data Science AI | Materials Ready | 8 |  | Application pack built | 
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (387 days since last action) -- chase or close**
+| 24 | Deloitte | Associate Director - AI Engineer | Materials Ready | 7 |  | Application pack built -- cover letter pitches beyond IC | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (388 days since last action) -- chase or close**
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 |  | Application submitted via iCIMS portal | Review and decide
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 31 | Optus | Associate Director, AI Product | Queued | 7 |  | Found in daily scan | Review and decide -- note: Associate Director level below VP target, but AI Product alignment is strong
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 |  | Application submitted via iCIMS portal | Review and decide
-| 24 | Deloitte | Associate Director - AI Engineer | Materials Ready | 7 |  | Application pack built -- cover letter pitches beyond IC | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
 | 37 | Peoplebank | Senior Director - Data & AI Engineering (AI-ML) | Queued | 7 |  | Found in daily scan | Review and decide
 | 38 | Ethos BeathChapman | Director - Digital, Data + AI Risk | Queued | 7 |  | Found in daily scan | Review and decide
+| 40 | Datacom | Head of Product - AI LAB | Queued | 7 |  | Found in daily scan | Review and decide
+| 41 | Harrison.AI | Product Marketing Director | Aus | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management, but at a watchlist AI company
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
@@ -40,8 +42,9 @@ Last updated: 13 May 2026
 | 34 | Future State People | Head of Data & AI | Queued | 6 |  | Found in daily scan | Review and decide
 | 35 | Prezzee | Head of Product, Scale & Enablement | Queued | 6 |  | Found in daily scan | Review and decide
 | 39 | Insignia Financial | General Manager AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
-| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires 18 Apr. | **Very stale (367 days since last action) -- close**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (26 days since LinkedIn connection request) -- chase or close**
+| 42 | Eucalyptus | Head of Product Growth | Queued | 6 |  | Found in daily scan | Review and decide
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (27 days since LinkedIn connection request) -- chase or close**
+| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires 18 Apr. | **Very stale (368 days since last action) -- close**
 
 
 ## Target Profile
@@ -56,6 +59,15 @@ Last updated: 13 May 2026
 Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, Harrison.ai, Eucalyptus, Earlybird, Buildkite, GO1, Immutable, Halter, Pet Circle, Airtasker, Zip Co, Seer Medical, Decidr, Relevance AI, McKinsey QuantumBlack, BCG X, Bain Vector, Accenture AI, PwC AI, Anthropic, Google DeepMind, Amazon AWS AI, Microsoft AI.
 
 ## Scan History
+
+### 14 May 2026 (automated -- Thursday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 68 unique results (by URL) after cross-platform dedup
+- 57 new URLs (not previously seen), 11 re-listings of existing roles
+- 2 high-fit roles (score 7+): Head of Product - AI LAB at Datacom (score 7), Product Marketing Director at Harrison.AI (score 7, watchlist company)
+- 1 medium-fit addition: Head of Product Growth at Eucalyptus (score 6, watchlist company)
+- Notable: Prezzee Head of AI re-appeared with www.linkedin URL (already tracked with au.linkedin URL, same job ID 4401021241). AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Head of Security re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). AWS Partner Account Manager and Sr BD Manager Private Equity also re-appeared (not relevant). Harrison.AI Product Marketing Director appeared across Indeed (2 URLs) and LinkedIn -- this is a marketing role but at a top-tier AI company on the watchlist. Datacom Head of Product - AI LAB appeared on both Indeed and LinkedIn -- AI Lab focus differentiates this from the earlier Datacom Head of Product Datascape (score 5). Eucalyptus Head of Product Growth spotted (watchlist company, not AI-focused but product growth). Employment Hero Product Development Analyst and People & Culture Manager spotted (watchlist, wrong roles). NinjaTech AI Full Stack Agentic AI in Sydney (engineering role). QBE Senior Manager Data Analytics and AI Risk (below target seniority). PwC Director Technology Advisory Digital in Sydney and Melbourne (technology advisory, not AI-specific). BioPak AI Product Lead in Sydney (interesting but not at target seniority). IAG Practice Head Enterprise Architecture (not AI). NAB Associate Director Model Risk Management (not AI product). V2 AI Forward Deployed Engineer AI Principal in Sydney and Melbourne (IC engineering role). Ashurst Director Data & Analytics in Melbourne (legal firm, data analytics not AI product).
 
 ### 13 May 2026 (automated -- Wednesday, 24h window)
 
@@ -335,6 +347,13 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 - No automated scan yet -- trigger being configured
 
 ## Action Log
+
+
+- Datacom Head of Product - AI LAB: Sydney-based IT services company (Datacom Connect on Indeed). "AI LAB" suggests a dedicated AI innovation unit. Head of Product title is a strong match. Listed on both LinkedIn and Indeed. No explicit salary. Score 7.
+
+- Harrison.AI Product Marketing Director: Watchlist AI healthcare company. Product Marketing Director is a marketing role, not product management -- but Harrison.AI is a top-tier AI company building AI-powered diagnostic tools. Worth reviewing if the role has significant product/strategy overlap. Listed across multiple Indeed and LinkedIn URLs. Score 7.
+
+- Eucalyptus Head of Product Growth: Watchlist digital health company in Sydney. Head of Product title matches but "Growth" focus is specific. Not AI-focused. Score 6.
 
 | Date | Action |
 |------|---------| 
