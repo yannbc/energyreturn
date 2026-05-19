@@ -1,6 +1,6 @@
 # Job Search Log
 
-Last updated: 19 May 2026
+Last updated: 20 May 2026
 
 ## Active Pipeline
 
@@ -13,26 +13,27 @@ Last updated: 19 May 2026
 | 22 | NAB | Head of AI & Agentic Architecture | Materials Ready | 8 |  | Application pack built | Review and decide
 | 32 | Zip Co | Director Business Management, Technology, Data & AI | Queued | 8 |  | Found in daily scan | Review and decide
 | 36 | NAB | Head of Data Science AI | Materials Ready | 8 |  | Application pack built | 
-| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (393 days since Jason intro completed; CV and cover letter submitted...) -- chase or close**
+| 7 | hipages Group | Senior Vice President of Product | Applied | 7 |  | Jason intro completed; CV and cover letter submitted | Wait for reply, follow up if no response in 5 days | **Likely stale (394 days since Jason intro completed; CV and cover letter submitted...) -- chase or close**
 | 10 | Mastercard | Director, Product Management, Advanced Analytics & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 11 | Derwent Search (client undisclosed) | Head of Data & AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 20 | Bridgit | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
 | 25 | Fyndr Group | Head of AI | Queued | 7 |  | Found in daily scan | Review and decide
-| 31 | Optus | Associate Director, AI Product | Queued | 7 |  | Found in daily scan | Review and decide -- note: Associate Director level below VP target, but AI Product alignment is strong
-| 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 |  | Application submitted via iCIMS portal | Review and decide | **Consider following up (12 days since application)**
-| 24 | Deloitte | Associate Director - AI Engineer | Materials Ready | 7 |  | Application pack built -- cover letter pitches beyond IC | Review and decide -- note: this is an engineering role at a consulting firm, not product/strategy
+| 31 | Optus | Associate Director, AI Product | Queued | 7 |  | Found in daily scan | Review and decide -- note: Associate Director level below...
+| 15 | Publicis Sapient | Director, Data & AI Strategy | Applied | 7 |  | Application submitted via iCIMS portal | Review and decide | **Consider following up (13 days since application)**
+| 24 | Deloitte | Associate Director - AI Engineer | Materials Ready | 7 |  | Application pack built -- cover letter pitches beyond IC | Review and decide -- note: this is an engineering role at...
 | 37 | Peoplebank | Senior Director - Data & AI Engineering (AI-ML) | Queued | 7 |  | Found in daily scan | Review and decide
 | 38 | Ethos BeathChapman | Director - Digital, Data + AI Risk | Queued | 7 |  | Found in daily scan | Review and decide
 | 40 | Datacom | Head of Product - AI LAB | Queued | 7 |  | Found in daily scan | Review and decide
-| 41 | Harrison.AI | Product Marketing Director | Aus | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management, but at a watchlist AI company
-| 43 | Woolworths Group (Cartology) | General Manager, Technology and Data | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is Cartology (retail media division), Technology and Data role, not strictly AI but GM-level at a major brand
+| 41 | Harrison.AI | Product Marketing Director | Aus | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not ...
+| 43 | Woolworths Group (Cartology) | General Manager, Technology and Data | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is Cartology (retail medi...
 | 44 | Deloitte | Specialist Director AI & Data | Sydney | Queued | 7 |  | Found in daily scan | Review and decide
 | 45 | nbn Australia | General Manager AI Value and Delivery | Queued | 7 |  | Found in daily scan | Review and decide
 | 48 | Arkadia Talent | CTO — AI & Technology Strategy | Queued | 7 |  | Found in daily scan | Review and decide
+| 50 | Microsoft | Cloud & AI Platforms Sales Director, Public Sector | Queued | 7 |  | Found in daily scan | Review and decide -- note: this is a Sales Director role,...
 | 12 | HotDoc | Chief Technology Officer | Queued | 6 |  | Found in daily scan | Review and decide
 | 13 | Derwent Search (for NIDA) | Chief Technology Officer (NIDA) | Queued | 6 |  | Found in daily scan | Review and decide
 | 14 | Crypto.com | Senior Product Manager, AI Transformation | Queued | 6 |  | Found in daily scan | Review and decide
-| 16 | Canva | Head of B2B Product Marketing | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not product management
+| 16 | Canva | Head of B2B Product Marketing | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is a marketing role, not ...
 | 17 | Amazon Web Services | Head of Security, Public Sector ANZ | Queued | 6 |  | Found in daily scan | Review and decide
 | 18 | The Nudge Group | Databricks Tech Lead - AI Consulting Business | Queued | 6 |  | Found in daily scan | Review and decide
 | 19 | LemmeRecruit (client undisclosed) | Director of Data Science & AI | Queued | 6 |  | Found in daily scan | Review and decide
@@ -40,7 +41,7 @@ Last updated: 19 May 2026
 | 26 | Australian Financial Complaints Authority | Head of Product and Platform Engineering | Queued | 6 |  | Found in daily scan | Review and decide
 | 27 | Visa | Senior Director - Data Science | Queued | 6 |  | Found in daily scan | Review and decide
 | 28 | Westpac Group | Head of Data & Intelligence, Enterprise | Queued | 6 |  | Found in daily scan | Review and decide
-| 29 | NAB | Associate Director, AI CoE L1 DCO | Queued | 6 |  | Found in daily scan | Review and decide -- note: Associate Director level below VP target. NAB already in pipeline for Head of AI & Agentic Architecture (score 8).
+| 29 | NAB | Associate Director, AI CoE L1 DCO | Queued | 6 |  | Found in daily scan | Review and decide -- note: Associate Director level below...
 | 30 | Slalom | Director - Data and AI Engineering | Queued | 6 |  | Found in daily scan | Review and decide
 | 33 | Sharp & Carter | Head of AI & Innovation | Queued | 6 |  | Found in daily scan | Review and decide
 | 34 | Future State People | Head of Data & AI | Queued | 6 |  | Found in daily scan | Review and decide
@@ -50,8 +51,9 @@ Last updated: 19 May 2026
 | 46 | Genesys | Senior Director, Global Professional Services Operations & Strategy | Queued | 6 |  | Found in daily scan | Review and decide
 | 47 | nbn Australia | General Manager AI Value and Delivery | Queued | 6 |  | Found in daily scan | Review and decide
 | 49 | Bega Group | Head of Data and AI | Queued | 6 |  | Found in daily scan | Review and decide
-| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires 18 Apr. | **Likely stale (373 days since Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@d...) -- chase or close**
-| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversational AI for mid-career segment angle | Await connection acceptance, then follow up with conversational AI angle | **Likely stale (32 days since LinkedIn connection note sent to Adam Jacobs -- Sam Vincent ...) -- chase or close**
+| 51 | Canva | Head of Product - Print | Queued | 6 |  | Found in daily scan | Review and decide -- note: this is Head of Product for Pr...
+| 1 | Decidr | VP Product | Re-Engaged | -- | 2026-04-01 | Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@decidr.ai next | Wait for replies from Paul and/or David. Listing expires ... | **Likely stale (374 days since Co-CEO Paul Chan asked to meet via LinkedIn; email to paul@d...) -- chase or close**
+| 5 | Hatch | Speculative / Advisory | Outreach | -- |  | LinkedIn connection note sent to Adam Jacobs -- Sam Vincent intro, conversati... | Await connection acceptance, then follow up with conversa... | **Likely stale (33 days since LinkedIn connection note sent to Adam Jacobs -- Sam Vincent ...) -- chase or close**
 
 
 ## Target Profile
@@ -68,6 +70,18 @@ Canva, Atlassian, SafetyCulture, Rokt, Employment Hero, Culture Amp, Quantium, H
 
 
 ## Scan History
+
+### 20 May 2026 (automated -- Wednesday, 24h window)
+
+- jobspy succeeded; 9 queries x 2 locations on LinkedIn and Indeed
+- 49 unique results (by URL) after cross-platform dedup
+- 47 new URLs (not previously seen), 2 re-listings of existing roles
+- 1 high-fit role (score 7): Cloud & AI Platforms Sales Director, Public Sector at Microsoft (Sydney -- note: sales function, not product/AI leadership)
+- 1 medium-fit role (score 6): Head of Product - Print at Canva (Sydney, watchlist company, but Print division not AI)
+- 2 new pipeline additions: Microsoft Cloud & AI Platforms Sales Director (score 7, sales caveat), Canva Head of Product Print (score 6)
+- Notable: AWS ANZ AI Leader re-appeared with new Indeed URLs for Sydney and Melbourne (already in pipeline). Westpac Head of Product Practice appeared (score 5, no AI mention -- worth watching). Employment Hero Campus Operations Manager spotted (watchlist company, operations not product/AI). Optiver AI Engineer appeared (IC engineering, not leadership). Prophet Head of Engineering appeared in both Sydney and Melbourne (engineering, not product/AI). Quiet Wednesday for senior AI/product leadership.
+
+
 
 ### 19 May 2026 (automated -- Tuesday, 24h window)
 
