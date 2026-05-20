@@ -1,77 +1,103 @@
 # Yann Burden
 
-**Product and Technology Leader -- Energy, Connected Platforms, Scale-ups**
+**AI and Technology Executive. Exited Founder.**
 
-Sydney | 0431 367 270 | yann@energyreturn.co | energyreturn.co
++61 400 941 979 | yannburden@gmail.com | energyreturn.co/me | linkedin.com/in/yannburden
+
+Working rights: Australia, UK, EU, Canada
 
 ---
 
-## Summary
+## Highlights
 
-Three-time founder/executive who has built, scaled, and exited technology businesses in the energy and customer engagement sectors. Deep domain expertise in residential energy markets (smart metering, retailer analytics, customer behaviour). Track record of turning technical products into connected platform propositions and scaling teams through acquisition. Combines strategic product leadership with commercial acumen and hands-on technical credibility.
+- Founded and scaled Billcap (multi-tenant SaaS for energy utilities) as CEO through to exit, building the data science and ML capability that powered the platform's core value proposition.
+- Hired as CPTO at Pendula, led engineering, product and AI organisation through international expansion and acquisition by Smart Communications.
+- Built and operated customer engagement platforms across 5 energy retailers and 250,000+ end users, each with distinct regulatory and operational requirements.
+- Designed and shipped production ML systems across energy and customer engagement -- demand forecasting, behavioural segmentation, churn prediction, and conversational AI.
+- Co-authored peer-reviewed research on energy demand elasticity and behavioural interventions with the University of Melbourne, grounded in large-scale field experiments.
+- Venture Partner at Black Nova VC, coaching growth-stage portfolio founders on AI strategy, architecture decisions, and build discipline.
+
+## Focus
+
+Energy and Utilities | Connected Platforms | AI and Data Science | Machine Learning | Customer Engagement | Scale-Up SaaS
 
 ---
 
 ## Experience
 
-### Founder and Advisor | Energy Return | 2024 -- present
+### Pendula | 2021 - 2025
 
-Independent advisory practice focused on AI strategy, product development, and go-to-market for technology companies.
+**Chief Product and Technology Officer**
 
-- Advising early-stage companies on product strategy and commercial positioning
-- Published career context at energyreturn.co
+- Hired as CPTO. Led 25-person engineering, product and data team through to acquisition by Smart Communications.
+- Designed and implemented the AI layer of Pendula's customer engagement platform: intent classification models for inbound message routing, next-best-action recommendation engines for outbound orchestration, and sentiment analysis pipelines processing millions of customer interactions.
+- Built and deployed conversational AI agents using LLMs for enterprise customer communication -- prompt engineering, retrieval-augmented generation, evaluation frameworks, and production monitoring.
+- Architected the data pipeline infrastructure underpinning AI features: event streaming, feature stores, and model serving on cloud infrastructure (AWS).
+- Unlocked additional $5M ARR by leading enterprise product focus, with AI-driven personalisation as the key differentiator.
+- Set up London offices as part of international growth strategy post Series A, signed first UK deal.
 
-### Chief Growth Officer, then Chief AI Officer | Pendula | 2021 -- 2024
+### DC Power Co | 2018 - 2021
 
-Agentic customer engagement platform. Joined as CGO to lead growth, moved to CAO to lead AI and product strategy. Business grew from 40 to 120 people and was acquired by Tally Group.
+**Chief Customer and Technology Officer**
 
-- **Product and platform leadership:** Owned product roadmap for a connected platform orchestrating customer conversations across SMS, email, voice, and messaging channels
-- **Scale-up execution:** Grew the business through Series A ($14.5M) to acquisition, managing the transition from founder-led sales to structured go-to-market
-- **Distributed team leadership:** Led product, data science, and growth teams spanning Sydney and offshore engineering
-- **Commercial outcomes:** Drove enterprise pipeline and conversion, translating technical capability into buyer-ready product narratives
-- **AI in production:** Shipped agentic workflows -- ML-driven decisioning orchestrating real customer conversations at scale, pre-LLM
+- Founding executive team of Australia's first crowd-funded renewable energy retailer. Acquired by Ion Group.
+- Developed in-house customer engagement product reducing churn by over 25%, using predictive churn models built on usage patterns, billing data, and behavioural signals.
+- Delivered strategic NPS of +51 in first year of operation.
+- Set up digital sales channel delivering market-leading conversion rates for battery storage.
 
-### Co-founder and CEO | Billcap | 2014 -- 2021
+### Billcap | 2011 - 2018
 
-Vertical ML platform for energy retailers. Built personalised customer engagement products using smart meter data at scale. Three energy retailer customers. Business acquired by Pendula.
+**CEO and Co-founder**
 
-- **Energy domain expertise:** Deep knowledge of the residential energy market -- retailer economics, customer behaviour, smart metering infrastructure, regulatory environment
-- **Connected data platform:** Built and operated a platform ingesting smart meter data and generating personalised insights, driving retention and cross-sell for energy retailers
-- **Product-market fit in energy:** Developed product strategy that turned commodity energy relationships into personalised engagement -- the same challenge facing connected home energy products
-- **Research credibility:** Work contributed to peer-reviewed publications including the Journal of Political Economy (top-5 economics journal) and the Review of Economics and Statistics. La Nauze (2019) explicitly credits Billcap for data access.
-- **IoT-adjacent data infrastructure:** Managed high-volume time-series data pipelines from smart meters -- hardware-generated data processed through ML models to drive customer outcomes
+- Co-founded and led company delivering customer engagement SaaS platform to energy retailers and distributors. Sold to Tally Group for 8x investor return.
+- Hands-on technical contributor: prototyped ML models for outlier detection, consumption prediction, and household segmentation in R, working directly with smart meter interval data across 250,000+ users.
+- Established pioneering research partnership with the University of Melbourne for behavioural science field experiments in energy consumption and demand response.
+- Developed the data ingestion and processing pipelines for high-volume smart meter data (30-minute interval reads), handling data quality, imputation, and regulatory reporting requirements.
+- Grew client base to 5 energy companies across retail and distribution, each with distinct metering infrastructure, tariff structures, and regulatory contexts.
 
-### Senior Consultant | Accenture | 2012 -- 2014
+---
 
-Technology consulting for enterprise clients. Delivered large-scale system implementations and business transformation programs.
+## Earlier Experience
 
-- Enterprise stakeholder management and cross-functional delivery
-- Technology strategy and vendor evaluation
+- **Energy Return** | 2009 - 2011 | Founder and MD. Energy efficiency consulting for local government.
+- **Cool Nrg** | 2007 - 2009 | General Manager (France). Nation-wide residential energy efficiency and carbon abatement for energy retailers.
+- **Accenture (UK)** | 2005 - 2007 | Technology Strategy Manager. CIO advisory, IT organisation design, telco strategy.
+- **Unilog (France)** | 2004 | Technology Strategy. Energy retail focus.
+- **PwC Consulting** | 1999 - 2002 | SAP Consultant.
 
-### Consultant | PwC | 2009 -- 2012
+---
 
-Management consulting with a focus on strategy, operations, and technology-enabled transformation.
+## Advisory and Boards
 
-- Business case development and strategic analysis
-- Process improvement and operational design
+**Black Nova Venture Capital** -- Venture Partner, AI Advisory (2025 -)
+
+**University of Melbourne** -- Honorary Industry Fellow, School of Computing and Information Systems (2015 - 2024)
+
+**Bendigo Bank Community Bank** -- Non-Executive Director (2010 - 2017)
 
 ---
 
 ## Education
 
-**Bachelor of Commerce (Honours)** | University of Melbourne
-First Class Honours in Economics. Thesis on energy market dynamics.
+**University of Melbourne** -- Bachelor of Science (Information Systems), 1998
 
 ---
 
-## Selected Publications and Media
+## Selected Publications and Research
 
-- "Power from the People" (La Nauze, 2019) -- *Journal of Political Economy* (top-5). Acknowledges Billcap for data access.
-- "Tell Me Something I Don't Already Know" (Byrne, Martin et al., 2018) -- *Review of Economics and Statistics* (top-5).
-- "An Experimental Study of Monthly Electricity Demand (In)elasticity" (Byrne, Martin et al., 2021) -- *The Energy Journal*.
-- Melbourne Uni Pursuit feature -- quoted directly on smart meter data and customer behaviour.
-- Domain.com.au energy feature (2017) -- quoted as expert voice on residential energy engagement.
-- Tech Trajectory podcast with Kavita Karwar, DiUS (2025) -- on AI-driven customer engagement.
+Billcap's smart meter data underpinned a multi-year research programme with the University of Melbourne.
+
+- "Power from the People" (La Nauze, 2019) -- *Journal of Political Economy* (top-5). Acknowledges "Yann Burden and Billcap for access to proprietary data."
+- "Tell Me Something I Don't Already Know" (Byrne, La Nauze, Martin, 2018) -- *Review of Economics and Statistics* (top-5).
+- "An Experimental Study of Monthly Electricity Demand (In)elasticity" (Byrne, La Nauze, Martin, 2021) -- *The Energy Journal*.
+
+---
+
+## Press and Media
+
+- **SmartCompany** (Aug 2023): Featured in coverage of Pendula's $14.5 million raise.
+- **Tech Trajectory Podcast, DiUS** (Jul 2025): In conversation with Kavita Karwar on AI adoption, product strategy, and customer clarity.
+- **Domain.com.au** (Oct 2017): Quoted as expert voice on residential energy engagement.
 
 ---
 
@@ -79,6 +105,6 @@ First Class Honours in Economics. Thesis on energy market dynamics.
 
 - **Energy domain depth:** A decade in residential energy, from smart meter data to retailer strategy to customer behaviour research
 - **Connected platform experience:** Built and scaled platforms where the value was in the ecosystem, not the individual product
-- **Scale-up track record:** Three exits, including navigating the 40-to-120 person growth phase and M&A integration
+- **Scale-up track record:** Three exits (Billcap, DC Power Co, Pendula), all acquired, including navigating growth phases and M&A integration
+- **International team leadership:** Set up London office at Pendula, managed distributed engineering across Sydney and offshore teams
 - **Product strategy and commercial alignment:** Product decisions that drive revenue, not roadmaps that drive features
-- **Distributed team leadership:** Experience managing product and engineering across Sydney and offshore teams
