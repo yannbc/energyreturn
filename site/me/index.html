@@ -31,9 +31,11 @@
 
   .page { max-width: 760px; margin: 40px auto; padding: 48px 56px; }
 
+  @page { size: A4; margin: 14mm 15mm; }
+
   @media print {
     body { font-size: 11pt; }
-    .page { margin: 0; padding: 32px 40px; max-width: none; }
+    .page { margin: 0; padding: 0; max-width: none; }
     .no-print { display: none !important; }
     a { color: var(--ink); text-decoration: none; }
     .dim { opacity: 1 !important; }
@@ -92,7 +94,7 @@
   .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; display: flex; justify-content: space-between; align-items: center; gap: 8px 16px; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
   .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); color: var(--ink-2); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
   .flavour-bar button.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
-  .flavour-bar .download-btn { margin-right: 0; color: var(--forest); border-color: var(--forest); font-weight: 500; }
+  .flavour-bar .download-btn { display: inline-block; margin-right: 0; padding: 4px 12px; font-family: var(--mono); font-size: 11px; font-weight: 500; text-decoration: none; border: 1px solid var(--forest); border-radius: 3px; background: var(--paper); color: var(--forest); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
   .flavour-bar .download-btn:hover { background: var(--forest); color: var(--paper); border-color: var(--forest); }
 </style>
 </head>
@@ -106,7 +108,7 @@
     <button onclick="setFlavour('ai')">AI Leadership</button>
     <button onclick="setFlavour('advisory')">Advisory / Consulting</button>
   </div>
-  <button class="download-btn" onclick="window.print()">Download PDF ↓</button>
+  <a class="download-btn" href="yann-burden-cv.pdf" download="Yann Burden CV.pdf">Download PDF ↓</a>
 </div>
 
 <div class="page" id="cv"><!-- rendered by JS --></div>
