@@ -37,6 +37,10 @@
     .no-print { display: none !important; }
     a { color: var(--ink); text-decoration: none; }
     .dim { opacity: 1 !important; }
+
+    /* Pagination: keep logical blocks intact across page breaks */
+    .role, .compact-item, .highlights li, .role-bullets li { break-inside: avoid; page-break-inside: avoid; }
+    .section-title { break-after: avoid; page-break-after: avoid; }
   }
 
   /* --- HEADER --- */
