@@ -66,7 +66,7 @@ Product Strategy | Enterprise AI Platforms | Multi-Product Portfolio | Enterpris
 
 ## Advisory and Boards
 
-**Black Nova Venture Capital** | Venture Partner, AI Advisory (2025 -)
+**Black Nova Venture Capital** | Venture Partner, AI Advisory (Feb 2026 -)
 
 **University of Sydney** | Industry Advisory Board Member, School of Computer Science (2026 -)
 

@@ -69,7 +69,7 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 
 **University of Sydney** — Industry Advisory Board Member, School of Computer Science (2026 -)
 
-**Black Nova Venture Capital** — Venture Partner, AI Advisory (2025 -)
+**Black Nova Venture Capital** — Venture Partner, AI Advisory (Feb 2026 -)
 
 **University of Melbourne** — Honorary Industry Fellow, School of Computing and Information Systems (2015 - 2024)
 

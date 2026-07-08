@@ -35,7 +35,7 @@ Three tools work in this repo. Each has a distinct job:
 
 ## Who Is Yann Burden?
 
-**Current position:** Venture Partner (AI Advisory) at Black Nova VC. Advising early-stage portfolio companies on AI strategy, product development and go-to-market.
+**Current position:** Venture Partner (AI Advisory) at Black Nova VC (Feb 2026 -). Advising early-stage portfolio companies on AI strategy, product development and go-to-market, with a focus on B2B SaaS.
 
 **Career arc in three acts:**
 
@@ -49,7 +49,7 @@ Three tools work in this repo. Each has a distinct job:
 
 **Earlier career:** Accenture (UK, CIO advisory/telco strategy), Unilog (France, energy retail consulting), PwC Consulting (SAP), Cool Nrg (France, GM, national energy efficiency programmes), Energy Return (founder, energy efficiency consulting for local government).
 
-**Advisory/boards:** University of Sydney Industry Advisory Board Member, School of Computer Science (2026--), Black Nova VC (Venture Partner, 2025--), University of Melbourne Honorary Industry Fellow (2015--2024), Bendigo Bank Community Bank (North Fitzroy) NED (2010--2017).
+**Advisory/boards:** University of Sydney Industry Advisory Board Member, School of Computer Science (2026--), Black Nova VC (Venture Partner, Feb 2026--), University of Melbourne Honorary Industry Fellow (2015--2024), Bendigo Bank Community Bank (North Fitzroy) NED (2010--2017).
 
 **Working rights:** Australia, UK, EU, Canada.
 

@@ -37,7 +37,7 @@ AI Agent Deployment | Forward-Deployed Engineering | Enterprise Architecture | M
 - Built and shipped a generative AI reporting experience via forward-deployed engineering.
 - Established the London office post Series A. Signed the first UK enterprise customer.
 
-### Black Nova Venture Capital | Jan 2026 -
+### Black Nova Venture Capital | Feb 2026 -
 **Venture Partner, AI Advisory**
 
 - AI advisory to portfolio companies. Product positioning, deployment architecture, and enterprise GTM for early-stage AI-native businesses.
