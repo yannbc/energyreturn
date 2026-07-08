@@ -85,19 +85,24 @@
   .dim { opacity: 0.22; }
 
   /* --- HIGHLIGHT BAR (screen only) --- */
-  .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
+  .flavour-bar { max-width: 760px; margin: 20px auto 0; padding: 12px 56px; display: flex; justify-content: space-between; align-items: center; gap: 8px 16px; flex-wrap: wrap; font-family: var(--mono); font-size: 11px; color: var(--ink-3); letter-spacing: 0.04em; }
   .flavour-bar button { font-family: var(--mono); font-size: 11px; padding: 4px 12px; margin-right: 6px; border: 1px solid var(--rule); border-radius: 3px; background: var(--paper); color: var(--ink-2); cursor: pointer; transition: background 0.15s ease, color 0.15s ease; }
   .flavour-bar button.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+  .flavour-bar .download-btn { margin-right: 0; color: var(--forest); border-color: var(--forest); font-weight: 500; }
+  .flavour-bar .download-btn:hover { background: var(--forest); color: var(--paper); border-color: var(--forest); }
 </style>
 </head>
 <body>
 
 <div class="flavour-bar no-print">
-  <span>Highlight: </span>
-  <button class="active" onclick="setFlavour('default')">Full</button>
-  <button onclick="setFlavour('product')">Product / CPTO</button>
-  <button onclick="setFlavour('ai')">AI Leadership</button>
-  <button onclick="setFlavour('advisory')">Advisory / Consulting</button>
+  <div class="flavour-toggles">
+    <span>Highlight: </span>
+    <button class="active" onclick="setFlavour('default')">Full</button>
+    <button onclick="setFlavour('product')">Product / CPTO</button>
+    <button onclick="setFlavour('ai')">AI Leadership</button>
+    <button onclick="setFlavour('advisory')">Advisory / Consulting</button>
+  </div>
+  <button class="download-btn" onclick="window.print()">Download PDF ↓</button>
 </div>
 
 <div class="page" id="cv"><!-- rendered by JS --></div>
@@ -254,7 +259,7 @@ let currentFlavour = 'default';
 
 function setFlavour(f) {
   currentFlavour = f;
-  document.querySelectorAll('.flavour-bar button').forEach(b => {
+  document.querySelectorAll('.flavour-toggles button').forEach(b => {
     b.classList.toggle('active', b.textContent.toLowerCase().includes(f === 'default' ? 'full' : f));
   });
   render();
