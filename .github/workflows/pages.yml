@@ -23,6 +23,30 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      # Render the downloadable CV PDF fresh from the live HTML so the file
+      # served at /me/yann-burden-cv.pdf always matches the deployed CV.
+      # Best-effort: on a render hiccup we keep the committed fallback PDF
+      # rather than blocking the whole site deploy. google-chrome is
+      # preinstalled on GitHub-hosted ubuntu runners.
+      - name: Render CV PDF
+        run: |
+          google-chrome --headless=new --no-sandbox --disable-gpu \
+            --no-pdf-header-footer --hide-scrollbars \
+            --virtual-time-budget=15000 --run-all-compositor-stages-before-draw \
+            --print-to-pdf="site/me/yann-burden-cv.pdf" \
+            "file://$PWD/site/me/index.html" \
+            && echo "CV PDF rendered from live HTML." \
+            || echo "::warning::CV PDF render failed; deploying committed fallback PDF."
+
+      # Also expose the rendered PDF as a downloadable build artifact (handy
+      # for verifying the exact file a deploy produced).
+      - name: Upload rendered PDF as build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: yann-burden-cv-pdf
+          path: site/me/yann-burden-cv.pdf
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
