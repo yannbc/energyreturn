@@ -49,7 +49,7 @@ Three tools work in this repo. Each has a distinct job:
 
 **Earlier career:** Accenture (UK, CIO advisory/telco strategy), Unilog (France, energy retail consulting), PwC Consulting (SAP), Cool Nrg (France, GM, national energy efficiency programmes), Energy Return (founder, energy efficiency consulting for local government).
 
-**Advisory/boards:** Black Nova VC (Venture Partner, 2025--), University of Melbourne Honorary Industry Fellow (2015--2024), Bendigo Bank Community Bank NED (2010--2017).
+**Advisory/boards:** University of Sydney Industry Advisory Board Member, School of Computer Science (2026--), Black Nova VC (Venture Partner, 2025--), University of Melbourne Honorary Industry Fellow (2015--2024), Bendigo Bank Community Bank (North Fitzroy) NED (2010--2017).
 
 **Working rights:** Australia, UK, EU, Canada.
 
@@ -93,7 +93,7 @@ These have been corrected during prior work. Get them right every time.
 9. **Research publications** are credibility signals, not the value proposition. Use them to demonstrate rigour, not as the lead story:
    - "Tell Me Something I Don't Already Know" -- Byrne, La Nauze, Martin. *Review of Economics and Statistics*, 2018. (Top-5 economics journal)
    - "An Experimental Study of Monthly Electricity Demand (In)elasticity" -- Byrne, La Nauze, Martin. *The Energy Journal*, 2021.
-   - "Power from the People" -- La Nauze. *Journal of Political Economy*, 2019. (Top-5 economics journal. Explicitly acknowledges "Yann Burden and Billcap for access to proprietary data.")
+   - "Power from the People" -- La Nauze. *Journal of Political Economy*, 2019. (Top-5 economics journal.)
 
 10. **Press coverage** -- use as credibility signals:
     - SmartCompany (Aug 2023): Named and pictured as CGO in coverage of Pendula's $14.5M raise

@@ -67,11 +67,13 @@ AI and Data Science | Machine Learning | Customer Engagement | Energy and Utilit
 
 ## Advisory and Boards
 
+**University of Sydney** — Industry Advisory Board Member, School of Computer Science (2026 -)
+
 **Black Nova Venture Capital** — Venture Partner, AI Advisory (2025 -)
 
 **University of Melbourne** — Honorary Industry Fellow, School of Computing and Information Systems (2015 - 2024)
 
-**Bendigo Bank Community Bank** — Non-Executive Director (2010 - 2017)
+**Bendigo Bank Community Bank (North Fitzroy)** — Non-Executive Director (2010 - 2017)
 
 ---
 
@@ -92,7 +94,7 @@ Billcap's smart meter data underpinned a multi-year research programme with the 
 
 - **Tell Me Something I Don't Already Know: Informedness and the Impact of Information Programs.** Byrne, La Nauze, Martin. *Review of Economics and Statistics*, 100(3), 2018. [doi.org/10.1162/rest_a_00695](https://doi.org/10.1162/rest_a_00695)
 - **An Experimental Study of Monthly Electricity Demand (In)elasticity.** Byrne, La Nauze, Martin. *The Energy Journal*, 42(2), 2021. [doi.org/10.5547/01956574.42.2.dbyr](https://doi.org/10.5547/01956574.42.2.dbyr)
-- **Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity.** La Nauze. *Journal of Political Economy*, 127(3), 2019. Acknowledgements: "I thank Yann Burden and Billcap for access to proprietary data." [doi.org/10.1086/705535](https://doi.org/10.1086/705535)
+- **Power from the People: Rooftop Solar and a Downward-Sloping Supply of Electricity.** La Nauze. *Journal of Political Economy*, 127(3), 2019. [doi.org/10.1086/705535](https://doi.org/10.1086/705535)
 
 ---
 

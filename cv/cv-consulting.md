@@ -79,11 +79,13 @@ AI Strategy and Delivery | Enterprise Consulting | Engineering Leadership | Cust
 
 ## Advisory and Boards
 
+**University of Sydney** | Industry Advisory Board Member, School of Computer Science (2026 -)
+
 **Black Nova Venture Capital** | Venture Partner, AI Advisory (2025 -)
 
 **University of Melbourne** | Honorary Industry Fellow, School of Computing and Information Systems (2015 - 2024)
 
-**Bendigo Bank Community Bank** | Non-Executive Director (2010 - 2017)
+**Bendigo Bank Community Bank (North Fitzroy)** | Non-Executive Director (2010 - 2017)
 
 ---
 

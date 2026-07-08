@@ -67,6 +67,8 @@ Product Strategy | Agentic AI and Orchestration | Multi-Product Portfolio | Ente
 
 **Black Nova Venture Capital** | Venture Partner, AI Advisory (2025 -)
 
+**University of Sydney** | Industry Advisory Board Member, School of Computer Science (2026 -)
+
 **University of Melbourne** | Honorary Industry Fellow, School of Computing and Information Systems (2015 - 2024)
 
 ---
